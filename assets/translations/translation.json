@@ -1,0 +1,313 @@
+{
+  "en": {
+    "alertText": "Each civilian life lost in the war in Ukraine, caused by Russian aggression, carries a story—of someone who should still be here. This project aims to reflect on the scale of these losses and seeks to represent each life lost. Please take a moment and proceed only if you feel ready.",
+    "dataStory": "Data Story",
+    "about": "About",
+    "title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
+    "ending": "Day by day, the war goes on, and so far, it has taken 12 016 lives. Twelve thousand and sixteen. Even one life lost is too many. This must end.",
+    "footer-title-methodology": "Methodology",
+    "footer-title-disclaimer": "Disclaimer",
+    "footer-title-author-note": "Author's Note",
+    "footer-title-sources": "References",
+    "footer-title-tech": "Technical Details",
+    "footer-tech": "<p>This project utilizes the p5.js library for drawing and visualization. Bird placement is algorithmically generated using Gaussian distribution to achieve an organic layout while representing the total monthly death tolls. Explore the code on <a href='https://github.com/balagurova/birdsong-of-sorrow-above-ukraine' target='_blank'>GitHub</a>.</p>",
+    "footer-methodology": "<p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources, with Human Rights Watch annual reports, which list attacks on civilians and civilian infrastructure, serving as a primary reference. Individual stories were identified through reports, journalistic pieces, and interviews related to these attacks. For a full list of sources, please refer to the references provided.</p>",
+    "footer-author-note": "<p>My name is Anastasia Balagurova, I am an information designer based in Finland, and I was born in Saint Petersburg. I am Russian, a citizen of the country that started the war in Ukraine and has continued it for more than 1,000 days. I am deeply opposed to this war, which I see as a violation of human rights and an affront to humanity. This perspective is deeply personal and informs every aspect of this project.</p><p>This project is my attempt to highlight the devastating human impact of war, to remind us that behind every number there are real people—women, children, and men—innocent civilians whose lives should not be lost to conflict. While I approached this work with empathy and respect, emphasizing the devastating human impact of war, it is important to note that this project cannot fully capture the scope or complexity of the events described.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
+    "footer-sources": "<p><a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>Associated Press. (2023, April 28). Missile strike on Uman kills 23 civilians, including children. AP News.</a></p><p><a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>BBC News. (2023, July 3). Ukrainian writer Victoria Amelina dies after Kramatorsk attack. BBC.</a></p><p><a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>BBC News. (2023, December 29). Russian missile strikes hit Ukrainian cities, causing civilian casualties. BBC.</a></p><p><a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>Human Rights Watch. (2023, February 21). Death at the station: Russian cluster munition attack in Kramatorsk. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2023/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2023). World report 2023: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>Human Rights Watch. (2024, July 11). Russia’s July 8 attack on children’s hospital in Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2024/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2024). World report 2024: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>The New York Times. (2022, July 15). In Vinnytsia, Russia kills a 4-year-old with Down syndrome. The New York Times.</a></p><p><a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global' target='_blank'>The Times. (2024, September 20). The Russians want to kill us all: Tales of a fireman in Ukraine. The Times.</a></p><p><a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>United Nations News. (2023, January 6). UN rights chief deplores civilian cost of Russia’s war in Ukraine. UN News.</a></p><p><a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>United Nations Office for the Coordination of Humanitarian Affairs. (2024, September 19). Ukraine situation report: 19 September 2024. OCHA.</a></p><p><a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024, February 22). Two-year update: Protection of civilians—Impact of hostilities on civilians since 24 February 2022. United Nations.</a></p><p><a href='https://ukraine.un.org/en/283659-protection-civilians-armed-conflict-%E2%80%94-october-2024' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024). Protection of civilians in armed conflict. Monthly reports from March to October 2024. United Nations.</a></p><p><a href='https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html' target='_blank'>UNHCR. (n.d.). Psychosocial support in Hroza village. UNHCR Ukraine.</a></p><p><a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>World Health Organization. (2024, April 4). Triple risk of harm for Ukraine’s health transport workers over other health-care staff, WHO data indicates. WHO.</a></p>",
+    "notes": [
+      {
+        "id": "note-02",
+        "subnote": "On the morning of February 24, 2022, Russia launched a full-scale invasion of Ukraine, bringing unprecedented loss.",
+        "month": "February",
+        "yPlacement": "middleBottom",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-03",
+        "subnote": "By June 2022, over 1,000 children had lost their lives",
+        "month": "June",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-04",
+        "subnote": "In August 2022, the total number of people who died reached 7 000",
+        "month": "August",
+        "yPlacement": "bottom",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-06",
+        "subnote": "March had the highest civilian toll, with 4 289 people, including 511 children, killed.</br>",
+        "month": "April",
+        "yPlacement": "top",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true,
+        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
+        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+      },
+      {
+        "id": "note-07",
+        "subnote": "In November 2022, the total number of people who died reached 8000",
+        "month": "November",
+        "yPlacement": "bottom",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-08",
+        "subnote": "By November 2023, the total number of people who died reached 10 226",
+        "month": "November",
+        "yPlacement": "middleBottom",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-09",
+        "subnote": "By May 2023, more than 1500 children had died, bringing the total death toll to 9281 people.",
+        "month": "May",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-10",
+        "subnote": "By May 2024, more than 1900 children had died, bringing the total death toll above 11 000 people.",
+        "month": "May",
+        "yPlacement": "bottom",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-11",
+        "subnote": "As of October 2024, the last available number shows that at least 12,016 lives have been lost.",
+        "month": "October",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-12",
+        "subnote": "In August 2023, in just one month, 30 children lost their lives during the ongoing war.",
+        "month": "August",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-13",
+        "subnote": "By April 2024, the World Health Organization verified 1,682 attacks on medical facilities, causing 128 deaths and 288 injuries.",
+        "month": "April",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true,
+        "sourceText": "(WHO)",
+        "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
+      },
+      {
+        "id": "story-01",
+        "note": "On the morning April 8, 2022, <span class='bird'></span> 71-year-old Tamara was at the Kramatorsk railway station with hundreds of others, waiting to evacuate. She planned to flee to Poland to reunite with her daughter when a missile strike hit the station, taking her life.",
+        "yPlacement": "middleBottom",
+        "xPlacement": "left",
+        "month": "April",
+        "year": "2022",
+        "subnote": "At least 52 people, including five children, were killed and nearly 100 injured in the same attack.</br>",
+        "sourceText": "(Human Rights Warch)",
+        "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
+      },
+      {
+        "id": "story-02",
+        "note": "On July 14, 2022, 4-year-old <span class='bird'></span> Liza Dmytriyeva, a girl with Down syndrome, was killed in a Russian missile strike in Vinnytsia while on her way to speech therapy. Her mother survived the attack.",
+        "month": "July",
+        "year": "2022",
+        "yPlacement": "middle",
+        "xPlacement": "right",
+        "subnote": "At least 23 people, including three children, were killed as Russian missiles struck Vinnytsia city center.",
+        "sourceText": "(New York Times)",
+        "sourceLink": "https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html"
+      },
+      {
+        "id": "story-03",
+        "note": "On January 14, 2023, a Russian missile struck a 9-story residential building in Dnipro, killing at least <span class='bird'></span> <span class='birdOneWing'></span> 40 people, including three children, and injuring over 75. <a href='https://news.un.org/en/story/2023/01/1132492'>(United Nations)</a>",
+        "month": "January",
+        "year": "2023",
+        "yPlacement": "middle",
+        "xPlacement": "right"
+      },
+      {
+        "id": "story-04",
+        "note": "<span class='bird'></span> 11-year-old Sofia Shulha and her 6-year-old brother, <span class='bird'></span> Mykhayl, were likely asleep when they lost their lives as Russian missiles struck their home in Uman at 4 a.m. on April 28, 2023.",
+        "month": "April",
+        "year": "2023",
+        "yPlacement": "middle",
+        "xPlacement": "right",
+        "subnote": "The strike killed 23 civilians, including six children.",
+        "sourceText": "(Associated Press)",
+        "sourceLink": "https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226?utm_source=chatgpt.com"
+      },
+      {
+        "id": "story-05",
+        "note": "Ukrainian writer and a war crime researcher<span class='bird'></span> Victoria Amelina, 37, was killed in a Russian missile strike on a pizza restaurant in Kramatorsk on June 27, 2023.",
+        "subnote": "The attack killed 13 people in total.",
+        "month": "June",
+        "year": "2023",
+        "yPlacement": "middle",
+        "xPlacement": "left",
+        "sourceText": "(BBC)",
+        "sourceLink": "https://www.bbc.com/news/world-europe-66083275"
+      },
+      {
+        "id": "story-06",
+        "note": "Maksym, 25, and Alina Sirokurov, 23, <span class='bird'></span><span class='birdOneWing'></span> died on October 5, 2023, when a Russian missile struck the small village of Hroza. They leave behind two young sons, aged 2 and 4.",
+        "month": "October",
+        "year": "2023",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "subnote": "The missile strike in Hroza killed 59 people, a fifth of the village's population.",
+        "sourceText": "UNHCR",
+        "sourceLink": "https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html"
+      },
+      {
+        "id": "story-07",
+        "note": "On December 29, 2023, the attacks killed at least 30 people and injured 160, targeting Kyiv, Odesa, Kharkiv, and Lviv, and damaging civilian infrastructure, homes, and schools. <a href='https://www.bbc.com/news/world-europe-67843312'>(BBC)</a>",
+        "month": "December",
+        "year": "2023",
+        "yPlacement": "middle",
+        "xPlacement": "right"
+      },
+      {
+        "id": "story-09",
+        "note": "On July 8, 2024, the Okhmatdyt Children's Hospital, the largest pediatric hospital in Kyiv, came under attack. More than 300 people were injured, including eight children,<br>and <span class='bird'></span><span class='birdOneWing'></span> two adults, including a doctor, lost their lives. <a href='https://www.nytimes.com/2024/07/09/world/europe/ukraine-childrens-hospial-russia.html '>(New York Times,</a> <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine'>Human Rights Watch)</a> ",
+        "subnote": "",
+        "month": "July",
+        "year": "2024",
+        "yPlacement": "middle",
+        "xPlacement": "left"
+      },
+      {
+        "id": "story-10",
+        "note": "On March 2, 2024, a Russian drone struck a nine-story residential building in Odesa. Anna Gaidarzhi and her four-month-old son, Tymofii, <span class='bird'></span><span class='birdOneWing'></span> were found in the basement, buried under rubble after the upper floors collapsed. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
+        "subnote": "According to the UN, the attack killed five children, most under the age of three, making it the deadliest incident for children in over nine months.",
+        "month": "February",
+        "year": "2024",
+        "yPlacement": "bottom",
+        "xPlacement": "left",
+        "sourceText": "(Human Rights Warch)",
+        "sourceLink": "https://www.hrw.org/news/2024/03/21/drone-attack-collapses-odesa-residential-building"
+      },
+      {
+        "id": "story-10",
+        "note": "On September 19, 2024, a Russian GPS-guided bomb struck Sumy’s care facility for the elderly. A 78-year-old woman <span class='bird'></span> was killed, and 12 others were injured in the attack.",
+        "subnote": "The Russian strike injured 12 people and caused significant destruction. The facility was home to 230 elderly residents and 60 staff members.</br> <a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global '>(The Times,</a> ",
+        "month": "September",
+        "year": "2024",
+        "yPlacement": "top",
+        "xPlacement": "right",
+        "sourceText": "UNOCHA)",
+        "sourceLink": "https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024"
+      }
+    ],
+    "months": [
+      { "label": "February", "year": "2022" },
+      { "label": "March", "year": "2022" },
+      { "label": "April", "year": "2022" },
+      { "label": "May", "year": "2022" },
+      { "label": "June", "year": "2022" },
+      { "label": "July", "year": "2022" },
+      { "label": "August", "year": "2022" },
+      { "label": "September", "year": "2022" },
+      { "label": "October", "year": "2022" },
+      { "label": "November", "year": "2022" },
+      { "label": "December", "year": "2022" },
+      { "label": "January", "year": "2023" },
+      { "label": "February", "year": "2023" },
+      { "label": "March", "year": "2023" },
+      { "label": "April", "year": "2023" },
+      { "label": "May", "year": "2023" },
+      { "label": "June", "year": "2023" },
+      { "label": "July", "year": "2023" },
+      { "label": "August", "year": "2023" },
+      { "label": "September", "year": "2023" },
+      { "label": "October", "year": "2023" },
+      { "label": "November", "year": "2023" },
+      { "label": "December", "year": "2023" },
+      { "label": "January", "year": "2024" },
+      { "label": "February", "year": "2024" },
+      { "label": "March", "year": "2024" },
+      { "label": "April", "year": "2024" },
+      { "label": "May", "year": "2024" },
+      { "label": "June", "year": "2024" },
+      { "label": "July", "year": "2024" },
+      { "label": "August", "year": "2024" },
+      { "label": "September", "year": "2024" },
+      { "label": "October", "year": "2024" }
+    ],
+    "labels": {
+      "total_by_this_month": "Total by this month",
+      "lives_lost_incl_children": "{total} lives lost, incl. {children} children",
+      "lives_lost": "{total} lives lost ({children})"
+    }
+  },
+  "ukr": {
+    "alertText": "Кожне втрачене цивільне життя у війні в Україні, спричиненій російською агресією, — це чиясь історія, історія людини, яка мала б залишитися тут. Цей проєкт має на меті осмислити масштаб цих втрат і вшанувати пам’ять кожного загиблого. Будь ласка, приділіть мить для роздумів і продовжуйте лише тоді, коли будете готові.",
+    "dataStory": "Історія на основі даних",
+    "about": "About",
+    "title": "Спів скорботи<br><span style='margin-left: 350px;'>над Україною</span>",
+    "leadText": "Lorem ipsum dolor sit amet...",
+    "notes": [
+      { "id": "note1", "text": "Примітка на січень", "x": 0, "y": 0 },
+      { "id": "note2", "text": "Важлива подія у березні", "x": 0, "y": 0 }
+    ],
+    "months": [
+      { "label": "Лютий", "year": "2022" },
+      { "label": "Березень" },
+      { "label": "Квітень" },
+      { "label": "Травень" },
+      { "label": "Червень" },
+      { "label": "Липень" },
+      { "label": "Серпень" },
+      { "label": "Вересень" },
+      { "label": "Жовтень" },
+      { "label": "Листопад" },
+      { "label": "Грудень" },
+      { "label": "Січень", "year": "2023" },
+      { "label": "Лютий" },
+      { "label": "Березень" },
+      { "label": "Квітень" },
+      { "label": "Травень" },
+      { "label": "Червень" },
+      { "label": "Липень" },
+      { "label": "Серпень" },
+      { "label": "Вересень" },
+      { "label": "Жовтень" },
+      { "label": "Листопад" },
+      { "label": "Грудень" },
+      { "label": "Січень", "year": "2024" },
+      { "label": "Лютий" }
+    ]
+  },
+  "ru": {
+    "alertText": "Каждая потерянная гражданская жизнь в войне в Украине, вызванной российской агрессией, — это чья-то история, история человека, который должен был остаться в этом мире. Этот проект призван отразить масштаб этих потерь и почтить память каждого погибшего. Пожалуйста, уделите момент размышлению и продолжайте только тогда, когда будете готовы.",
+    "dataStory": "История на основе данных",
+    "about": "About",
+    "title": "<span style='font-size: 140px!important; font-weight: 100; line-height: 1.2;'>Песнь скорби в небе<br><span style='margin-left: 560px;'>над Украиной</span><span>",
+    "notes": [
+      { "id": "note1", "text": "Примечание на январь", "x": 50, "y": 100 },
+      { "id": "note2", "text": "Важное событие в марте", "x": 50, "y": 300 }
+    ]
+  }
+}
