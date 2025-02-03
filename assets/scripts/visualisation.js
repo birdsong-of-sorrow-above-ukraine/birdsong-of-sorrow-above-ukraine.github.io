@@ -1,5 +1,6 @@
 const MONTH_HEIGHT = 400;
 const xPadding = 20;
+const yPadding = 40;
 
 const csvPath = './assets/data/civilian_casualties.csv';
 
@@ -274,25 +275,29 @@ function distributeBirds(
   );
 
   const generateConstrainedBird = (xDeviation, yCenter, yDeviation) => {
-    let bird = generateBird(
-      p,
-      p.width / 2,
-      xDeviation,
-      yCenter,
-      yDeviation,
-      childrenKilledRatio,
-      quarterExclusionZones
-    );
-    bird.y = Math.max(p.random(MONTH_HEIGHT * 0.8, MONTH_HEIGHT), bird.y);
+    let bird;
+    do {
+      bird = generateBird(
+        p,
+        p.random(xPadding, p.width - xPadding),
+        xDeviation,
+        yCenter,
+        yDeviation,
+        childrenKilledRatio,
+        quarterExclusionZones
+      );
+      bird.y = Math.max(p.random(MONTH_HEIGHT * 0.8, MONTH_HEIGHT), bird.y);
+    } while (bird.x < xPadding || bird.x > p.width - xPadding);
+
     return bird;
   };
 
   if (year === '2022' && (month === 'March' || month === 'February')) {
     birds = Array.from({ length: totalBirds - highlighted }, () =>
       generateConstrainedBird(
-        month === 'March' ? (p.width / 3) * 0.8 : p.width / 4,
+        month === 'March' ? p.width / 4 : p.width / 4,
         month === 'March'
-          ? yRange.yRangeCenter * 0.9
+          ? yRange.yRangeCenter * 0.97
           : (MONTH_HEIGHT * 0.8 + yRange.yEnd) / 2,
         month === 'March'
           ? yRange.yRangeDeviation * 1.2
@@ -304,7 +309,10 @@ function distributeBirds(
       let bird;
       do {
         const x = p.random(xPadding, p.width - xPadding);
-        const y = p.random(yRange.yStart, yRange.yEnd);
+        const y =
+          year === '2024' && month === 'October'
+            ? p.random(yRange.yStart, p.height - yPadding)
+            : p.random(yRange.yStart, yRange.yEnd);
         const zoneStatus = isInsideExclusionZoneOrBuffer(
           x,
           y,

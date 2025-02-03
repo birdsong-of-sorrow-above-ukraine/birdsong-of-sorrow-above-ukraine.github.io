@@ -226,9 +226,11 @@ footer a {
 #ending{
   text-align: right;
   max-width: 300px;
-  margin-right: 10px;
 }
 
+#endingSection{
+  padding: 0 2rem;
+}
 #ending-canvas{
   min-height: 512px;
   min-width: 100%;
