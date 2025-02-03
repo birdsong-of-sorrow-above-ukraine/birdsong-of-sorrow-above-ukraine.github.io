@@ -125,6 +125,13 @@
           exclusionZonesIds: [],
         };
 
+        const paramsOutro2 = {
+          number: 3,
+          sizeRange: { min: 17, max: 26 },
+          color: '#424992',
+          exclusionZonesIds: [],
+        };
+
         alertSketch =
           alertSketch ||
           new p5(
@@ -134,7 +141,7 @@
         footerSketch =
           footerSketch ||
           new p5(
-            (p) => drawBirds(p, 'footer-canvas', paramsOutro),
+            (p) => drawBirds(p, 'footer-canvas', paramsOutro2),
             'footer-canvas'
           );
 
@@ -146,7 +153,6 @@
       function switchScript(script) {
         const allAtOnceElement = document.getElementById('allAtOnce');
         const gridElement = document.getElementById('grid');
-        const endingElement = document.getElementById('endingSection');
         const gridBtn = document.getElementById('gridBtn');
         const allAtOnceBtn = document.getElementById('allAtOnceBtn');
 
@@ -159,15 +165,11 @@
         if (script === 'grid') {
           gridElement.style.display = 'grid';
           allAtOnceElement.style.display = 'none';
-          endingElement.style.marginTop = '-350px';
-
           classesToToggle.forEach((cls) => gridBtn.classList.add(cls));
           classesToToggle.forEach((cls) => allAtOnceBtn.classList.remove(cls));
         } else if (script === 'allAtOnce') {
           gridElement.style.display = 'none';
           allAtOnceElement.style.display = 'block';
-          endingElement.style.marginTop = '0px';
-
           classesToToggle.forEach((cls) => gridBtn.classList.remove(cls));
           classesToToggle.forEach((cls) => allAtOnceBtn.classList.add(cls));
         }

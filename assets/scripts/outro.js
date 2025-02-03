@@ -57,7 +57,7 @@ let outro = function (p, containerId, n) {
   }
 
   function drawBird(x, y, p) {
-    const size = p.random(10, 30);
+    const size = p.random(12, 26);
     p.noStroke();
     BirdShapes.bird(p, x, y, size, '#424992');
     birdPositions.push({ x, y, size });
