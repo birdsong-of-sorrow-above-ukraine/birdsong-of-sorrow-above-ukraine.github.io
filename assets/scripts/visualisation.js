@@ -387,12 +387,20 @@ async function initializeGrid() {
     // Create the first row for the current month
     const topRow = document.createElement('div');
     topRow.className = 'grid-label-top';
-
     const monthSpan = document.createElement('span');
     monthSpan.className = 'grid-label-month';
+    const livesLostSpan = document.createElement('span');
+    livesLostSpan.className = 'grid-label-lives-lost';
     monthSpan.textContent = month;
+    livesLostSpan.textContent = `${totalBirds} lives lost (${childrenKilled} children)`;
 
-    // Append year for the first month and all Januaries
+    topRow.appendChild(monthSpan);
+    topRow.appendChild(document.createTextNode(' '));
+    topRow.appendChild(livesLostSpan);
+    label.appendChild(topRow);
+    cell.appendChild(label);
+    grid.appendChild(cell);
+
     if (month === 'January' || index === 0) {
       const yearSpan = document.createElement('span');
       yearSpan.className = 'grid-label-year';
@@ -400,42 +408,10 @@ async function initializeGrid() {
       monthSpan.appendChild(yearSpan);
     }
 
-    const livesLostSpan = document.createElement('span');
-    livesLostSpan.className = 'grid-label-lives-lost';
-    livesLostSpan.textContent = `${totalBirds} lives lost, incl. ${childrenKilled} children`;
+    if (index === 0) {
+      livesLostSpan.textContent = `${totalBirds} lives lost (including ${childrenKilled} children)`;
+    } else null;
 
-    // Append spans to the first row
-    topRow.appendChild(monthSpan);
-    topRow.appendChild(document.createTextNode(' ')); // Add a space
-    topRow.appendChild(livesLostSpan);
-
-    // Create the second row for the cumulative total by this month
-    const bottomRow = document.createElement('div');
-    bottomRow.className = 'grid-label-bottom';
-
-    const totalByThisMonthSpan = document.createElement('span');
-    totalByThisMonthSpan.className = 'grid-label-total';
-    totalByThisMonthSpan.textContent = `Total by this month`;
-
-    const cumulativeLivesSpan = document.createElement('span');
-    cumulativeLivesSpan.className = 'grid-label-cumulative-lives';
-    cumulativeLivesSpan.textContent = `${cumulativeBirds} lives (${cumulativeChildren} children)`;
-
-    // Append spans to the second row
-    bottomRow.appendChild(totalByThisMonthSpan);
-    bottomRow.appendChild(document.createTextNode(' ')); // Add a space
-    bottomRow.appendChild(cumulativeLivesSpan);
-
-    // Append both rows to the label
-    label.appendChild(topRow);
-    label.appendChild(bottomRow);
-
-    cell.appendChild(label);
-
-    // Add the cell to the grid
-    grid.appendChild(cell);
-
-    // Attach p5.js to this cell
     const sketch = (p) => {
       let parentWidth, parentHeight;
 

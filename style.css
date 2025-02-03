@@ -223,9 +223,22 @@ footer a {
   font-family: inherit;
   
 }
+
+
+.grid-label-lives-lost{
+  font-weight: 600;
+}
+
+.grid-label-month{
+  font-weight: 400;
+}
+.grid-label-year{
+  font-weight: 400;
+}
+
 #ending{
   text-align: right;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 #endingSection{
@@ -587,7 +600,7 @@ transform: translate(20%, -50%);
 
 #grid {
   gap: 1rem;
-  row-gap: 2rem;
+  row-gap: 1rem;
   padding: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   width: 100%;
@@ -634,29 +647,14 @@ transform: translate(20%, -50%);
 .grid-label-top {
   display: flex;
   font-size: 1rem;
-  justify-content: space-between; /* Align text on opposite sides */
-  font-weight: bold;
+  justify-content: space-between;
   text-rendering: geometricPrecision;
-  margin-bottom: 2px; /* Add spacing between rows */
-
-}
-
-.grid-label-bottom {
-  display: flex;
-  justify-content: space-between; /* Align totals on opposite sides */
-  font-family: "calluna-sans", sans-serif;
-  font-weight: 300;
-font-style: normal;
-  font-size: 1rem;
-  margin-bottom: 0px; /* Add spacing between rows */
-  text-rendering: geometricPrecision;
+  font-family: "calluna", serif;
+  margin-bottom: 2px; 
   color: #202297E6;
-
+  font-weight: 300;
 }
 
-.grid-label-month {
-  font-weight: bold; /* Highlight the month */
-}
 
 
 .titleSpan{

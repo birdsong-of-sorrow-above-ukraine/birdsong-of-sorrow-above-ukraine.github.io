@@ -146,7 +146,7 @@
       function switchScript(script) {
         const allAtOnceElement = document.getElementById('allAtOnce');
         const gridElement = document.getElementById('grid');
-        const endingElement = document.getElementById('ending-canvas');
+        const endingElement = document.getElementById('endingSection');
         const gridBtn = document.getElementById('gridBtn');
         const allAtOnceBtn = document.getElementById('allAtOnceBtn');
 
@@ -159,7 +159,7 @@
         if (script === 'grid') {
           gridElement.style.display = 'grid';
           allAtOnceElement.style.display = 'none';
-          endingElement.style.marginTop = '-500px';
+          endingElement.style.marginTop = '-350px';
 
           classesToToggle.forEach((cls) => gridBtn.classList.add(cls));
           classesToToggle.forEach((cls) => allAtOnceBtn.classList.remove(cls));
