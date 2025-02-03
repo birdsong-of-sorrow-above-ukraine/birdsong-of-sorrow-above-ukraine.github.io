@@ -4,7 +4,6 @@ BirdShapes.bird = function (p, x, y, size, color, wingsOption = null) {
   p.fill(color);
   p.beginShape();
 
-  // Top wing curve
   p.vertex(x - size / 2, y);
   p.bezierVertex(
     x - size / 4,
@@ -15,7 +14,6 @@ BirdShapes.bird = function (p, x, y, size, color, wingsOption = null) {
     y
   );
 
-  // Bottom wing curve
   p.bezierVertex(
     x + size / 4,
     y + size / 8,
@@ -27,11 +25,9 @@ BirdShapes.bird = function (p, x, y, size, color, wingsOption = null) {
 
   p.endShape(p.CLOSE);
 
-  // Determine wingsOption: Use the provided value or generate randomly
   wingsOption = wingsOption !== null ? wingsOption : p.floor(p.random(1, 4));
 
   if (wingsOption === 1 || wingsOption === 3) {
-    // Draw the top wing detail
     p.beginShape();
     p.vertex(x, y);
     p.bezierVertex(
@@ -47,7 +43,6 @@ BirdShapes.bird = function (p, x, y, size, color, wingsOption = null) {
   }
 
   if (wingsOption === 2 || wingsOption === 3) {
-    // Draw the bottom wing detail
     p.beginShape();
     p.vertex(x, y);
     p.bezierVertex(

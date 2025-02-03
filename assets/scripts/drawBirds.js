@@ -2,9 +2,8 @@ let drawBirds = function (p, containerId, params) {
   let birdsDrawn = 0;
   let birdPositions = [];
 
-  // Destructure parameters
   const { number, sizeRange, color, exclusionZonesIds = [] } = params;
-  params.exclusionZones = []; // Initialize as an empty array
+  params.exclusionZones = [];
 
   p.setup = function () {
     const canvasContainer = document.getElementById(containerId);
@@ -12,7 +11,6 @@ let drawBirds = function (p, containerId, params) {
     const canvasHeight = canvasContainer.clientHeight;
     p.createCanvas(canvasWidth, canvasHeight);
 
-    // Dynamically get exclusion zones' parameters from IDs
     params.exclusionZones = exclusionZonesIds
       .map((id) => {
         const element = document.getElementById(id);
@@ -30,7 +28,7 @@ let drawBirds = function (p, containerId, params) {
         }
         return null;
       })
-      .filter(Boolean); // Remove null values
+      .filter(Boolean);
   };
 
   p.draw = function () {
@@ -42,7 +40,6 @@ let drawBirds = function (p, containerId, params) {
         y = p.random(20, p.height - 20);
         size = p.random(sizeRange.min, sizeRange.max);
 
-        // Check if the position is inside any exclusion zone
         isOverlapping = params.exclusionZones.some(
           (zone) =>
             x > zone.x &&
@@ -51,7 +48,6 @@ let drawBirds = function (p, containerId, params) {
             y < zone.y + zone.h
         );
 
-        // Check for overlaps with already drawn birds
         for (let i = 0; i < birdPositions.length; i++) {
           const bird = birdPositions[i];
           const distance = p.dist(x, y, bird.x, bird.y);

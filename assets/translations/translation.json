@@ -17,16 +17,16 @@
     "notes": [
       {
         "id": "note-02",
-        "subnote": "On the morning of February 24, 2022, Russia launched a full-scale invasion of Ukraine, bringing unprecedented loss.",
+        "subnote": "On the morning of February 24, 2022, Russia launched a full-scale invasion of Ukraine, marking the beginning of unimaginable human loss.",
         "month": "February",
-        "yPlacement": "middleBottom",
+        "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2022",
         "centered": true
       },
       {
         "id": "note-03",
-        "subnote": "By June 2022, over 1,000 children had lost their lives",
+        "subnote": "By June 2022, over 1,000 children had lost their lives.",
         "month": "June",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -35,36 +35,45 @@
       },
       {
         "id": "note-04",
-        "subnote": "In August 2022, the total number of people who died reached 7 000",
+        "subnote": "In August 2022, the total verified number of people who died reached 7 000.",
         "month": "August",
-        "yPlacement": "bottom",
+        "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2022",
         "centered": true
       },
       {
-        "id": "note-06",
-        "subnote": "March had the highest civilian toll, with 4 289 people, including 511 children, killed.</br>",
-        "month": "April",
-        "yPlacement": "top",
+        "id": "note-04",
+        "subnote": "In March 2022, the total verified number of children who died reached 1 500.",
+        "month": "March",
+        "yPlacement": "middle",
         "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "story-01",
+        "note": "On April 8, 2022, <span class='bird'></span> 71-year-old Tamara was at Kramatorsk station, waiting to evacuate and reunite with her daughter, when a missile strike took her life.",
+        "yPlacement": "top",
+        "xPlacement": "left",
+        "month": "April",
         "year": "2022",
-        "centered": true,
-        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
-        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+        "subnote": "At least 52 people, including five children, were killed and nearly 100 injured in the same attack.</br>",
+        "sourceText": "(Human Rights Warch)",
+        "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
       },
       {
         "id": "note-07",
-        "subnote": "In November 2022, the total number of people who died reached 8000",
+        "subnote": "In November 2022, the total number of people who died reached 8 000.",
         "month": "November",
-        "yPlacement": "bottom",
+        "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2022",
         "centered": true
       },
       {
         "id": "note-08",
-        "subnote": "By November 2023, the total number of people who died reached 10 226",
+        "subnote": "By November 2023, the total number of people who died reached 10 226.",
         "month": "November",
         "yPlacement": "middleBottom",
         "xPlacement": "center",
@@ -73,7 +82,7 @@
       },
       {
         "id": "note-09",
-        "subnote": "By May 2023, more than 1500 children had died, bringing the total death toll to 9281 people.",
+        "subnote": "By May 2023, more than 1 500 children had died, bringing the total death toll to 9 281 people.",
         "month": "May",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -81,17 +90,26 @@
         "centered": true
       },
       {
+        "id": "note-09",
+        "subnote": "By January 2024, at least 10 500 people had died.",
+        "month": "January",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
         "id": "note-10",
-        "subnote": "By May 2024, more than 1900 children had died, bringing the total death toll above 11 000 people.",
+        "subnote": "By May 2024, more than 1 900 children had died, bringing the total death toll above 11 000 people.",
         "month": "May",
-        "yPlacement": "bottom",
+        "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2024",
         "centered": true
       },
       {
         "id": "note-11",
-        "subnote": "As of October 2024, the last available number shows that at least 12,016 lives have been lost.",
+        "subnote": "As of October 2024, the last available number shows that at least 12 016 lives have been lost.",
         "month": "October",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -111,7 +129,7 @@
         "id": "note-13",
         "subnote": "By April 2024, the World Health Organization verified 1,682 attacks on medical facilities, causing 128 deaths and 288 injuries.",
         "month": "April",
-        "yPlacement": "middle",
+        "yPlacement": "center",
         "xPlacement": "center",
         "year": "2024",
         "centered": true,
@@ -119,22 +137,32 @@
         "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
       },
       {
-        "id": "story-01",
-        "note": "On the morning April 8, 2022, <span class='bird'></span> 71-year-old Tamara was at the Kramatorsk railway station with hundreds of others, waiting to evacuate. She planned to flee to Poland to reunite with her daughter when a missile strike hit the station, taking her life.",
-        "yPlacement": "middleBottom",
-        "xPlacement": "left",
-        "month": "April",
+        "id": "note-06",
+        "subnote": "By May 2022, at least 6,000 lives had been lost</br>",
+        "month": "May",
+        "yPlacement": "middle",
+        "xPlacement": "center",
         "year": "2022",
-        "subnote": "At least 52 people, including five children, were killed and nearly 100 injured in the same attack.</br>",
-        "sourceText": "(Human Rights Warch)",
-        "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
+        "centered": true,
+        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
+        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+      },
+      {
+        "id": "story-01",
+        "note": "On October 10, 2022, Russia launched its most widespread air attacks across Ukraine, killing civilians and knocking out power and heat. At least 11 people lost their lives, and dozens more were injured.</br><a href='https://www.reuters.com/world/europe/russias-ria-state-agency-reports-fuel-tank-fire-kerch-bridge-crimea-2022-10-08/'>(Reuters, 2022)</a>",
+        "yPlacement": "top",
+        "xPlacement": "left",
+        "month": "October",
+        "year": "2022",
+        "sourceText": "",
+        "sourceLink": ""
       },
       {
         "id": "story-02",
         "note": "On July 14, 2022, 4-year-old <span class='bird'></span> Liza Dmytriyeva, a girl with Down syndrome, was killed in a Russian missile strike in Vinnytsia while on her way to speech therapy. Her mother survived the attack.",
         "month": "July",
         "year": "2022",
-        "yPlacement": "middle",
+        "yPlacement": "top",
         "xPlacement": "right",
         "subnote": "At least 23 people, including three children, were killed as Russian missiles struck Vinnytsia city center.",
         "sourceText": "(New York Times)",
@@ -176,18 +204,18 @@
         "month": "October",
         "year": "2023",
         "yPlacement": "middle",
-        "xPlacement": "center",
+        "xPlacement": "right",
         "subnote": "The missile strike in Hroza killed 59 people, a fifth of the village's population.",
         "sourceText": "UNHCR",
         "sourceLink": "https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html"
       },
       {
         "id": "story-07",
-        "note": "On December 29, 2023, the attacks killed at least 30 people and injured 160, targeting Kyiv, Odesa, Kharkiv, and Lviv, and damaging civilian infrastructure, homes, and schools. <a href='https://www.bbc.com/news/world-europe-67843312'>(BBC)</a>",
+        "note": "On December 29, 2023, the attacks killed at least <span class='bird'></span> <span class='birdOneWing'></span> 30 people and injured 160, targeting Kyiv, Odesa, Kharkiv, and Lviv, and damaging civilian infrastructure, homes, and schools. <a href='https://www.bbc.com/news/world-europe-67843312'>(BBC)</a>",
         "month": "December",
         "year": "2023",
         "yPlacement": "middle",
-        "xPlacement": "right"
+        "xPlacement": "left"
       },
       {
         "id": "story-09",
@@ -195,12 +223,12 @@
         "subnote": "",
         "month": "July",
         "year": "2024",
-        "yPlacement": "middle",
+        "yPlacement": "top",
         "xPlacement": "left"
       },
       {
         "id": "story-10",
-        "note": "On March 2, 2024, a Russian drone struck a nine-story residential building in Odesa. Anna Gaidarzhi and her four-month-old son, Tymofii, <span class='bird'></span><span class='birdOneWing'></span> were found in the basement, buried under rubble after the upper floors collapsed. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
+        "note": "On March 2, 2024, a Russian drone struck a residential building in Odesa. <span class='bird'></span> Anna Gaidarzhi and <span class='birdOneWing'></span> her four-month-old son, Tymofii, were found in the basement, buried under rubble after the upper floors collapsed. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
         "subnote": "According to the UN, the attack killed five children, most under the age of three, making it the deadliest incident for children in over nine months.",
         "month": "February",
         "year": "2024",

@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/cig3amv.css" />
+    <script src="./assets/scripts/main.js"></script>
+    <script src="./assets/scripts/bird.js"></script>
+    <script src="./assets/scripts/drawBirds.js"></script>
   </head>
   <body>
     <div id="loadingScreen">
       <p class="caption">Loading...</p>
     </div>
-
     <div id="mainContent" class="content" style="display: hidden">
       <div class="menu">
         <div class="languages">
@@ -54,14 +56,14 @@
         </div>
         <div id="buttons">
           <button
-            id="btnOne"
+            id="allAtOnceBtn"
             class="btn-segment active underline-animation hand-drawn-underline"
-            onclick="switchScript('one')"
+            onclick="switchScript('allAtOnce')"
           >
             All at Once
           </button>
           <button
-            id="btnGrid"
+            id="gridBtn"
             class="btn-segment"
             onclick="switchScript('grid')"
           >
@@ -69,7 +71,7 @@
           </button>
         </div>
         <div id="grid"></div>
-        <div id="one"><div id="stories"></div></div>
+        <div id="allAtOnce"><div id="stories"></div></div>
       </section>
       <section id="endingSection">
         <p id="ending"></p>
@@ -89,131 +91,87 @@
         <div id="footer-canvas"></div>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="./assets/scripts/labels.js"></script>
+    <script src="./assets/scripts/allAtOnce.js"></script>
+    <script src="./assets/scripts/outro.js"></script>
+    <script>
+      function allSketchesLoaded() {
+        document.getElementById('loadingScreen').style.display = 'none';
+        document.getElementById('mainContent').style.display = 'flex';
+        initializeOtherSketches();
+        document.removeEventListener(
+          'allAtOnceSketchLoaded',
+          allSketchesLoaded
+        );
+      }
+
+      document.addEventListener('allAtOnceSketchLoaded', allSketchesLoaded);
+
+      function initializeOtherSketches() {
+        let alertSketch, endingSketch, footerSketch, legendSketch;
+
+        const paramsIntro = {
+          number: 24,
+          sizeRange: { min: 12, max: 26 },
+          color: '#424992',
+          exclusionZonesIds: ['dataStory', 'alertText', 'legend'],
+        };
+
+        const paramsOutro = {
+          number: 3,
+          sizeRange: { min: 17, max: 26 },
+          color: '#424992',
+          exclusionZonesIds: [],
+        };
+
+        alertSketch =
+          alertSketch ||
+          new p5(
+            (p) => drawBirds(p, 'alert-canvas', paramsIntro),
+            'alert-canvas'
+          );
+        footerSketch =
+          footerSketch ||
+          new p5(
+            (p) => drawBirds(p, 'footer-canvas', paramsOutro),
+            'footer-canvas'
+          );
+
+        endingSketch =
+          endingSketch ||
+          new p5((p) => outro(p, 'ending-canvas', 30), 'ending-canvas');
+      }
+
+      function switchScript(script) {
+        const allAtOnceElement = document.getElementById('allAtOnce');
+        const gridElement = document.getElementById('grid');
+        const endingElement = document.getElementById('ending-canvas');
+        const gridBtn = document.getElementById('gridBtn');
+        const allAtOnceBtn = document.getElementById('allAtOnceBtn');
+
+        const classesToToggle = [
+          'active',
+          'underline-animation',
+          'hand-drawn-underline',
+        ];
+
+        if (script === 'grid') {
+          gridElement.style.display = 'grid';
+          allAtOnceElement.style.display = 'none';
+          endingElement.style.marginTop = '-500px';
+
+          classesToToggle.forEach((cls) => gridBtn.classList.add(cls));
+          classesToToggle.forEach((cls) => allAtOnceBtn.classList.remove(cls));
+        } else if (script === 'allAtOnce') {
+          gridElement.style.display = 'none';
+          allAtOnceElement.style.display = 'block';
+          endingElement.style.marginTop = '0px';
+
+          classesToToggle.forEach((cls) => gridBtn.classList.remove(cls));
+          classesToToggle.forEach((cls) => allAtOnceBtn.classList.add(cls));
+        }
+      }
+    </script>
   </body>
-  <script>
-    const canvasHeight = 13200;
-    const cell = document.getElementById('one');
-    const getImageResolution = () => {
-      const canvasW = cell.clientWidth;
-      console.log(canvasW);
-      if (canvasW < 720) {
-        return 300;
-      } else if (canvasW < 1024) {
-        return 720;
-      } else if (canvasW < 1600) {
-        return 1024;
-      } else {
-        return 1600;
-      }
-    };
-
-    backgroundUrl = `./assets/images/bg/f-${getImageResolution()}.png`;
-    cell.style.backgroundImage = `url('${backgroundUrl}')`;
-    cell.style.backgroundSize = 'cover';
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <!-- <script src="./assets/scripts/legend.js"></script> -->
-  <script src="./assets/scripts/bird.js"></script>
-  <script src="./assets/scripts/drawBirds.js"></script>
-  <script src="./assets/scripts/main.js"></script>
-  <script src="./assets/scripts/one.js"></script>
-  <script src="./assets/scripts/labels.js"></script>
-  <script src="./assets/scripts/grid.js"></script>
-  <script src="./assets/scripts/outro.js"></script>
-
-  <script>
-    function allSketchesLoaded() {
-      // Hide the loading screen
-      document.getElementById('loadingScreen').style.display = 'none';
-      // Show the main content
-      document.getElementById('mainContent').style.display = 'flex';
-      // Initialize other sketches if necessary
-      initializeOtherSketches();
-    }
-
-    // Listen for the custom event dispatched by one.js
-    document.addEventListener('oneSketchLoaded', allSketchesLoaded);
-
-    // Function to initialize other sketches
-    function initializeOtherSketches() {
-      let alertSketch, endingSketch, footerSketch, legendSketch;
-
-      const paramsIntro = {
-        number: 24,
-        sizeRange: { min: 12, max: 26 },
-        color: '#424992',
-        exclusionZonesIds: ['dataStory', 'alertText', 'legend'],
-      };
-
-      const paramsOutro = {
-        number: 3,
-        sizeRange: { min: 17, max: 26 },
-        color: '#424992',
-        exclusionZonesIds: [],
-      };
-
-      alertSketch =
-        alertSketch ||
-        new p5(
-          (p) => drawBirds(p, 'alert-canvas', paramsIntro),
-          'alert-canvas'
-        );
-      footerSketch =
-        footerSketch ||
-        new p5(
-          (p) => drawBirds(p, 'footer-canvas', paramsOutro),
-          'footer-canvas'
-        );
-
-      // Initialize other sketches and handle their completion
-      endingSketch =
-        endingSketch ||
-        new p5((p) => outro(p, 'ending-canvas', 30), 'ending-canvas');
-
-      legendSketch =
-        legendSketch || new p5((p) => legend(p, 'legend', 7), 'legend');
-
-      // If you have other asynchronous tasks, handle them here
-    }
-
-    // setTimeout(() => {
-    //   if (document.getElementById('loadingScreen').style.display !== 'none') {
-    //     console.error('Loading timed out.');
-    //     // You can hide the loading screen or show an error message here
-    //     document.getElementById('loadingScreen').style.display = 'none';
-    //     document.getElementById('mainContent').style.display = 'flex';
-    //   }
-    // }, 5000); // 15 seconds timeout
-
-    function switchScript(script) {
-      const oneElement = document.getElementById('one');
-      const gridElement = document.getElementById('grid');
-      const endingElement = document.getElementById('ending-canvas');
-      const btnGrid = document.getElementById('btnGrid');
-      const btnOne = document.getElementById('btnOne');
-
-      const classesToToggle = [
-        'active',
-        'underline-animation',
-        'hand-drawn-underline',
-      ];
-
-      if (script === 'grid') {
-        gridElement.style.display = 'grid';
-        oneElement.style.display = 'none';
-        endingElement.style.marginTop = '-500px';
-
-        classesToToggle.forEach((cls) => btnGrid.classList.add(cls));
-        classesToToggle.forEach((cls) => btnOne.classList.remove(cls));
-      } else if (script === 'one') {
-        gridElement.style.display = 'none';
-        oneElement.style.display = 'block';
-        endingElement.style.marginTop = '0px';
-
-        classesToToggle.forEach((cls) => btnGrid.classList.remove(cls));
-        classesToToggle.forEach((cls) => btnOne.classList.add(cls));
-      }
-    }
-  </script>
 </html>
