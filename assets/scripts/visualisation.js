@@ -510,30 +510,35 @@ async function initializeGrid() {
 }
 
 function drawMyBirds2() {
-  const observer = new MutationObserver(() => {
-    if (window.getComputedStyle(allAtOnce).display !== 'none') {
+  let initialized = false;
+
+  function initializeIfNeeded() {
+    if (!initialized && window.getComputedStyle(allAtOnce).display !== 'none') {
       console.log('Grid is now displayed. Initializing sketches...');
       initializeAllAtOnce();
+      initialized = true;
     }
+  }
+
+  const observer = new MutationObserver(() => {
+    initializeIfNeeded();
   });
 
   observer.observe(allAtOnce, { attributes: true, attributeFilter: ['style'] });
 
-  if (window.getComputedStyle(allAtOnce).display !== 'none') {
-    initializeAllAtOnce();
-  }
+  initializeIfNeeded();
 }
+
 function drawMyBirds() {
   const observer = new MutationObserver(() => {
     if (window.getComputedStyle(grid).display !== 'none') {
       console.log('Grid is now displayed. Initializing sketches...');
-      initializeGrid(); // Call grid initialization
+      initializeGrid();
     }
   });
 
   observer.observe(grid, { attributes: true, attributeFilter: ['style'] });
 
-  // Initialize grid if it is already visible
   if (window.getComputedStyle(grid).display !== 'none') {
     initializeGrid();
   }
