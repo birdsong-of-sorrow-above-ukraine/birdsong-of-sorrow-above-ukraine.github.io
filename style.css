@@ -598,7 +598,7 @@ transform: translate(20%, -50%);
   margin-bottom: 0.4rem!important;
   width: -webkit-fill-available;
   position: relative;
-  padding: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 

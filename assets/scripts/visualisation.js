@@ -273,33 +273,34 @@ function distributeBirds(
     )
   );
 
-  if (month === 'March' && year === '2022') {
-    birds = Array.from({ length: totalBirds - highlighted }, () =>
-      generateBird(
-        p,
-        p.width / 2,
-        (p.width / 3) * 0.8,
-        yRange.yRangeCenter,
-        yRange.yRangeDeviation,
-        childrenKilledRatio,
-        quarterExclusionZones
-      )
+  const generateConstrainedBird = (xDeviation, yCenter, yDeviation) => {
+    let bird = generateBird(
+      p,
+      p.width / 2,
+      xDeviation,
+      yCenter,
+      yDeviation,
+      childrenKilledRatio,
+      quarterExclusionZones
     );
-  } else if (month === 'February' && year === '2022') {
-    const restrictedYStart = yRange.yStart + MONTH_HEIGHT * 0.8;
+    bird.y = Math.max(p.random(MONTH_HEIGHT * 0.8, MONTH_HEIGHT), bird.y);
+    return bird;
+  };
+
+  if (year === '2022' && (month === 'March' || month === 'February')) {
     birds = Array.from({ length: totalBirds - highlighted }, () =>
-      generateBird(
-        p,
-        p.width / 2,
-        p.width / 4,
-        (restrictedYStart + yRange.yEnd) / 1.5,
-        (yRange.yEnd - restrictedYStart) / 3,
-        childrenKilledRatio,
-        quarterExclusionZones
+      generateConstrainedBird(
+        month === 'March' ? (p.width / 3) * 0.8 : p.width / 4,
+        month === 'March'
+          ? yRange.yRangeCenter * 0.9
+          : (MONTH_HEIGHT * 0.8 + yRange.yEnd) / 2,
+        month === 'March'
+          ? yRange.yRangeDeviation * 1.2
+          : (yRange.yEnd - MONTH_HEIGHT * 0.8) / 4
       )
     );
   } else {
-    birds = Array.from({ length: totalBirds - highlighted }, (_, i) => {
+    birds = Array.from({ length: totalBirds - highlighted }, () => {
       let bird;
       do {
         const x = p.random(xPadding, p.width - xPadding);
@@ -313,8 +314,11 @@ function distributeBirds(
           zoneStatus === 'none' ||
           (zoneStatus === 'buffer' && Math.random() < 0.3)
         ) {
-          let color = Math.random() < childrenKilledRatio ? '#7B86FF' : '#fff';
-          bird = { x, y, color };
+          bird = {
+            x,
+            y,
+            color: Math.random() < childrenKilledRatio ? '#7B86FF' : '#fff',
+          };
         }
       } while (!bird);
       return bird;
