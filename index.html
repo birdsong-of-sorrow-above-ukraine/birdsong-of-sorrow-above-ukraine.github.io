@@ -16,11 +16,21 @@
     <div id="mainContent" class="content" style="display: hidden">
       <div class="menu">
         <div class="languages">
-          <span class="selected btn-segment" onclick="selectLanguage('en')"
+          <span
+            class="selected btn-segment language-option"
+            onclick="selectLanguage('en')"
             >EN</span
           >
-          <span class="btn-segment" onclick="selectLanguage('ukr')">UKR</span>
-          <span class="btn-segment" onclick="selectLanguage('ru')">RU</span>
+          <span
+            class="btn-segment language-option"
+            onclick="selectLanguage('ukr')"
+            >UKR</span
+          >
+          <span
+            class="btn-segment language-option"
+            onclick="selectLanguage('ru')"
+            >RU</span
+          >
         </div>
       </div>
       <section class="hero">
@@ -71,7 +81,7 @@
           </button>
         </div>
         <div id="grid"></div>
-        <div id="allAtOnce"><div id="stories"></div></div>
+        <div id="allAtOnce"><div id="stories"></div><div id="allAtOnceCanvas"></div>
       </section>
       <section id="endingSection">
         <p id="ending"></p>

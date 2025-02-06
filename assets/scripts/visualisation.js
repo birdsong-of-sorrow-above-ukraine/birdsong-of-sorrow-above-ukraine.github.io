@@ -5,11 +5,10 @@ const yPadding = 40;
 const csvPath = './assets/data/civilian_casualties.csv';
 
 const grid = document.getElementById('grid');
-const allAtOnce = document.getElementById('allAtOnce');
+const allAtOnce = document.getElementById('allAtOnceCanvas');
 
-const images = []; // Array to hold images
+const images = [];
 
-// Preload images
 for (let j = 1; j <= 28; j++) {
   const filename = j.toString().padStart(2, '0') + '.png';
   images.push(`./assets/images/squares/${filename}`);
@@ -19,9 +18,8 @@ async function fetchCSV() {
   const response = await fetch(csvPath);
   const csvText = await response.text();
 
-  // Parse CSV manually or use a library
   const rows = csvText.split('\n').map((row) => row.split(','));
-  const headers = rows.shift(); // Extract headers
+  const headers = rows.shift();
   const data = rows.map((row) => {
     const rowObject = {};
     headers.forEach((header, i) => {
@@ -172,7 +170,6 @@ function commonlyDrawBirds(p, dataGroupedByQ, monthNum) {
     const totalBirds = parseInt(Killed, 10) || 0;
     const childrenKilled = parseInt(childrenKilledStr, 10) || 0;
     const highlighted = parseInt(Highlighted, 10) || 0;
-
     const yRange = computeYRange(idx);
     const birds = distributeBirds(
       p,
@@ -258,8 +255,6 @@ function distributeBirds(
   );
 
   const childrenKilledRatio = childrenKilled / totalBirds;
-  const highlightRatio = highlighted / totalBirds;
-
   let highlightXCenter = p.width / 2;
   let highlightedGroup = Array.from({ length: highlighted }, () =>
     generateBird(
@@ -337,6 +332,7 @@ function distributeBirds(
 }
 
 async function initializeAllAtOnce() {
+  allAtOnce.innerHTML = '';
   const data = await fetchCSV();
   let id = 1;
   for (let i = 0; i < data.length; i += 3) {
@@ -354,37 +350,33 @@ async function initializeAllAtOnce() {
       p.draw = () => commonlyDrawBirds(p, dataGroupedByQ, i);
     };
 
-    window.p5Instance = new p5(sketch, 'allAtOnce');
+    window.p5Instance = new p5(sketch, 'allAtOnceCanvas');
     allAtOnce.appendChild(cell);
   }
 }
 
 async function initializeGrid() {
-  // Clear any existing grid content
   grid.innerHTML = '';
 
   const data = await fetchCSV();
 
   data.forEach((row, index) => {
-    const month = row.Month; // Month name
-    const year = row.Year; // Year
-    const totalBirds = parseInt(row.Killed, 10) || 0; // Total lives lost in the month
-    const childrenKilled = parseInt(row['Children Killed'], 10) || 0; // Children lives lost in the month
-    const cumulativeBirds = parseInt(row['Cum Killed'], 10) || 0; // Cumulative lives lost
-    const cumulativeChildren = parseInt(row['Cum Children Killed'], 10) || 0; // Cumulative children lost
+    const month = row.Month;
+    const year = row.Year;
+    const totalBirds = parseInt(row.Killed, 10) || 0;
+    const childrenKilled = parseInt(row['Children Killed'], 10) || 0;
+    const cumulativeBirds = parseInt(row['Cum Killed'], 10) || 0;
+    const cumulativeChildren = parseInt(row['Cum Children Killed'], 10) || 0;
 
-    const imageIndex = new Date(`${month} 1, 2000`).getMonth(); // Converts month name to index (0-based)
+    const imageIndex = new Date(`${month} 1, 2000`).getMonth();
     const imagePath = images[imageIndex];
 
-    // Create a grid cell
     const cell = document.createElement('div');
     cell.className = 'grid-cell';
 
-    // Add a label below the canvas
     const label = document.createElement('div');
     label.className = 'grid-label';
 
-    // Create the first row for the current month
     const topRow = document.createElement('div');
     topRow.className = 'grid-label-top';
     const monthSpan = document.createElement('span');
@@ -418,25 +410,24 @@ async function initializeGrid() {
       let bgImage;
 
       p.preload = function () {
-        bgImage = p.loadImage(imagePath); // Load the background image
+        bgImage = p.loadImage(imagePath);
       };
 
       p.setup = function () {
-        const parent = cell; // Use the grid cell as the parent container
+        const parent = cell;
 
         const resizeCanvasToParent = () => {
-          parentWidth = parent.offsetWidth || 350; // Fallback width
-          parentHeight = parent.offsetWidth || 350; // Fallback height
+          parentWidth = parent.offsetWidth || 350;
+          parentHeight = parent.offsetWidth || 350;
 
           if (parentWidth > 0 && parentHeight > 0) {
             p.resizeCanvas(parentWidth, parentHeight);
           } else {
-            setTimeout(resizeCanvasToParent, 50); // Retry if parent size is 0
+            setTimeout(resizeCanvasToParent, 50);
           }
         };
 
-        // Create canvas and call resize function
-        const c = p.createCanvas(1, 1); // Temporary size, will resize immediately
+        const c = p.createCanvas(1, 1);
         c.parent(cell);
         resizeCanvasToParent();
         p.noLoop();
@@ -446,27 +437,23 @@ async function initializeGrid() {
         p.noStroke();
         p.image(bgImage, 0, 0, p.width, p.height);
 
-        // Define the width range for dots based on the specific condition
         let xStart = 15;
         let xEnd = p.width - 15;
 
-        // Special condition for February 2022
         if (month === 'February' && year === '2022') {
-          xStart = p.width * 0.8; // Start at 80% of canvas width
-          xEnd = p.width - 15; // End at 100% of canvas width
+          xStart = p.width * 0.8;
+          xEnd = p.width - 15;
         }
 
-        // Draw children losses as light blue birds
         for (let i = 0; i < childrenKilled; i++) {
-          const x = p.random(xStart, xEnd); // Adjusted x-range
+          const x = p.random(xStart, xEnd);
           const y = p.random(25, p.height - 25);
-          p.fill('#7B86FF'); // Light blue for children
+          p.fill('#7B86FF');
           BirdShapes.bird(p, x, y, p.random(10, 12), '#7B86FF');
         }
 
-        // Draw remaining losses as standard blue birds
         for (let i = childrenKilled; i < totalBirds; i++) {
-          const x = p.random(xStart, xEnd); // Adjusted x-range
+          const x = p.random(xStart, xEnd);
           const y = p.random(25, p.height - 25);
           BirdShapes.bird(p, x, y, p.random(10, 12), '#fff');
         }
@@ -475,12 +462,16 @@ async function initializeGrid() {
       let lastWidth = 0;
       let lastHeight = 0;
 
+      p.updateData = function () {
+        console.log('redrawn');
+        p.redraw();
+      };
+
       p.windowResized = function () {
         const parent = cell;
         const parentWidth = parent.offsetWidth;
         const parentHeight = parent.offsetWidth;
 
-        // Only resize if the dimensions change significantly
         if (
           Math.abs(parentWidth - lastWidth) > 100 ||
           Math.abs(parentHeight - lastHeight) > 100
@@ -497,12 +488,10 @@ async function initializeGrid() {
   });
 }
 
-function drawMyBirds2() {
+function drawAllAtOnce() {
   let initialized = false;
-
   function initializeIfNeeded() {
     if (!initialized && window.getComputedStyle(allAtOnce).display !== 'none') {
-      console.log('Grid is now displayed. Initializing sketches...');
       initializeAllAtOnce();
       initialized = true;
     }
@@ -517,7 +506,7 @@ function drawMyBirds2() {
   initializeIfNeeded();
 }
 
-function drawMyBirds() {
+function drawGrid() {
   const observer = new MutationObserver(() => {
     if (window.getComputedStyle(grid).display !== 'none') {
       console.log('Grid is now displayed. Initializing sketches...');
@@ -531,4 +520,4 @@ function drawMyBirds() {
     initializeGrid();
   }
 }
-drawMyBirds();
+drawGrid();
