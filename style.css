@@ -69,21 +69,21 @@ font-style: normal;
 .month-label::before {
   content: '';
   position: absolute;
-  left: -10px; /* Position the line to the left of the label */
-  top: 50%; /* Vertically center the line */
-  transform: translateY(-50%); /* Adjust for centering */
-  width: 6px; /* Length of the line */
-  height: 1px; /* Thickness of the line */
-  background-color: #fff; /* Line color */
+  left: -10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 6px; 
+  height: 1px; 
+  background-color: #fff;
 }
 
-.bird, .birdChild, .birdOneWing, .birdBlue{
+.bird, .birdChild, .birdOneWing, .birdBlue, .birdWhite{
   position: relative;
-  padding-left: 1.5rem; /* Space for the bird image */
+  padding-left: 1.5rem; 
   display: inline-block;
 }
 
-/* Add the bird image using ::before */
+
 .bird::before {
   content: '';
   position: absolute;
@@ -91,9 +91,9 @@ font-style: normal;
   left: 0;
   top: 60%;
   transform: translateY(-60%);
-  width: 1.5rem; /* Width of the bird image */
-  height: 1.5rem; /* Height of the bird image */
-  background-image: url('./assets/images/bird-2.svg'); /* Path to the bird image */
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('./assets/images/bird-2.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -104,9 +104,22 @@ font-style: normal;
   left: 0;
   top: 60%;
   transform: translateY(-60%);
-  width: 1.5rem; /* Width of the bird image */
-  height: 1.5rem; /* Height of the bird image */
-  background-image: url('./assets/images/birdBlue.svg'); /* Path to the bird image */
+  width: 1.5rem; 
+  height: 1.5rem; 
+  background-image: url('./assets/images/birdBlue.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.birdWhite::before {
+  content: '';
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 60%;
+  transform: translateY(-60%);
+  width: 1.5rem; 
+  height: 1.5rem;
+  background-image: url('./assets/images/birdWhite.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -117,9 +130,9 @@ font-style: normal;
   left: 0;
   top: 60%;
   transform: translateY(-60%);
-  width: 1.5rem; /* Width of the bird image */
-  height: 1.5rem; /* Height of the bird image */
-  background-image: url('./assets/images/bird-child-2.svg'); /* Path to the bird image */
+  width: 1.5rem; 
+  height: 1.5rem; 
+  background-image: url('./assets/images/bird-child-2.svg'); 
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -130,9 +143,9 @@ font-style: normal;
   left: 0;
   top: 70%;
   transform: translateY(-70%);
-  width: 1.25rem; /* Width of the bird image */
-  height: 1.25rem; /* Height of the bird image */
-  background-image: url('./assets/images/bird-1.svg'); /* Path to the bird image */
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url('./assets/images/bird-1.svg'); 
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -236,7 +249,7 @@ footer a {
   font-weight: 400;
 }
 
-#ending{
+#text-outro{
   text-align: right;
   max-width: 380px;
 }
@@ -446,11 +459,11 @@ a{
 .hand-drawn-underline::after {
   content: '';
   position: absolute;
-  bottom: -5px; /* Adjust position if needed */
+  bottom: -5px; 
   z-index: -1;
   left: 0;
-  width: 0; /* Start with a width of 0 to hide initially */
-  height: 3px; /* Adjust as needed */
+  width: 0; 
+  height: 3px; 
   background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI4IiBoZWlnaHQ9IjciIHZpZXdCb3g9IjAgMCAyMjggNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuMDc1MzkgNS41MDMwOUMxLjg4ODU4IDUuMzM2MjIgMi4wMDM3IDUuNDYxNyAzLjEwNDEzIDUuNDAyOTlDMTAuNDAyMiA1LjAxMzY2IDE3Ljc0NDIgNC43MTc2OCAyNS4wNjMgNC40MTA5MkM2Ni45MjI3IDIuNjU2NDIgMTA4LjgwNCAxLjU5NTU5IDE1MC45MjcgMS42NDc5NUMxNjYuNTkzIDEuNjY3NDMgMTc5LjYzMiAxLjc1ODEgMTk1LjEzNCAyLjA4Njc5QzIwNC44MyAyLjI5MjM4IDIxNS41MTggMi4zOTI5MiAyMjUuMTEyIDMuMzg5NDNDMjI1LjQ4IDMuNDI3NjggMjI2LjIxNSAzLjQ4MDA0IDIyNi4wOTkgMy42MzQ2MkMyMjUuNzIzIDQuMTQwMTcgMjIzLjY0NCAzLjc2MDgzIDIyMi40MDkgMy43NjI3N0MyMjAuNzQxIDMuNzY1NCAyMTkuMDc0IDMuNzQyNDYgMjE3LjQwNyAzLjcyNTM5IiBzdHJva2U9IiMyMDIyOTciIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo='); 
   background-repeat: no-repeat;
   background-size: cover;
@@ -462,7 +475,7 @@ a{
   position: absolute;
   left: 0;
   top: 0;
-  height: calc(100vh + 500px);
+  height: 100vh;
   width: 100vw;
   pointer-events: none;
 }
@@ -557,6 +570,9 @@ transform: translate(-30%, -30%);
 }
 #legend .birdBlue::before{
 transform: translate(20%, -50%);
+}
+#legend .birdWhite::before{
+transform: translate(20%, -40%);
 }
 
 #legend canvas{

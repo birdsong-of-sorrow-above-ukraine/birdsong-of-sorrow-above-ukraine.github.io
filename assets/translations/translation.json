@@ -1,22 +1,15 @@
 {
   "en": {
-    "alertText": "Each civilian life lost in the war in Ukraine, caused by Russian aggression, carries a story—of someone who should still be here. This project aims to reflect on the scale of these losses and seeks to represent each life lost. Please take a moment and proceed only if you feel ready.",
-    "dataStory": "Data Story",
-    "about": "About",
-    "title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
-    "ending": "Day by day, the war goes on, and so far, it has taken at least 12,456 lives. Twelve thousand, four hundred and fifty-six. Even one life lost is too many. This must end.",
-    "footer-title-methodology": "Methodology",
-    "footer-title-disclaimer": "Disclaimer",
-    "footer-title-author-note": "Author's Note",
-    "footer-title-sources": "References",
-    "footer-title-tech": "Technical Details",
-    "footer-tech": "<p>This project utilizes the p5.js library for drawing and visualization. Bird placement is algorithmically generated using Gaussian distribution to achieve an organic layout while representing the total monthly death tolls. Explore the code on <a href='https://github.com/balagurova/birdsong-of-sorrow-above-ukraine' target='_blank'>GitHub</a>.</p>",
-    "footer-methodology": "<p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources, with Human Rights Watch annual reports, which list attacks on civilians and civilian infrastructure, serving as a primary reference. Individual stories were identified through reports, journalistic pieces, and interviews related to these attacks. For a full list of sources, please refer to the references provided.</p>",
-    "footer-author-note": "<p>My name is Anastasia Balagurova, I am an information designer based in Finland, and I was born in Saint Petersburg. I am Russian, a citizen of the country that started the war in Ukraine and has continued it for more than 1,000 days. I am deeply opposed to this war, which I see as a violation of human rights and an affront to humanity. This perspective is deeply personal and informs every aspect of this project.</p><p>This project is my attempt to highlight the devastating human impact of war, to remind us that behind every number there are real people—women, children, and men—innocent civilians whose lives should not be lost to conflict. While I approached this work with empathy and respect, emphasizing the devastating human impact of war, it is important to note that this project cannot fully capture the scope or complexity of the events described.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
-    "footer-sources": "<p><a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>Associated Press. (2023, April 28). Missile strike on Uman kills 23 civilians, including children. AP News.</a></p><p><a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>BBC News. (2023, July 3). Ukrainian writer Victoria Amelina dies after Kramatorsk attack. BBC.</a></p><p><a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>BBC News. (2023, December 29). Russian missile strikes hit Ukrainian cities, causing civilian casualties. BBC.</a></p><p><a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>Human Rights Watch. (2023, February 21). Death at the station: Russian cluster munition attack in Kramatorsk. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2023/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2023). World report 2023: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>Human Rights Watch. (2024, July 11). Russia’s July 8 attack on children’s hospital in Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2024/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2024). World report 2024: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>The New York Times. (2022, July 15). In Vinnytsia, Russia kills a 4-year-old with Down syndrome. The New York Times.</a></p><p><a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global' target='_blank'>The Times. (2024, September 20). The Russians want to kill us all: Tales of a fireman in Ukraine. The Times.</a></p><p><a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>United Nations News. (2023, January 6). UN rights chief deplores civilian cost of Russia’s war in Ukraine. UN News.</a></p><p><a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>United Nations Office for the Coordination of Humanitarian Affairs. (2024, September 19). Ukraine situation report: 19 September 2024. OCHA.</a></p><p><a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024, February 22). Two-year update: Protection of civilians—Impact of hostilities on civilians since 24 February 2022. United Nations.</a></p><p><a href='https://ukraine.un.org/en/283659-protection-civilians-armed-conflict-%E2%80%94-october-2024' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024). Protection of civilians in armed conflict. Monthly reports from March to October 2024. United Nations.</a></p><p><a href='https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html' target='_blank'>UNHCR. (n.d.). Psychosocial support in Hroza village. UNHCR Ukraine.</a></p><p><a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>World Health Organization. (2024, April 4). Triple risk of harm for Ukraine’s health transport workers over other health-care staff, WHO data indicates. WHO.</a></p>",
+    "text-intro": "Each civilian life lost in the war in Ukraine, caused by Russian aggression, carries a story—of someone who should still be here. This project aims to reflect on the scale of these losses and seeks to represent each life lost. Please take a moment and proceed only if you feel ready.",
+    "text-tag": "Data Story",
+    "text-title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
+    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 12,456 lives. Twelve thousand, four hundred and fifty-six. Even one life lost is too many. This must end.",
+    "text-methodology": "<div class='caption'>Methodology</div><p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources, with Human Rights Watch annual reports, which list attacks on civilians and civilian infrastructure, serving as a primary reference. Individual stories were identified through reports, journalistic pieces, and interviews related to these attacks. For a full list of sources, please refer to the references provided.</p><p>This project utilizes the p5.js library for drawing and visualization. Bird placement is algorithmically generated using Gaussian distribution to achieve an organic layout while representing the total monthly death tolls. Explore the code on <a href='https://github.com/balagurova/birdsong-of-sorrow-above-ukraine' target='_blank'>GitHub</a>.</p>",
+    "text-author-note": "<div class='caption'>Author's Note</div><p>My name is Anastasia Balagurova, I am an information designer based in Finland, and I was born in Saint Petersburg. I am Russian, a citizen of the country that started the war in Ukraine and has continued it for more than 1,000 days. I am deeply opposed to this war, which I see as a violation of human rights and an affront to humanity. This perspective is deeply personal and informs every aspect of this project.</p><p>This project is my attempt to highlight the devastating human impact of war, to remind us that behind every number there are real people—women, children, and men—innocent civilians whose lives should not be lost to conflict. While I approached this work with empathy and respect, emphasizing the devastating human impact of war, it is important to note that this project cannot fully capture the scope or complexity of the events described.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
+    "text-references": "<div class='caption'>References</div><p><a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>Associated Press. (2023, April 28). Missile strike on Uman kills 23 civilians, including children. AP News.</a></p><p><a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>BBC News. (2023, July 3). Ukrainian writer Victoria Amelina dies after Kramatorsk attack. BBC.</a></p><p><a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>BBC News. (2023, December 29). Russian missile strikes hit Ukrainian cities, causing civilian casualties. BBC.</a></p><p><a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>Human Rights Watch. (2023, February 21). Death at the station: Russian cluster munition attack in Kramatorsk. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2023/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2023). World report 2023: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>Human Rights Watch. (2024, July 11). Russia’s July 8 attack on children’s hospital in Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2024/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2024). World report 2024: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>The New York Times. (2022, July 15). In Vinnytsia, Russia kills a 4-year-old with Down syndrome. The New York Times.</a></p><p><a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global' target='_blank'>The Times. (2024, September 20). The Russians want to kill us all: Tales of a fireman in Ukraine. The Times.</a></p><p><a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>United Nations News. (2023, January 6). UN rights chief deplores civilian cost of Russia’s war in Ukraine. UN News.</a></p><p><a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>United Nations Office for the Coordination of Humanitarian Affairs. (2024, September 19). Ukraine situation report: 19 September 2024. OCHA.</a></p><p><a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024, February 22). Two-year update: Protection of civilians—Impact of hostilities on civilians since 24 February 2022. United Nations.</a></p><p><a href='https://ukraine.un.org/en/283659-protection-civilians-armed-conflict-%E2%80%94-october-2024' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024). Protection of civilians in armed conflict. Monthly reports from March to October 2024. United Nations.</a></p><p><a href='https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html' target='_blank'>UNHCR. (n.d.). Psychosocial support in Hroza village. UNHCR Ukraine.</a></p><p><a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>World Health Organization. (2024, April 4). Triple risk of harm for Ukraine’s health transport workers over other health-care staff, WHO data indicates. WHO.</a></p>",
     "notes": [
       {
-        "id": "note-02",
+        "id": "note-01",
         "subnote": "On the morning of February 24, 2022, Russia launched a full-scale invasion of Ukraine, marking the beginning of unimaginable human loss.",
         "month": "February",
         "yPlacement": "middle",
@@ -25,8 +18,19 @@
         "centered": true
       },
       {
+        "id": "note-02",
+        "subnote": "By May 2022, at least 6 000 lives had been lost.</br>",
+        "month": "May",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true,
+        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
+        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+      },
+      {
         "id": "note-03",
-        "subnote": "By June 2022, over 1,000 children had lost their lives.",
+        "subnote": "By June 2022, over 1 000 children had died as a result of the war.",
         "month": "June",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -35,7 +39,7 @@
       },
       {
         "id": "note-04",
-        "subnote": "In August 2022, the total verified number of people who died reached 7 000.",
+        "subnote": "By August 2022, the total number of lives lost had reached 7 000.",
         "month": "August",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -43,12 +47,95 @@
         "centered": true
       },
       {
-        "id": "note-04",
-        "subnote": "In March 2022, the total verified number of children who died reached 1 500.",
+        "id": "note-05",
+        "subnote": "By November 2022, the total number of lives lost had reached 8 000.",
+        "month": "November",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-06",
+        "subnote": "By March 2023, the verified number of children who died as a result of the war had reached 1 500.",
         "month": "March",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-07",
+        "subnote": "By May 2023, more than 1 500 children had lost their lives, bringing the total number of lives lost to 9 281 people.",
+        "month": "May",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-08",
+        "subnote": "In August 2023, within just one month, 30 children lost their lives in the ongoing war.",
+        "month": "August",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-09",
+        "subnote": "By November 2023, the total number of lives lost had reached 10 226.",
+        "month": "November",
+        "yPlacement": "middleBottom",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-10",
+        "subnote": "By January 2024, at least 10 500 people had died as a result of the war.",
+        "month": "January",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-11",
+        "subnote": "By April 2024, the World Health Organization verified 1 682 attacks on medical facilities, causing 128 deaths and 288 injuries.",
+        "month": "April",
+        "yPlacement": "center",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true,
+        "sourceText": "(WHO)",
+        "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
+      },
+      {
+        "id": "note-12",
+        "subnote": "By May 2024, more than 1 900 children had died as a result of the war, bringing the total number of lives lost above 11 000.",
+        "month": "May",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-13",
+        "subnote": "By October 2024, more than 12 000 people, including at least 1 952 children, had lost their lives.",
+        "month": "October",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-14",
+        "subnote": "As of December 2024, the last available number shows that at least 12 456 lives have been lost as a result of the war.",
+        "month": "December",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
         "centered": true
       },
       {
@@ -61,101 +148,6 @@
         "subnote": "At least 52 people, including five children, were killed and nearly 100 injured in the same attack.</br>",
         "sourceText": "(Human Rights Warch)",
         "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
-      },
-      {
-        "id": "note-07",
-        "subnote": "In November 2022, the total number of people who died reached 8 000.",
-        "month": "November",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2022",
-        "centered": true
-      },
-      {
-        "id": "note-08",
-        "subnote": "By November 2023, the total number of people who died reached 10 226.",
-        "month": "November",
-        "yPlacement": "middleBottom",
-        "xPlacement": "center",
-        "year": "2023",
-        "centered": true
-      },
-      {
-        "id": "note-09",
-        "subnote": "By May 2023, more than 1 500 children had died, bringing the total death toll to 9 281 people.",
-        "month": "May",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2023",
-        "centered": true
-      },
-      {
-        "id": "note-09",
-        "subnote": "By January 2024, at least 10 500 people had died.",
-        "month": "January",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2024",
-        "centered": true
-      },
-      {
-        "id": "note-10",
-        "subnote": "By May 2024, more than 1 900 children had died, bringing the total death toll above 11 000 people.",
-        "month": "May",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2024",
-        "centered": true
-      },
-      {
-        "id": "note-10",
-        "subnote": "By October 2024, more than 12 000 people, including at least 1952 children, had been killed.",
-        "month": "October",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2024",
-        "centered": true
-      },
-
-      {
-        "id": "note-11",
-        "subnote": "As of December 2024, the last available number shows that at least 12 456 lives have been lost.",
-        "month": "December",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2024",
-        "centered": true
-      },
-      {
-        "id": "note-12",
-        "subnote": "In August 2023, in just one month, 30 children lost their lives during the ongoing war.",
-        "month": "August",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2023",
-        "centered": true
-      },
-      {
-        "id": "note-13",
-        "subnote": "By April 2024, the World Health Organization verified 1,682 attacks on medical facilities, causing 128 deaths and 288 injuries.",
-        "month": "April",
-        "yPlacement": "center",
-        "xPlacement": "center",
-        "year": "2024",
-        "centered": true,
-        "sourceText": "(WHO)",
-        "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
-      },
-      {
-        "id": "note-06",
-        "subnote": "By May 2022, at least 6,000 lives had been lost</br>",
-        "month": "May",
-        "yPlacement": "middle",
-        "xPlacement": "center",
-        "year": "2022",
-        "centered": true,
-        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
-        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
       },
       {
         "id": "story-01",
@@ -302,17 +294,138 @@
     }
   },
   "ukr": {
-    "alertText": "Кожне втрачене цивільне життя у війні в Україні, спричиненій російською агресією, — це чиясь історія, історія людини, яка мала б залишитися тут. Цей проєкт має на меті осмислити масштаб цих втрат і вшанувати пам’ять кожного загиблого. Будь ласка, приділіть мить для роздумів і продовжуйте лише тоді, коли будете готові.",
-    "dataStory": "Історія на основі даних",
-    "title": "Спів скорботи<br><span style='margin-left: 350px;'>над Україною</span>",
+    "text-intro": "Кожне втрачене цивільне життя у війні в Україні, спричиненій російською агресією, — це чиясь історія, історія людини, яка мала б залишитися тут. Цей проєкт має на меті осмислити масштаб цих втрат і вшанувати пам’ять кожного загиблого. Будь ласка, приділіть мить для роздумів і продовжуйте лише тоді, коли будете готові.",
+    "text-tag": "Історія на основі даних",
+    "text-title": "Спів скорботи<br><span style='margin-left: 350px;'>над Україною</span>",
     "notes": [
       {
-        "id": "note-02",
-        "subnote": "",
-        "month": "Квітень",
+        "id": "note-01",
+        "subnote": "Вранці 24 лютого 2022 року Росія розпочала повномасштабне вторгнення в Україну, що призвело до величезних людських втрат серед мирного населення.",
+        "month": "Лютий",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-02",
+        "subnote": "У травні 2022 року війна забрала життя понад 6 000 людей.",
+        "month": "Травень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true,
+        "sourceText": "(Дані за кожен місяць — від Управління ООН з прав людини)",
+        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+      },
+      {
+        "id": "note-03",
+        "subnote": "У червні 2022 року понад 1 000 дітей загинули внаслідок війни.",
+        "month": "Червень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-04",
+        "subnote": "У серпні 2022 року загальна кількість загиблих досягла 7 000.",
+        "month": "Серпень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-05",
+        "subnote": "У листопаді 2022 року загальна кількість життів, забраних війною, досягла 8 000.",
+        "month": "Листопад",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-06",
+        "subnote": "У березні 2023 року підтверджена кількість дітей, загиблих унаслідок війни, досягла 1 500.",
+        "month": "Березень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-07",
+        "subnote": "У травні 2023 року понад 1 500 дітей загинули; загальна кількість загиблих досягла 9 281 людини.",
+        "month": "Травень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-08",
+        "subnote": "У серпні 2023 року лише за один місяць 30 дітей загинули під час триваючої війни.",
+        "month": "Серпень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-09",
+        "subnote": "У листопаді 2023 року загальна кількість загиблих досягла 10 226.",
+        "month": "Листопад",
+        "yPlacement": "middleBottom",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-10",
+        "subnote": "У січні 2024 року не менше 10 500 людей загинули внаслідок війни.",
+        "month": "Січень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-11",
+        "subnote": "У квітні 2024 року Всесвітня організація охорони здоров'я підтвердила 1 682 атаки на медичні установи, унаслідок яких загинули 128 людей, а 288 отримали поранення.",
+        "month": "Квітень",
+        "yPlacement": "center",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true,
+        "sourceText": "(ВООЗ)",
+        "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
+      },
+      {
+        "id": "note-12",
+        "subnote": "У травні 2024 року понад 1 900 дітей загинули внаслідок війни, загальна кількість загиблих перевищила 11 000.",
+        "month": "Травень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-13",
+        "subnote": "У жовтні 2024 року понад 12 000 людей, зокрема не менше 1 952 дітей, загинули.",
+        "month": "Жовтень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-14",
+        "subnote": "У грудні 2024 року остання підтверджена кількість загиблих становила не менше 12 456 людей.",
+        "month": "Грудень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
         "centered": true
       }
     ],
@@ -360,10 +473,10 @@
     }
   },
   "ru": {
-    "alertText": "Каждая потерянная гражданская жизнь в войне в Украине, вызванной российской агрессией, — это чья-то история, история человека, который должен был остаться в этом мире. Этот проект призван отразить масштаб этих потерь и почтить память каждого погибшего. Пожалуйста, уделите момент размышлению и продолжайте только тогда, когда будете готовы.",
-    "dataStory": "История на основе данных",
-    "title": "Песнь скорби в небе<br><span style='margin-left: 560px;'>над Украиной</span>",
-    "ending": "Day by day, the war goes on, and so far, it has taken at least 12,456 lives. Twelve thousand, four hundred and fifty-six. Even one life lost is too many. This must end.",
+    "text-intro": "Каждая потерянная гражданская жизнь в войне в Украине, вызванной российской агрессией, — это чья-то история, история человека, который должен был остаться в этом мире. Этот проект призван отразить масштаб этих потерь и почтить память каждого погибшего. Пожалуйста, уделите момент размышлению и продолжайте только тогда, когда будете готовы.",
+    "text-tag": "История на основе данных",
+    "text-title": "Песнь скорби в небе<br><span style='margin-left: 560px;'>над Украиной</span>",
+    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 12,456 lives. Twelve thousand, four hundred and fifty-six. Even one life lost is too many. This must end.",
     "footer-title-methodology": "Methodology",
     "footer-title-disclaimer": "Disclaimer",
     "footer-title-author-note": "Author's Note",
@@ -373,7 +486,138 @@
     "footer-methodology": "<p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources, with Human Rights Watch annual reports, which list attacks on civilians and civilian infrastructure, serving as a primary reference. Individual stories were identified through reports, journalistic pieces, and interviews related to these attacks. For a full list of sources, please refer to the references provided.</p>",
     "footer-author-note": "<p>My name is Anastasia Balagurova, I am an information designer based in Finland, and I was born in Saint Petersburg. I am Russian, a citizen of the country that started the war in Ukraine and has continued it for more than 1,000 days. I am deeply opposed to this war, which I see as a violation of human rights and an affront to humanity. This perspective is deeply personal and informs every aspect of this project.</p><p>This project is my attempt to highlight the devastating human impact of war, to remind us that behind every number there are real people—women, children, and men—innocent civilians whose lives should not be lost to conflict. While I approached this work with empathy and respect, emphasizing the devastating human impact of war, it is important to note that this project cannot fully capture the scope or complexity of the events described.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
     "footer-sources": "<p><a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>Associated Press. (2023, April 28). Missile strike on Uman kills 23 civilians, including children. AP News.</a></p><p><a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>BBC News. (2023, July 3). Ukrainian writer Victoria Amelina dies after Kramatorsk attack. BBC.</a></p><p><a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>BBC News. (2023, December 29). Russian missile strikes hit Ukrainian cities, causing civilian casualties. BBC.</a></p><p><a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>Human Rights Watch. (2023, February 21). Death at the station: Russian cluster munition attack in Kramatorsk. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2023/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2023). World report 2023: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>Human Rights Watch. (2024, July 11). Russia’s July 8 attack on children’s hospital in Ukraine. Human Rights Watch.</a></p><p><a href='https://www.hrw.org/world-report/2024/country-chapters/ukraine' target='_blank'>Human Rights Watch. (2024). World report 2024: Ukraine. Human Rights Watch.</a></p><p><a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>The New York Times. (2022, July 15). In Vinnytsia, Russia kills a 4-year-old with Down syndrome. The New York Times.</a></p><p><a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global' target='_blank'>The Times. (2024, September 20). The Russians want to kill us all: Tales of a fireman in Ukraine. The Times.</a></p><p><a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>United Nations News. (2023, January 6). UN rights chief deplores civilian cost of Russia’s war in Ukraine. UN News.</a></p><p><a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>United Nations Office for the Coordination of Humanitarian Affairs. (2024, September 19). Ukraine situation report: 19 September 2024. OCHA.</a></p><p><a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024, February 22). Two-year update: Protection of civilians—Impact of hostilities on civilians since 24 February 2022. United Nations.</a></p><p><a href='https://ukraine.un.org/en/283659-protection-civilians-armed-conflict-%E2%80%94-october-2024' target='_blank'>Office of the United Nations High Commissioner for Human Rights. (2024). Protection of civilians in armed conflict. Monthly reports from March to October 2024. United Nations.</a></p><p><a href='https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html' target='_blank'>UNHCR. (n.d.). Psychosocial support in Hroza village. UNHCR Ukraine.</a></p><p><a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>World Health Organization. (2024, April 4). Triple risk of harm for Ukraine’s health transport workers over other health-care staff, WHO data indicates. WHO.</a></p>",
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-01",
+        "subnote": "Утром 24 февраля 2022 года Россия начала полномасштабное вторжение в Украину, которое привело к огромным человеческим потерям среди мирного населения.",
+        "month": "Февраль",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-02",
+        "subnote": "В мае 2022 года война унесла жизни более 6 000 человек.",
+        "month": "Май",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true,
+        "sourceText": "(Данные за каждый месяц — от Управления ООН по правам человека)",
+        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+      },
+      {
+        "id": "note-03",
+        "subnote": "В июне 2022 года более 1 000 детей погибли в результате войны.",
+        "month": "Июнь",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-04",
+        "subnote": "В августе 2022 года общее количество погибших достигло 7 000.",
+        "month": "Август",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-05",
+        "subnote": "В ноябре 2022 года общее число жизней, унесенных войной, достигло 8 000.",
+        "month": "Ноябрь",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2022",
+        "centered": true
+      },
+      {
+        "id": "note-06",
+        "subnote": "В марте 2023 года подтвержденное число детей, погибших в результате войны, достигло 1 500.",
+        "month": "Март",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-07",
+        "subnote": "В мае 2023 года более 1 500 детей погибли; общее количество погибших достигло 9 281 человека.",
+        "month": "Май",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-08",
+        "subnote": "В августе 2023 года всего за один месяц 30 детей погибли в ходе продолжающейся войны.",
+        "month": "Август",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-09",
+        "subnote": "В ноябре 2023 года общее количество погибших достигло 10 226.",
+        "month": "Ноябрь",
+        "yPlacement": "middleBottom",
+        "xPlacement": "center",
+        "year": "2023",
+        "centered": true
+      },
+      {
+        "id": "note-10",
+        "subnote": "В январе 2024 года не менее 10 500 человек погибли в результате войны.",
+        "month": "Январь",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-11",
+        "subnote": "В апреле 2024 года Всемирная организация здравоохранения подтвердила 1 682 нападения на медицинские учреждения, в результате которых погибли 128 человек и 288 получили ранения.",
+        "month": "Апрель",
+        "yPlacement": "center",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true,
+        "sourceText": "(ВОЗ)",
+        "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
+      },
+      {
+        "id": "note-12",
+        "subnote": "В мае 2024 года более 1 900 детей погибли в результате войны, общее количество погибших превысило 11 000.",
+        "month": "Май",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-13",
+        "subnote": "В октябре 2024 года более 12 000 человек, в том числе не менее 1 952 детей, погибли.",
+        "month": "Октябрь",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-14",
+        "subnote": "В декабре 2024 года последнее подтвержденное число погибших составило не менее 12 456 человек.",
+        "month": "Декабрь",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2024",
+        "centered": true
+      }
+    ],
     "months": [
       { "label": "Февраль", "year": "2022" },
       { "label": "Март", "year": "2022" },

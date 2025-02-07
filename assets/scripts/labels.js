@@ -100,7 +100,7 @@ function updateLabelsScript(languageData) {
     if (noteData.subnote) {
       const subnoteElement = document.createElement('div');
       subnoteElement.className = 'subnote';
-      subnoteElement.style.maxWidth = '22rem';
+      subnoteElement.style.maxWidth = '23rem';
       subnoteElement.innerHTML = noteData.subnote;
 
       if (noteData.sourceText && noteData.sourceLink) {
