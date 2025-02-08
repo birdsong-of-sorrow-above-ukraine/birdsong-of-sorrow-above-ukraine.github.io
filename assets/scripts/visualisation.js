@@ -384,7 +384,7 @@ async function initializeGrid() {
     const livesLostSpan = document.createElement('span');
     livesLostSpan.className = 'grid-label-lives-lost';
     monthSpan.textContent = month;
-    livesLostSpan.textContent = `${totalBirds} lives lost (${childrenKilled} children)`;
+    livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost-min'>lives lost</span> (${childrenKilled} <span id='text-children'>children</span>)`;
 
     topRow.appendChild(monthSpan);
     topRow.appendChild(document.createTextNode(' '));
@@ -401,7 +401,7 @@ async function initializeGrid() {
     }
 
     if (index === 0) {
-      livesLostSpan.textContent = `${totalBirds} lives lost (including ${childrenKilled} children)`;
+      livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost'>lives lost (including </span> ${childrenKilled} <span id='text-children'>children</span>)`;
     } else null;
 
     const sketch = (p) => {
