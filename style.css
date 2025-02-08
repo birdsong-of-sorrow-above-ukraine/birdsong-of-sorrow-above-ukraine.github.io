@@ -3,10 +3,6 @@
   src: url('assets/fonts/Sebastian Bobby.otf');
 }
 
-@font-face {
-  font-family: titleFontCyr;
-  src: url('assets/fonts/FedericoMonoline.ttf');
-}
 
 html, body {
   height: 100%;
@@ -337,19 +333,22 @@ footer a {
 }
 
  
-
-
-
-
-
 h1{
-font-family: titleFont, serif;
+font-family: titleFont, "adobe-handwriting-ernie";
 font-size: 12.5rem;
 font-style: normal;
 font-weight: 400;
 line-height: 160px; 
 margin-bottom: 3rem;
-margin-top: 64px;
+margin-top: 3rem;
+text-align: center;
+}
+
+.title-alt{
+  font-family: "adobe-handwriting-ernie";
+  font-size: 8rem;
+  line-height: 0.95;
+  text-align: center;
 }
 
 
