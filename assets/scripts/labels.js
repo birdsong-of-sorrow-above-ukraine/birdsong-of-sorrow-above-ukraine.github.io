@@ -1,13 +1,16 @@
+let previousLanguage = null;
+
 function loadLanguage(lang) {
   fetch('./assets/translations/translation.json')
     .then((response) => response.json())
     .then((data) => {
-      applyTranslations(data[lang]);
-      updateLabelsScript(data[lang]);
+      currentLanguageData = data[lang];
+      applyTranslations(currentLanguageData);
+      updateLabelsScript(currentLanguageData);
     });
 }
 
-function updateLabelsScript(languageData) {
+function updateLabelsScript(languageData, lang) {
   const container = document.getElementById('stories');
   container.innerHTML = '';
 
@@ -121,7 +124,8 @@ function updateLabelsScript(languageData) {
     container.appendChild(storyElement);
   });
 
-  if (typeof drawAllAtOnce === 'function') {
+  if (typeof drawAllAtOnce === 'function' && previousLanguage !== lang) {
     drawAllAtOnce();
+    previousLanguage = lang;
   }
 }

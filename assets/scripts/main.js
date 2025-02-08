@@ -1,8 +1,12 @@
+let currentLanguageData = null;
+
 function loadLanguage(lang) {
   fetch('./assets/translations/translation.json')
     .then((response) => response.json())
     .then((data) => {
       applyTranslations(data[lang]);
+      currentLanguageData = data[lang];
+      updateLabelsScript(currentLanguageData, lang);
       if (window.p5Instance) {
         window.p5Instance.updateData({
           months: data[lang].months,

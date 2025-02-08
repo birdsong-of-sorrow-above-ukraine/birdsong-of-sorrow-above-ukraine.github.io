@@ -153,6 +153,7 @@
           new p5((p) => outro(p, 'ending-canvas', 30), 'ending-canvas');
       }
 
+
       function switchScript(script) {
         const allAtOnceElement = document.getElementById('allAtOnce');
         const gridElement = document.getElementById('grid');
@@ -176,6 +177,10 @@
           classesToToggle.forEach((cls) => buttonGrid.classList.remove(cls));
           classesToToggle.forEach((cls) => buttonAllAtOnce.classList.add(cls));
         }
+
+        if (currentLanguageData) {
+    updateLabelsScript(currentLanguageData);
+  }
       }
     </script>
   </body>
