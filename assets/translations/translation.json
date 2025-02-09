@@ -1,6 +1,6 @@
 {
   "en": {
-    "text-intro": "Each civilian life lost in the war in Ukraine, caused by Russian aggression, carries a story—of someone who should still be here. This project aims to reflect on the scale of these losses and seeks to represent each life lost. Please take a moment and proceed only if you feel ready.",
+    "text-intro": "<p class='lead'>Each civilian life lost in the war in Ukraine, caused by Russian aggression, carries a story—of someone who should still be here. This project aims to reflect on the scale of these losses and seeks to represent each life lost. Please take a moment and proceed only if you feel ready.<p>",
     "text-tag": "Data Story",
     "text-title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
     "button-all-at-once": "All at once",
@@ -294,7 +294,7 @@
     "text-children": "children"
   },
   "ukr": {
-    "text-intro": "Кожне життя, обірване війною в Україні через російське вторгнення, — це історія, яка не мала обірватися. Цей проєкт створений, щоб зафіксувати масштаб втрат і створити простір для пам’яті та скорботи. Продовжуйте лише якщо відчуваєте, що готові.",
+    "text-intro": "<p class='lead-cyrillic'>Кожне життя, обірване війною в Україні через російське вторгнення, — це історія, яка не мала обірватися. Цей проєкт створений, щоб зафіксувати масштаб втрат і створити простір для пам’яті та скорботи. Продовжуйте лише якщо відчуваєте, що готові.</p>",
     "text-tag": "Історія на основі даних",
     "text-title": "<div class='title-alt'>Плач птахів<br>над Україною</div>",
     "button-all-at-once": "Усі дані одразу",
@@ -477,7 +477,7 @@
     "text-lives-lost": "погибших (включая",
     "text-children": "детей",
     "text-lives-lost-min": "погибших",
-    "text-intro": "Каждая жизнь, прерванная войной в Украине из-за российского вторжения — это история, которая не должна была оборваться. Этот проект создан, чтобы зафиксировать масштаб утрат и создать пространство для памяти и скорби. Продолжайте только если чувствуете, что готовы.",
+    "text-intro": "<p class='lead-cyrillic'>Каждая жизнь, прерванная войной в Украине из-за российского вторжения — это история, которая не должна была оборваться. Этот проект создан, чтобы зафиксировать масштаб утрат и создать пространство для памяти и скорби. Продолжайте только если чувствуете, что готовы.</p>",
     "text-tag": "История на основе данных",
     "text-title": "<div class='title-alt'>Плач птиц</br>над Украиной</div>",
     "button-all-at-once": "Все данные сразу",
