@@ -10,7 +10,7 @@ function loadLanguage(lang) {
     });
 }
 
-function updateLabelsScript(languageData, lang) {
+function updateLabelsScript(currentLanguageData, lang) {
   const container = document.getElementById('stories');
   container.innerHTML = '';
 
@@ -18,7 +18,7 @@ function updateLabelsScript(languageData, lang) {
   const TOP_PADDING = 24;
   const monthPositions = {};
 
-  languageData.months.forEach((month, index) => {
+  currentLanguageData.months.forEach((month, index) => {
     const monthKey = month.year ? `${month.label} ${month.year}` : month.label;
     const monthTop = TOP_PADDING + index * MONTH_HEIGHT;
     const monthMiddle = monthTop + MONTH_HEIGHT / 2;
@@ -39,7 +39,7 @@ function updateLabelsScript(languageData, lang) {
     container.appendChild(monthElement);
   });
 
-  languageData.notes.forEach((noteData) => {
+  currentLanguageData.notes.forEach((noteData) => {
     let yPosition = 0;
     if (noteData.month) {
       const monthKey = noteData.year
@@ -124,8 +124,8 @@ function updateLabelsScript(languageData, lang) {
     container.appendChild(storyElement);
   });
 
-  if (typeof drawAllAtOnce === 'function' && previousLanguage !== lang) {
+  if (typeof drawAllAtOnce === 'function') {
     drawAllAtOnce();
-    previousLanguage = lang;
+    drawGrid();
   }
 }

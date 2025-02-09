@@ -14,23 +14,6 @@ for (let j = 1; j <= 28; j++) {
   images.push(`./assets/images/squares/${filename}`);
 }
 
-async function fetchCSV() {
-  const response = await fetch(csvPath);
-  const csvText = await response.text();
-
-  const rows = csvText.split('\n').map((row) => row.split(','));
-  const headers = rows.shift();
-  const data = rows.map((row) => {
-    const rowObject = {};
-    headers.forEach((header, i) => {
-      rowObject[header.trim()] = row[i].trim();
-    });
-    return rowObject;
-  });
-
-  return data;
-}
-
 function isInsideRect(x, y, zone) {
   return (
     x >= zone.x &&
@@ -357,7 +340,6 @@ async function initializeAllAtOnce() {
 
 async function initializeGrid() {
   grid.innerHTML = '';
-
   const data = await fetchCSV();
 
   data.forEach((row, index) => {
@@ -365,8 +347,6 @@ async function initializeGrid() {
     const year = row.Year;
     const totalBirds = parseInt(row.Killed, 10) || 0;
     const childrenKilled = parseInt(row['Children Killed'], 10) || 0;
-    const cumulativeBirds = parseInt(row['Cum Killed'], 10) || 0;
-    const cumulativeChildren = parseInt(row['Cum Children Killed'], 10) || 0;
 
     const imageIndex = new Date(`${month} 1, 2000`).getMonth();
     const imagePath = images[imageIndex];
@@ -381,11 +361,10 @@ async function initializeGrid() {
     topRow.className = 'grid-label-top';
     const monthSpan = document.createElement('span');
     monthSpan.className = 'grid-label-month';
+    monthSpan.textContent = currentLanguageData.months[index].label;
     const livesLostSpan = document.createElement('span');
     livesLostSpan.className = 'grid-label-lives-lost';
-    monthSpan.textContent = month;
-    livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost-min'>lives lost</span> (${childrenKilled} <span id='text-children'>children</span>)`;
-
+    livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost-min'>${currentLanguageData.livesLostMin}</span> (${childrenKilled}<span id='text-children'> ${currentLanguageData.children}</span>)`;
     topRow.appendChild(monthSpan);
     topRow.appendChild(document.createTextNode(' '));
     topRow.appendChild(livesLostSpan);
@@ -401,7 +380,7 @@ async function initializeGrid() {
     }
 
     if (index === 0) {
-      livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost'>lives lost (including </span> ${childrenKilled} <span id='text-children'>children</span>)`;
+      livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost'>${currentLanguageData.livesLost}</span> ${childrenKilled} <span id='text-children'>${currentLanguageData.children}</span>)`;
     } else null;
 
     const sketch = (p) => {

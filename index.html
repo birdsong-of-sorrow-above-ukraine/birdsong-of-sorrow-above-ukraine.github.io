@@ -178,11 +178,12 @@
           allAtOnceElement.style.display = 'block';
           classesToToggle.forEach((cls) => buttonGrid.classList.remove(cls));
           classesToToggle.forEach((cls) => buttonAllAtOnce.classList.add(cls));
-        }
-
-        if (currentLanguageData) {
+          if (currentLanguageData) {
     updateLabelsScript(currentLanguageData);
   }
+        }
+
+        
       }
     </script>
   </body>

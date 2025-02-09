@@ -289,9 +289,9 @@
       { "label": "November", "year": "2024" },
       { "label": "December", "year": "2024" }
     ],
-    "text-lives-lost": "lives lost, incl.",
-    "text-lives-lost-min": "lives lost",
-    "text-children": "children"
+    "livesLost": "lives lost (including",
+    "livesLostMin": "lives lost",
+    "children": "children"
   },
   "ukr": {
     "text-intro": "<p class='lead-cyrillic'>Кожне життя, обірване війною в Україні через російське вторгнення, — це історія, яка не мала обірватися. Цей проєкт створений, щоб зафіксувати масштаб втрат і створити простір для пам’яті та скорботи. Продовжуйте лише якщо відчуваєте, що готові.</p>",
@@ -469,14 +469,14 @@
       { "label": "Листопад", "year": "2024" },
       { "label": "Грудень", "year": "2024" }
     ],
-    "text-lives-lost": "загиблих (включаючи",
-    "text-lives-lost-min": "загиблих",
-    "text-children": "дітей"
+    "livesLost": "загиблих (включаючи",
+    "livesLostMin": "загиблих",
+    "children": "дітей"
   },
   "ru": {
-    "text-lives-lost": "погибших (включая",
-    "text-children": "детей",
-    "text-lives-lost-min": "погибших",
+    "livesLost": "погибших (включая",
+    "children": "детей",
+    "livesLostMin": "погибших",
     "text-intro": "<p class='lead-cyrillic'>Каждая жизнь, прерванная войной в Украине из-за российского вторжения — это история, которая не должна была оборваться. Этот проект создан, чтобы зафиксировать масштаб утрат и создать пространство для памяти и скорби. Продолжайте только если чувствуете, что готовы.</p>",
     "text-tag": "История на основе данных",
     "text-title": "<div class='title-alt'>Плач птиц</br>над Украиной</div>",

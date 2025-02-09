@@ -6,7 +6,8 @@ function loadLanguage(lang) {
     .then((data) => {
       applyTranslations(data[lang]);
       currentLanguageData = data[lang];
-      updateLabelsScript(currentLanguageData, lang);
+      updateLabelsScript(currentLanguageData);
+      initializeGrid(currentLanguageData);
       if (window.p5Instance) {
         window.p5Instance.updateData({
           months: data[lang].months,
@@ -37,4 +38,21 @@ function selectLanguage(lang) {
   document
     .querySelector(`.language-option[onclick="selectLanguage('${lang}')"]`)
     .classList.add('selected');
+}
+
+async function fetchCSV() {
+  const response = await fetch(csvPath);
+  const csvText = await response.text();
+
+  const rows = csvText.split('\n').map((row) => row.split(','));
+  const headers = rows.shift();
+  const data = rows.map((row) => {
+    const rowObject = {};
+    headers.forEach((header, i) => {
+      rowObject[header.trim()] = row[i].trim();
+    });
+    return rowObject;
+  });
+
+  return data;
 }
