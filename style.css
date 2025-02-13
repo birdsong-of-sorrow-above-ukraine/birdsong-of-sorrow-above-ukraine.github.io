@@ -590,11 +590,6 @@ transform: translate(20%, -40%);
   left: 0;
 }
 
-.how-to-read #legend .note {
-  position: absolute;
-  font-size: 18px;
-
-}
 #legend .note {
   display: flex;
   align-items: center;
@@ -603,7 +598,7 @@ transform: translate(20%, -40%);
   font-style: normal;
   font-weight: 300;
   font-size: 1.25rem;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 
