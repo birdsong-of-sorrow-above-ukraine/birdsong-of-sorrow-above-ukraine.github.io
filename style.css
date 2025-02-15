@@ -27,7 +27,7 @@ body {
   color: #202297;
 }
 
-.month-label{
+.month{
   z-index: 10;
   position: absolute;
     left: 2rem;
@@ -61,7 +61,7 @@ font-style: normal;
 }
 
 
-.month-label::before {
+.month::before {
   content: '';
   position: absolute;
   left: -10px; 
@@ -166,8 +166,15 @@ font-style: normal;
     line-height: 1.4;
     text-rendering: geometricPrecision;
 }
+
+.stat{
+  max-width: 18rem!important;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
 .story{
-  max-width: 24rem;
+  max-width: 22rem;
   position: absolute;
   display: flex;
   flex-direction: column;

@@ -63,18 +63,18 @@ const getImageResolution = (cell) => {
 };
 
 function getNotesParameters() {
-  const stories = document.querySelectorAll('.story');
+  const elements = document.querySelectorAll('.story, .stat', '.month');
   const notesParameters = [];
 
-  stories.forEach((story) => {
-    const computedStyle = window.getComputedStyle(story);
+  elements.forEach((element) => {
+    const computedStyle = window.getComputedStyle(element);
     const transform = computedStyle.transform;
-    let originalX = story.offsetLeft;
-    let originalY = story.offsetTop;
+    let originalX = element.offsetLeft;
+    let originalY = element.offsetTop;
 
     if (transform && transform.includes('matrix')) {
-      originalX = story.offsetLeft - story.offsetWidth / 2;
-      originalY = story.offsetTop - story.offsetHeight / 2;
+      originalX = element.offsetLeft - element.offsetWidth / 2;
+      originalY = element.offsetTop - element.offsetHeight / 2;
     }
 
     const quarterHeight = MONTH_HEIGHT * 3;
@@ -84,8 +84,8 @@ function getNotesParameters() {
     notesParameters.push({
       x: originalX,
       y: adjustedY,
-      width: story.offsetWidth,
-      height: story.offsetHeight,
+      width: element.offsetWidth,
+      height: element.offsetHeight,
       q: quarter,
     });
   });

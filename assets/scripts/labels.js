@@ -33,22 +33,58 @@ function updateLabelsScript(currentLanguageData, lang) {
     };
 
     const monthElement = document.createElement('div');
-    monthElement.className = 'month-label';
+    monthElement.className = 'month';
     monthElement.innerHTML = monthKey;
     monthElement.style.top = `${monthTop}px`;
     container.appendChild(monthElement);
   });
 
-  currentLanguageData.notes.forEach((noteData) => {
+  currentLanguageData.stat.forEach((stat) => {
+    const statElement = document.createElement('div');
+    statElement.className = 'stat subnote';
+    statElement.innerHTML = stat.subnote;
+
+    statElement.style.position = 'absolute';
+    statElement.style.transform = 'translate(-50%, -50%)';
+
+    let xPosition = container.offsetWidth / 2;
+    let yPosition = container.offsetHeight / 2;
+
+    if (stat.month) {
+      const monthKey = stat.year ? `${stat.month} ${stat.year}` : stat.month;
+
+      if (monthPositions.hasOwnProperty(monthKey)) {
+        yPosition = monthPositions[monthKey].middle;
+      } else {
+        console.warn(`Month '${monthKey}' not found in months data.`);
+      }
+    }
+
+    if (stat.sourceText && stat.sourceLink) {
+      const sourceElement = document.createElement('a');
+      sourceElement.href = stat.sourceLink;
+      sourceElement.target = '_blank';
+      sourceElement.rel = 'noopener noreferrer';
+      sourceElement.innerText = ` (${stat.sourceText})`;
+
+      statElement.appendChild(document.createTextNode(' '));
+      statElement.appendChild(sourceElement);
+    }
+
+    statElement.style.left = `${xPosition}px`;
+    statElement.style.top = `${yPosition}px`;
+
+    container.appendChild(statElement);
+  });
+
+  currentLanguageData.stories.forEach((text) => {
     let yPosition = 0;
-    if (noteData.month) {
-      const monthKey = noteData.year
-        ? `${noteData.month} ${noteData.year}`
-        : noteData.month;
+    if (text.month) {
+      const monthKey = text.year ? `${text.month} ${text.year}` : text.month;
       const monthPosition = monthPositions[monthKey];
 
       if (monthPosition) {
-        switch (noteData.yPlacement) {
+        switch (text.yPlacement) {
           case 'top':
             yPosition = monthPosition.top + 120;
             break;
@@ -69,8 +105,8 @@ function updateLabelsScript(currentLanguageData, lang) {
     }
 
     let xPosition = container.offsetWidth / 2;
-    if (noteData.xPlacement) {
-      switch (noteData.xPlacement) {
+    if (text.xPlacement) {
+      switch (text.xPlacement) {
         case 'left':
           xPosition = container.offsetWidth * 0.1;
           break;
@@ -88,31 +124,26 @@ function updateLabelsScript(currentLanguageData, lang) {
     storyElement.className = 'story';
     storyElement.style.left = `${xPosition}px`;
     storyElement.style.top = `${yPosition}px`;
-    storyElement.style.transform = noteData.centered
-      ? 'translate(-50%, -50%)'
-      : 'none';
-    storyElement.style.textAlign = noteData.centered ? 'center' : 'left';
 
-    if (noteData.note) {
+    if (text.note) {
       const noteElement = document.createElement('div');
       noteElement.className = 'note';
-      noteElement.innerHTML = noteData.note;
+      noteElement.innerHTML = text.note;
       storyElement.appendChild(noteElement);
     }
 
-    if (noteData.subnote) {
+    if (text.subnote) {
       const subnoteElement = document.createElement('div');
       subnoteElement.className = 'subnote';
-      subnoteElement.style.maxWidth = '23rem';
-      subnoteElement.innerHTML = noteData.subnote;
+      subnoteElement.innerHTML = text.subnote;
 
-      if (noteData.sourceText && noteData.sourceLink) {
+      if (text.sourceText && text.sourceLink) {
         const spaceTextNode = document.createTextNode(' ');
         const sourceElement = document.createElement('a');
-        sourceElement.href = noteData.sourceLink;
+        sourceElement.href = text.sourceLink;
         sourceElement.target = '_blank';
         sourceElement.rel = 'noopener noreferrer';
-        sourceElement.innerText = noteData.sourceText;
+        sourceElement.innerText = text.sourceText;
 
         subnoteElement.appendChild(spaceTextNode);
         subnoteElement.appendChild(sourceElement);

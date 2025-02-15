@@ -11,7 +11,8 @@ function loadLanguage(lang) {
       if (window.p5Instance) {
         window.p5Instance.updateData({
           months: data[lang].months,
-          notes: data[lang].notes,
+          stories: data[lang].stories,
+          stat: data[lang].stat,
         });
       }
     });
