@@ -701,14 +701,9 @@ transform: translate(20%, -40%);
 
 @media only screen and (max-width: 712px) {
 
-#buttons{
-  display: none;
-}
 
 
-#grid{
-  display: grid;
-}
+
  html,body{
   font-size: 14px;
   overflow-x: hidden;
@@ -742,9 +737,7 @@ max-width: 20rem;
   margin-top: 0!important;
 }
 
-.how-to-read{
-  display: none;
-}
+
 
 
 

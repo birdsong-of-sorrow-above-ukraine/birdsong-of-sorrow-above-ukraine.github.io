@@ -30,18 +30,18 @@
       },
       {
         "id": "note-02",
-        "subnote": "By May 2022, at least 6000 lives had been lost.</br>",
+        "subnote": "By May 2022, at least 6000 lives had been lost due to the war, with the actual numbers likely even higher.</br>",
         "month": "May",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2022",
         "centered": true,
-        "sourceText": "(Monthly data comes from the UN Human Rights Office)",
+        "sourceText": "Monthly data is provided by the UN Human Rights Office",
         "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
       },
       {
         "id": "note-03",
-        "subnote": "By June 2022, over 1000 children had died as a result of the war.",
+        "subnote": "By June 2022, over 1000 children had died.",
         "month": "June",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -77,7 +77,7 @@
       },
       {
         "id": "note-07",
-        "subnote": "By May 2023, the total number of lives lost to 9281 people.",
+        "subnote": "By May 2023, more than 9000 lives had been lost.",
         "month": "May",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -86,7 +86,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "In August 2023, within just one month, 30 children lost their lives in the ongoing war.",
+        "subnote": "In August 2023 alone, 30 children lost their lives in the war.",
         "month": "August",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -95,7 +95,7 @@
       },
       {
         "id": "note-09",
-        "subnote": "By November 2023, the total number of lives lost had reached 10 226.",
+        "subnote": "By November 2023, the total number of lives lost had exceeded 10 000.",
         "month": "November",
         "yPlacement": "middleBottom",
         "xPlacement": "center",
@@ -113,18 +113,18 @@
       },
       {
         "id": "note-11",
-        "subnote": "By April 2024, the World Health Organization verified 1 682 attacks on medical facilities, causing 128 deaths and 288 injuries.",
+        "subnote": "By April 2024, the World Health Organization verified 1682 attacks on medical facilities, causing 128 deaths.",
         "month": "April",
         "yPlacement": "center",
         "xPlacement": "center",
         "year": "2024",
         "centered": true,
-        "sourceText": "(WHO)",
+        "sourceText": "WHO",
         "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
       },
       {
         "id": "note-12",
-        "subnote": "By May 2024, more than 1 900 children had died as a result of the war, bringing the total number of lives lost above 11 000.",
+        "subnote": "By May 2024, more than 1900 children had died as a result of the war, bringing the total number of lives lost above 11 000.",
         "month": "May",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -133,7 +133,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "By October 2024, more than 12 000 people, including at least 1 952 children, had lost their lives.",
+        "subnote": "By October 2024, more than 12 000 people, including at least 1952 children, had lost their lives.",
         "month": "October",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -194,7 +194,7 @@
         "note": "<span class='bird'></span> 11-year-old Sofia Shulha and her 6-year-old brother, <span class='bird'></span> Mykhayl, were likely asleep when they lost their lives as Russian missiles struck their home in Uman at 4 a.m. on April 28, 2023.",
         "month": "April",
         "year": "2023",
-        "yPlacement": "middle",
+        "yPlacement": "top",
         "xPlacement": "right",
         "subnote": "The strike killed 23 civilians, including six children.",
         "sourceText": "(Associated Press)",
@@ -328,7 +328,7 @@
       },
       {
         "id": "note-02",
-        "subnote": "У травні 2022 року війна забрала життя понад 6000 людей.",
+        "subnote": "У травні 2022 року війна забрала життя понад 6000 людей.</br>",
         "month": "Травень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -366,7 +366,7 @@
       },
       {
         "id": "note-06",
-        "subnote": "У березні 2023 року підтверджена кількість дітей, загиблих унаслідок війни, досягла 1500.",
+        "subnote": "У березні 2023 року підтверджена кількість дітей, загиблих внаслідок війни, досягла 1500.",
         "month": "Березень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -375,7 +375,7 @@
       },
       {
         "id": "note-07",
-        "subnote": "У травні 2023 року кількість загиблих досягла 9281 людини.",
+        "subnote": "До травня 2023 року кількість загиблих перевищила 9000.",
         "month": "Травень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -384,7 +384,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "У серпні 2023 року лише за один місяць 30 дітей загинули під час триваючої війни.",
+        "subnote": "У серпні 2023 року лише за один місяць загинули 30 дітей.",
         "month": "Серпень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -393,7 +393,7 @@
       },
       {
         "id": "note-09",
-        "subnote": "У листопаді 2023 року загальна кількість загиблих досягла 10 226.",
+        "subnote": "У листопаді 2023 року загальна кількість загиблих перевищила 10 000.",
         "month": "Листопад",
         "yPlacement": "middleBottom",
         "xPlacement": "center",
@@ -402,7 +402,7 @@
       },
       {
         "id": "note-10",
-        "subnote": "У січні 2024 року не менше 10 500 людей загинули внаслідок війни.",
+        "subnote": "У січні 2024 року щонайменше 10 500 людей загинули внаслідок війни.",
         "month": "Січень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -411,18 +411,18 @@
       },
       {
         "id": "note-11",
-        "subnote": "У квітні 2024 року Всесвітня організація охорони здоров'я підтвердила 1 682 атаки на медичні установи, унаслідок яких загинули 128 людей, а 288 отримали поранення.",
+        "subnote": "У квітні 2024 року Всесвітня організація охорони здоров'я підтвердила 1682 напади на медичні установи, внаслідок яких загинули 128 осіб.",
         "month": "Квітень",
         "yPlacement": "center",
         "xPlacement": "center",
         "year": "2024",
         "centered": true,
-        "sourceText": "(ВООЗ)",
+        "sourceText": "ВООЗ",
         "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
       },
       {
         "id": "note-12",
-        "subnote": "У травні 2024 року понад 1 900 дітей загинули внаслідок війни, загальна кількість загиблих перевищила 11 000.",
+        "subnote": "У травні 2024 року понад 1900 дітей загинули внаслідок війни, загальна кількість загиблих перевищила 11 000.",
         "month": "Травень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -431,7 +431,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "У жовтні 2024 року понад 12 000 людей, зокрема не менше 1 952 дітей, загинули.",
+        "subnote": "У жовтні 2024 року понад 12 000 осіб, зокрема щонайменше 1952 дітей, загинули.",
         "month": "Жовтень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -440,7 +440,7 @@
       },
       {
         "id": "note-14",
-        "subnote": "У грудні 2024 року остання підтверджена кількість загиблих становила не менше 12 456 людей.",
+        "subnote": "У грудні 2024 року останнє підтверджене число загиблих становило щонайменше 12 456 осіб.",
         "month": "Грудень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -653,7 +653,7 @@
       },
       {
         "id": "note-07",
-        "subnote": "В мае 2023 года количество погибших достигло 9281 человека.",
+        "subnote": "К маю 2023 года число погибших превысило 9000.",
         "month": "Май",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -662,7 +662,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "В августе 2023 года всего за один месяц 30 детей погибли в ходе продолжающейся войны.",
+        "subnote": "В августе 2023 года всего за один месяц погибли 30 детей.",
         "month": "Август",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -671,7 +671,7 @@
       },
       {
         "id": "note-09",
-        "subnote": "В ноябре 2023 года общее количество погибших достигло 10 226.",
+        "subnote": "В ноябре 2023 года общее количество погибших превысило 10 000.",
         "month": "Ноябрь",
         "yPlacement": "middleBottom",
         "xPlacement": "center",
@@ -689,18 +689,18 @@
       },
       {
         "id": "note-11",
-        "subnote": "В апреле 2024 года Всемирная организация здравоохранения подтвердила 1 682 нападения на медицинские учреждения, в результате которых погибли 128 человек и 288 получили ранения.",
+        "subnote": "В апреле 2024 года Всемирная организация здравоохранения подтвердила 1682 нападения на медицинские учреждения, в результате которых погибли 128 человек.",
         "month": "Апрель",
         "yPlacement": "center",
         "xPlacement": "center",
         "year": "2024",
         "centered": true,
-        "sourceText": "(ВОЗ)",
+        "sourceText": "ВОЗ",
         "sourceLink": "https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates"
       },
       {
         "id": "note-12",
-        "subnote": "В мае 2024 года более 1 900 детей погибли в результате войны, общее количество погибших превысило 11 000.",
+        "subnote": "В мае 2024 года более 1900 детей погибли в результате войны, общее количество погибших превысило 11 000.",
         "month": "Май",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -709,7 +709,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "В октябре 2024 года более 12 000 человек, в том числе не менее 1 952 детей, погибли.",
+        "subnote": "В октябре 2024 года более 12 000 человек, в том числе не менее 1952 детей, погибли.",
         "month": "Октябрь",
         "yPlacement": "middle",
         "xPlacement": "center",
