@@ -9,6 +9,20 @@ const allAtOnce = document.getElementById('allAtOnceCanvas');
 
 const images = [];
 
+const highlightedData = [
+  { month: 'April', year: '2022', highlighted: 52, position: 'left' },
+  { month: 'July', year: '2022', highlighted: 23, position: 'right' },
+  { month: 'October', year: '2022', highlighted: 11, position: 'left' },
+  { month: 'January', year: '2023', highlighted: 46, position: 'right' },
+  { month: 'April', year: '2023', highlighted: 23, position: 'right' },
+  { month: 'June', year: '2023', highlighted: 13, position: 'left' },
+  { month: 'October', year: '2023', highlighted: 59, position: 'right' },
+  { month: 'December', year: '2023', highlighted: 30, position: 'left' },
+  { month: 'March', year: '2024', highlighted: 5, position: 'left' },
+  { month: 'July', year: '2024', highlighted: 2, position: 'left' },
+  { month: 'September', year: '2024', highlighted: 12, position: 'right' },
+];
+
 for (let j = 1; j <= 28; j++) {
   const filename = j.toString().padStart(2, '0') + '.png';
   images.push(`./assets/images/squares/${filename}`);
@@ -147,12 +161,11 @@ function commonlyDrawBirds(p, dataGroupedByQ, monthNum) {
       Month: month,
       Year: year,
       Killed,
-      Highlighted,
       'Children Killed': childrenKilledStr,
     } = row;
     const totalBirds = parseInt(Killed, 10) || 0;
     const childrenKilled = parseInt(childrenKilledStr, 10) || 0;
-    const highlighted = parseInt(Highlighted, 10) || 0;
+
     const yRange = computeYRange(idx);
     const birds = distributeBirds(
       p,
@@ -160,7 +173,6 @@ function commonlyDrawBirds(p, dataGroupedByQ, monthNum) {
       year,
       totalBirds,
       childrenKilled,
-      highlighted,
       yRange,
       monthNum
     );
@@ -227,7 +239,6 @@ function distributeBirds(
   year,
   totalBirds,
   childrenKilled,
-  highlighted,
   yRange,
   monthNum
 ) {
@@ -238,14 +249,29 @@ function distributeBirds(
   );
 
   const childrenKilledRatio = childrenKilled / totalBirds;
-  let highlightXCenter = p.width / 2;
+
+  const highlightedEntry = highlightedData.find(
+    (entry) => entry.month === month && entry.year === year
+  );
+  const highlighted = highlightedEntry ? highlightedEntry.highlighted : 0;
+  const position = highlightedEntry ? highlightedEntry.position : 'center';
+
+  let highlightXCenter;
+  if (position === 'left') {
+    highlightXCenter = p.width * 0.25;
+  } else if (position === 'right') {
+    highlightXCenter = p.width * 0.75;
+  } else {
+    highlightXCenter = p.width / 2;
+  }
+
   let highlightedGroup = Array.from({ length: highlighted }, () =>
     generateBird(
       p,
       highlightXCenter,
-      p.width * 0.08,
+      p.width / 6,
       yRange.yRangeCenter,
-      yRange.yRangeDeviation,
+      yRange.yRangeDeviation * 0.8,
       0,
       quarterExclusionZones,
       '#DCB85F'
