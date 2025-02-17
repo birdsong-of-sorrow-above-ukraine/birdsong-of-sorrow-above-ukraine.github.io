@@ -11,7 +11,7 @@ let sketchBrush = function (p) {
     const containerWidth = container.offsetWidth;
     const containerHeight = container.offsetHeight;
 
-    p.createCanvas(720, 20, p.WEBGL);
+    p.createCanvas(500, 200, p.WEBGL);
     p.pixelDensity(4);
     brush.load();
 
@@ -21,35 +21,28 @@ let sketchBrush = function (p) {
   };
 
   p.draw = function () {
-    p.background('#F9EFE9');
     p.translate(-p.width / 2, -p.height / 2);
 
     brush.pick('hatch_brush');
-    brush.stroke('#424992');
-    brush.strokeWeight(1);
+    brush.stroke('#dcb95f');
+    brush.strokeWeight(4);
 
     const spacing = 0.05;
     const padding = 0;
 
-    for (let i = padding; i < p.height - 10; i += spacing) {
-      if (p.random(1) < 0.3) {
-        continue;
-      }
+    const lineCount = 200;
 
-      let xStart, xEnd;
+    for (let i = 0; i < lineCount; i++) {
+      if (p.random(1) < 0.1) continue;
 
-      xStart = p.random(0, 10);
-      xEnd = p.width - p.random(0, 10);
+      let xStart = p.random(0, 10);
+      let xEnd = p.width / 2 - p.random(0, 10);
+      let y = p.map(i, 0, lineCount, 5, 30);
 
-      let yStartOffset = 0;
-      let yEndOffset = -5;
+      let yStartOffset = p.random(-2, 2);
+      let yEndOffset = p.random(-2, 2);
 
-      if (p.random(1) < 0.3) {
-        yStartOffset = p.random(-spacing / 3, spacing / 3);
-        yEndOffset = p.random(-spacing / 3, spacing / 3) + p.random(5);
-      }
-
-      brush.line(xStart, i + yStartOffset, xEnd, i + yEndOffset);
+      brush.line(xStart, y + yStartOffset, xEnd, y + yEndOffset);
     }
 
     p.noLoop();
