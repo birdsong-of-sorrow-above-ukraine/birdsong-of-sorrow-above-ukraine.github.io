@@ -158,7 +158,7 @@
         "xPlacement": "left",
         "month": "April",
         "year": "2022",
-        "subnote": "At least 52 people, including five children, were killed and nearly 100 injured in the same attack.</br>",
+        "subnote": "At least <span class='highlight'>52 people</span>, including five children, were killed and nearly 100 injured in the same attack.</br>",
         "sourceText": "(Human Rights Warch)",
         "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
       },
@@ -169,7 +169,7 @@
         "year": "2022",
         "yPlacement": "top",
         "xPlacement": "right",
-        "subnote": "At least 23 people, including three children, were killed as Russian missiles struck Vinnytsia city center.",
+        "subnote": "At least <span class='highlight'>23 people</span>, including three children, were killed as Russian missiles struck Vinnytsia city center.",
         "sourceText": "(New York Times)",
         "sourceLink": "https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html"
       },
@@ -196,14 +196,14 @@
         "year": "2023",
         "yPlacement": "top",
         "xPlacement": "right",
-        "subnote": "The strike killed 23 civilians, including six children.",
+        "subnote": "The strike killed <span class='highlight'>23 civilians</span>, including six children.",
         "sourceText": "(Associated Press)",
         "sourceLink": "https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226?utm_source=chatgpt.com"
       },
       {
         "id": "story-06",
         "note": "Ukrainian writer and a war crime researcher<span class='bird'></span> Victoria Amelina, 37, was killed in a Russian missile strike on a pizza restaurant in Kramatorsk on June 27, 2023.",
-        "subnote": "The attack killed 13 people in total.",
+        "subnote": "The attack killed <span class='highlight'>13 people</span> in total.",
         "month": "June",
         "year": "2023",
         "yPlacement": "middle",
@@ -218,7 +218,7 @@
         "year": "2023",
         "yPlacement": "middle",
         "xPlacement": "right",
-        "subnote": "The missile strike in Hroza killed 59 people, a fifth of the village's population.",
+        "subnote": "The missile strike in Hroza killed <span class='highlight'>59 people</span>, a fifth of the village's population.",
         "sourceText": "UNHCR",
         "sourceLink": "https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html"
       },
@@ -232,8 +232,8 @@
       },
       {
         "id": "story-09",
-        "note": "On March 2, 2024, a Russian drone struck a residential building in Odesa. <span class='bird'></span> Anna Gaidarzhi and <span class='birdOneWing'></span> her four-month-old son, Tymofii, were found in the basement, buried under rubble after the upper floors collapsed. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
-        "subnote": "According to the UN, the attack killed five children, most under the age of three, making it the deadliest incident for children in over nine months.",
+        "note": "On March 2, 2024, a Russian drone struck a residential building in Odesa. <span class='bird'></span> Anna Gaidarzhi and <span class='birdOneWing'></span> her four-month-old son, Tymofii, were found in the basement, buried under rubble. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
+        "subnote": "According to the UN, the attack killed <span class='highlight'>five children</span>, most under the age of three.",
         "month": "February",
         "year": "2024",
         "yPlacement": "bottom",
@@ -243,7 +243,7 @@
       },
       {
         "id": "story-10",
-        "note": "On July 8, 2024, the Okhmatdyt Children's Hospital, the largest pediatric hospital in Kyiv, came under attack. More than 300 people were injured, including eight children,<br>and <span class='bird'></span><span class='birdOneWing'></span> two adults, including a doctor, lost their lives. <a href='https://www.nytimes.com/2024/07/09/world/europe/ukraine-childrens-hospial-russia.html '>(New York Times,</a> <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine'>Human Rights Watch)</a> ",
+        "note": "On July 8, 2024, the Okhmatdyt Children's Hospital, the largest pediatric hospital in Kyiv, came under attack. More than 300 people were injured, including eight children, and <span class='bird'></span><span class='birdOneWing'></span> two adults, including a doctor, lost their lives. <a href='https://www.nytimes.com/2024/07/09/world/europe/ukraine-childrens-hospial-russia.html '>(New York Times,</a> <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine'>Human Rights Watch)</a> ",
         "subnote": "",
         "month": "July",
         "year": "2024",
@@ -253,7 +253,7 @@
       {
         "id": "story-11",
         "note": "On September 19, 2024, a Russian GPS-guided bomb struck Sumy’s care facility for the elderly. A 78-year-old woman <span class='bird'></span> was killed, and 12 others were injured in the attack.",
-        "subnote": "The Russian strike injured 12 people and caused significant destruction. The facility was home to 230 elderly residents and 60 staff members.</br> <a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global '>(The Times,</a> ",
+        "subnote": "The Russian strike injured <span class='highlight'>12 people</span> and caused significant destruction. The facility was home to 230 elderly residents and 60 staff members.</br> <a href='https://www.thetimes.com/world/russia-ukraine-war/article/the-russians-want-to-kill-us-all-tales-of-a-fireman-in-ukraine-5x3v8rr85?utm_source=chatgpt.com&region=global '>(The Times,</a> ",
         "month": "September",
         "year": "2024",
         "yPlacement": "top",
@@ -456,7 +456,7 @@
         "xPlacement": "left",
         "month": "Квітень",
         "year": "2022",
-        "subnote": "У тому ж нападі загинули щонайменше 52 людини, зокрема п’ятеро дітей, і близько 100 отримали поранення.</br>",
+        "subnote": "У тому ж нападі загинули щонайменше <span class='highlight'>52 людини</span>, зокрема п’ятеро дітей, і близько 100 отримали поранення.</br>",
         "sourceText": "(Human Rights Watch)",
         "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
       },
@@ -467,7 +467,7 @@
         "year": "2022",
         "yPlacement": "top",
         "xPlacement": "right",
-        "subnote": "Щонайменше 23 людини, зокрема троє дітей, загинули, коли російські ракети влучили в центр Вінниці.",
+        "subnote": "Щонайменше <span class='highlight'>23 людини</span>, зокрема троє дітей, загинули, коли російські ракети влучили в центр Вінниці.",
         "sourceText": "(New York Times)",
         "sourceLink": "https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html"
       },
@@ -494,14 +494,14 @@
         "year": "2023",
         "yPlacement": "middle",
         "xPlacement": "right",
-        "subnote": "Внаслідок удару загинули 23 мирних жителі, серед яких шестеро дітей.",
+        "subnote": "Внаслідок удару загинули <span class='highlight'>23 мирних жителі</span>, серед яких шестеро дітей.",
         "sourceText": "(Associated Press)",
         "sourceLink": "https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226?utm_source=chatgpt.com"
       },
       {
         "id": "story-06",
         "note": "Українська письменниця та дослідниця воєнних злочинів<span class='bird'></span> Вікторія Амеліна, 37 років, загинула внаслідок російського ракетного удару по піцерії у Краматорську 27 червня 2023 року.",
-        "subnote": "Усього внаслідок атаки загинули 13 людей.",
+        "subnote": "Усього внаслідок атаки загинули <span class='highlight'>13 людей.</span>",
         "month": "Червень",
         "year": "2023",
         "yPlacement": "middle",
@@ -516,7 +516,7 @@
         "year": "2023",
         "yPlacement": "middle",
         "xPlacement": "right",
-        "subnote": "Удар по Грозі забрав життя 59 людей – це п’ята частина населення села.",
+        "subnote": "Удар по Грозі забрав життя <span class='highlight'>59 людей</span> – це п’ята частина населення села.",
         "sourceText": "UNHCR",
         "sourceLink": "https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html"
       },
@@ -531,7 +531,7 @@
       {
         "id": "story-09",
         "note": "2 березня 2024 року російський дрон влучив у житловий будинок в Одесі. <span class='bird'></span> Анна Гайдаржі та <span class='birdOneWing'></span> її чотиримісячний син Тимофій були знайдені у підвалі, поховані під завалами після обвалу верхніх поверхів. Її чоловік Сергій і трирічна донька Ліза вижили.",
-        "subnote": "За даними ООН, унаслідок атаки загинули п’ятеро дітей, більшість із них були молодшими трьох років, що зробило цей випадок найсмертоноснішим для дітей за останні дев’ять місяців.",
+        "subnote": "За даними ООН, унаслідок атаки загинули <span class='highlight'>п’ятеро дітей</span>, більшість із них були молодшими трьох років.",
         "month": "Березень",
         "year": "2024",
         "yPlacement": "top",
@@ -734,7 +734,7 @@
         "xPlacement": "left",
         "month": "Апрель",
         "year": "2022",
-        "subnote": "В той же атаке погибло не менее 52 человек, в том числе пятеро детей, и около 100 получили ранения.",
+        "subnote": "В той же атаке погибло не менее <span class='highlight'>52 человек</span>, в том числе пятеро детей, и около 100 получили ранения.",
         "sourceText": "(Human Rights Watch)",
         "sourceLink": "https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk"
       },
@@ -745,7 +745,7 @@
         "year": "2022",
         "yPlacement": "top",
         "xPlacement": "right",
-        "subnote": "По меньшей мере 23 человека, включая троих детей, погибли, когда российские ракеты ударили по центру Винницы.",
+        "subnote": "По меньшей мере <span class='highlight'>23 человека</span>, включая троих детей, погибли, когда российские ракеты ударили по центру Винницы.",
         "sourceText": "(New York Times)",
         "sourceLink": "https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html"
       },
@@ -772,7 +772,7 @@
         "year": "2023",
         "yPlacement": "middle",
         "xPlacement": "right",
-        "subnote": "В результате удара погибли 23 мирных жителя, включая шестерых детей.",
+        "subnote": "В результате удара погибли <span class='highlight'>23 мирных жителя</span>, включая шестерых детей.",
         "sourceText": "(Associated Press)",
         "sourceLink": "https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226?utm_source=chatgpt.com"
       },
@@ -794,7 +794,7 @@
         "year": "2023",
         "yPlacement": "middle",
         "xPlacement": "right",
-        "subnote": "Удар по Грозе унес жизни 59 человек, что составило пятую часть населения села.",
+        "subnote": "Удар по Грозе унес жизни <span class='highlight'>59 человек</span>, что составило пятую часть населения села.",
         "sourceText": "UNHCR",
         "sourceLink": "https://www.unhcr.org/ua/en/64179-psycosocial-support-in-hroza-village.html"
       },
@@ -809,7 +809,7 @@
       {
         "id": "story-09",
         "note": "2 марта 2024 года российский дрон ударил по жилому дому в Одессе. <span class='bird'></span> Анна Гайдаржи и <span class='birdOneWing'></span> её четырёхмесячный сын Тимофей были найдены в подвале, погребёнными под завалами после обрушения верхних этажей. Муж Анны, Сергей, и их трёхлетняя дочь Лиза выжили.",
-        "subnote": "По данным ООН, в результате атаки погибли пять детей, большинство из которых были младше трёх лет, что стало самой смертоносной атакой против детей за последние девять месяцев.",
+        "subnote": "По данным ООН, в результате атаки погибли <span class='highlight'>пять детей</span>, большинство из которых были младше трёх лет.",
         "month": "Февраль",
         "year": "2024",
         "yPlacement": "bottom",
