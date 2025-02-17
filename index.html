@@ -40,7 +40,7 @@
         </div>
       </div>
       <section class="hero">
-        <div id="alert-canvas"></div>
+        <div id="intro-canvas"></div>
         <p class="caption" id="text-tag"></p>
         <h1 id="text-title"></h1>
         <div id="text-intro"></div>
@@ -144,8 +144,8 @@
         alertSketch =
           alertSketch ||
           new p5(
-            (p) => drawBirds(p, 'alert-canvas', paramsIntro),
-            'alert-canvas'
+            (p) => drawBirds(p, 'intro-canvas', paramsIntro),
+            'intro-canvas'
           );
         footerSketch =
           footerSketch ||

@@ -357,18 +357,15 @@ async function initializeGrid() {
     const label = document.createElement('div');
     label.className = 'grid-label';
 
-    const topRow = document.createElement('div');
-    topRow.className = 'grid-label-top';
     const monthSpan = document.createElement('span');
     monthSpan.className = 'grid-label-month';
     monthSpan.textContent = currentLanguageData.months[index].label;
     const livesLostSpan = document.createElement('span');
     livesLostSpan.className = 'grid-label-lives-lost';
     livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost-min'>${currentLanguageData.livesLostMin}</span> (${childrenKilled}<span id='text-children'> ${currentLanguageData.children}</span>)`;
-    topRow.appendChild(monthSpan);
-    topRow.appendChild(document.createTextNode(' '));
-    topRow.appendChild(livesLostSpan);
-    label.appendChild(topRow);
+    label.appendChild(monthSpan);
+    label.appendChild(document.createTextNode(' '));
+    label.appendChild(livesLostSpan);
     cell.appendChild(label);
     grid.appendChild(cell);
 
