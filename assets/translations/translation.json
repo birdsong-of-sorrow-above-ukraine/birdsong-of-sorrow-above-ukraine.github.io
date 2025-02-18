@@ -237,7 +237,7 @@
         "month": "February",
         "year": "2024",
         "yPlacement": "bottom",
-        "xPlacement": "left",
+        "xPlacement": "right",
         "sourceText": "(Human Rights Warch)",
         "sourceLink": "https://www.hrw.org/news/2024/03/21/drone-attack-collapses-odesa-residential-building"
       },
@@ -535,7 +535,7 @@
         "month": "Березень",
         "year": "2024",
         "yPlacement": "top",
-        "xPlacement": "left",
+        "xPlacement": "right",
         "sourceText": "(Human Rights Watch)",
         "sourceLink": "https://www.hrw.org/news/2024/03/21/drone-attack-collapses-odesa-residential-building"
       }
@@ -813,7 +813,7 @@
         "month": "Февраль",
         "year": "2024",
         "yPlacement": "bottom",
-        "xPlacement": "left",
+        "xPlacement": "right",
         "sourceText": "(Human Rights Watch)",
         "sourceLink": "https://www.hrw.org/news/2024/03/21/drone-attack-collapses-odesa-residential-building"
       },
