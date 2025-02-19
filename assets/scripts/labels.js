@@ -18,6 +18,8 @@ function updateLabelsScript(currentLanguageData, lang) {
   const TOP_PADDING = 24;
   const monthPositions = {};
 
+  const isMobile = window.innerWidth <= 768; // Detect mobile devices
+
   currentLanguageData.months.forEach((month, index) => {
     const monthKey = month.year ? `${month.label} ${month.year}` : month.label;
     const monthTop = TOP_PADDING + index * MONTH_HEIGHT;
@@ -52,7 +54,6 @@ function updateLabelsScript(currentLanguageData, lang) {
 
     if (stat.month) {
       const monthKey = stat.year ? `${stat.month} ${stat.year}` : stat.month;
-
       if (monthPositions.hasOwnProperty(monthKey)) {
         yPosition = monthPositions[monthKey].middle;
       } else {
@@ -66,14 +67,12 @@ function updateLabelsScript(currentLanguageData, lang) {
       sourceElement.target = '_blank';
       sourceElement.rel = 'noopener noreferrer';
       sourceElement.innerText = ` (${stat.sourceText})`;
-
       statElement.appendChild(document.createTextNode(' '));
       statElement.appendChild(sourceElement);
     }
 
     statElement.style.left = `${xPosition}px`;
     statElement.style.top = `${yPosition}px`;
-
     container.appendChild(statElement);
   });
 
@@ -105,7 +104,7 @@ function updateLabelsScript(currentLanguageData, lang) {
     }
 
     let xPosition = container.offsetWidth / 2;
-    if (text.xPlacement) {
+    if (!isMobile && text.xPlacement) {
       switch (text.xPlacement) {
         case 'left':
           xPosition = container.offsetWidth * 0.1;
@@ -124,6 +123,10 @@ function updateLabelsScript(currentLanguageData, lang) {
     storyElement.className = 'story';
     storyElement.style.left = `${xPosition}px`;
     storyElement.style.top = `${yPosition}px`;
+
+    if (isMobile) {
+      storyElement.style.transform = 'translate(-50%, -50%)';
+    }
 
     if (text.note) {
       const noteElement = document.createElement('div');
@@ -144,7 +147,6 @@ function updateLabelsScript(currentLanguageData, lang) {
         sourceElement.target = '_blank';
         sourceElement.rel = 'noopener noreferrer';
         sourceElement.innerText = text.sourceText;
-
         subnoteElement.appendChild(spaceTextNode);
         subnoteElement.appendChild(sourceElement);
       }

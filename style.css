@@ -23,17 +23,17 @@ body {
   overflow-x: hidden;
   background-color: #f9efe9;
   background-image: url('https://www.transparenttextures.com/patterns/sandpaper.png');
-  color: #202297;
+  color: #424992;
 }
 
 .month {
   z-index: 10;
   position: absolute;
   left: 2rem;
-  font-family: 'calluna-sans', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #fff;
   font-style: normal;
   line-height: 1.4;
@@ -45,7 +45,10 @@ body {
 .highlight {
   position: relative;
   color: #dcb85f;
-  font-weight: 700;
+}
+
+.color {
+  color: #dcb85f;
 }
 
 .highlight::after {
@@ -174,7 +177,7 @@ body {
 }
 
 .subnote {
-  font-family: 'calluna-sans', sans-serif;
+  font-family: 'calluna-sans', 'proxima-nova', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
@@ -190,7 +193,7 @@ body {
   text-align: center;
 }
 .story {
-  max-width: 22rem;
+  max-width: 23rem;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -205,7 +208,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #f9efe9;
-  color: #202297;
+  color: #424992;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -221,8 +224,8 @@ footer {
 }
 
 footer .caption {
-  letter-spacing: 0.03rem;
   margin-bottom: 8px;
+  font-weight: 300;
 }
 
 footer .footerArea {
@@ -243,8 +246,8 @@ footer a {
   text-decoration: none;
   opacity: 0.7;
   font-size: 18px;
-  color: #202297;
-  border-bottom: 1px solid #2022976b;
+  color: #424992;
+  border-bottom: 1px solid #4249926b;
   font-family: inherit;
 }
 
@@ -261,7 +264,7 @@ footer a {
 
 #text-outro {
   text-align: right;
-  max-width: 380px;
+  max-width: 24rem;
 }
 
 #endingSection {
@@ -305,8 +308,9 @@ footer a {
 
 #stories {
   width: 100%;
-  width: -webkit-fill-available;
   position: absolute;
+  left: 0;
+  box-sizing: border-box;
   height: 100%;
 }
 
@@ -357,7 +361,7 @@ h1 {
 p {
   text-align: center;
   animation: fadeIn 2s;
-  font-family: 'calluna', 'Cormorant Garamond', serif;
+  font-family: 'calluna', 'brando', serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.25rem;
@@ -369,9 +373,17 @@ p {
 }
 
 .cyr {
-  font-size: 23px;
-  max-width: 568px;
+  font-size: 18px !important;
+  font-family: 'brando', serif;
+  max-width: 512px;
   line-height: 1.4;
+  text-rendering: auto;
+}
+
+.cyr-sans {
+  font-size: 15px !important;
+  font-family: 'proxima-nova', sans-serif;
+  line-height: 1.3;
   text-rendering: auto;
 }
 
@@ -410,8 +422,9 @@ section {
 
 .caption {
   text-transform: uppercase;
+  letter-spacing: 0.02rem;
   font-size: 14px;
-  font-family: 'calluna-sans', sans-serif;
+  font-family: 'calluna-sans', 'proxima-nova', sans-serif;
   font-style: normal;
 }
 
@@ -421,7 +434,7 @@ a {
   font-size: 14px;
   color: inherit;
   border-bottom: 1px solid #ffffff6b;
-  font-family: 'calluna-sans', sans-serif;
+  font-family: 'calluna-sans', 'proxima-nova', sans-serif;
 }
 
 @keyframes fadeIn {
@@ -437,7 +450,7 @@ a {
   text-decoration: none;
   position: relative;
   white-space: nowrap;
-  color: #202297;
+  color: #424992;
 }
 
 .hand-drawn-underline::after {
@@ -474,9 +487,9 @@ a {
   display: inline-block;
   text-transform: uppercase;
   font-size: 14px;
-  font-family: 'calluna-sans', sans-serif;
+  font-family: 'calluna-sans', 'proxima-nova', sans-serif;
   font-weight: 300;
-  color: #202297;
+  color: #424992;
 }
 
 .hand-drawn-underline::after {
@@ -551,7 +564,7 @@ a {
 .how-to-read .timeline {
   max-width: 160px;
   margin-right: 10px;
-  color: #202297;
+  color: #424992;
   text-align: right;
   position: absolute;
   top: 50%;
@@ -598,7 +611,7 @@ a {
 #legend .note {
   display: flex;
   align-items: center;
-  color: #202297;
+  color: #424992;
   font-family: 'calluna', 'Cormorant Garamond', serif;
   font-style: normal;
   font-weight: 300;
@@ -687,7 +700,14 @@ a {
   }
 
   .story {
-    max-width: 20rem;
+    max-width: 22rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .subnote {
+    width: 100%;
+    text-align: center;
   }
 
   #grid {
