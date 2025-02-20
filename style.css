@@ -312,6 +312,7 @@ footer a {
   left: 0;
   box-sizing: border-box;
   height: 100%;
+  margin: 0 1.25rem 0 1.25rem;
 }
 
 #footer-canvas {
