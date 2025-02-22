@@ -29,7 +29,7 @@ body {
 .month {
   z-index: 10;
   position: absolute;
-  left: 2rem;
+  left: 3.5rem;
   font-family: 'proxima-nova', sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -218,6 +218,9 @@ body {
 
 footer {
   display: flex;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
   margin-top: 2rem;
   flex-direction: column;
   text-align: left;
@@ -231,6 +234,7 @@ footer .caption {
 footer .footerArea {
   margin: 1.5rem auto 1.5rem auto;
   padding: 0 1.25rem;
+  width: 100%;
 }
 footer p {
   text-align: left;
@@ -312,7 +316,6 @@ footer a {
   left: 0;
   box-sizing: border-box;
   height: 100%;
-  margin: 0 1.25rem 0 1.25rem;
 }
 
 #footer-canvas {
@@ -686,7 +689,7 @@ a {
   html,
   body {
     font-size: 14px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 100%;
   }
 
@@ -726,5 +729,9 @@ a {
   #legend {
     width: 100%;
     padding: 3rem;
+  }
+
+  .month {
+    left: 2.5rem;
   }
 }

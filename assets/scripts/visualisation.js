@@ -1,5 +1,4 @@
 const MONTH_HEIGHT = 400;
-const xPadding = 20;
 const yPadding = 40;
 
 const csvPath = './assets/data/civilian_casualties.csv';
@@ -8,6 +7,9 @@ const grid = document.getElementById('grid');
 const allAtOnce = document.getElementById('allAtOnceCanvas');
 
 const images = [];
+
+const isMobile = window.innerWidth <= 768;
+const xPadding = isMobile ? 12 : 20;
 
 const highlightedData = [
   { month: 'April', year: '2022', highlighted: 52, position: 'left' },
@@ -77,12 +79,13 @@ const getImageResolution = (cell) => {
 };
 
 function getNotesParameters() {
-  const elements = document.querySelectorAll('.story, .stat', '.month');
+  const elements = document.querySelectorAll('.story, .stat, .month');
   const notesParameters = [];
 
   elements.forEach((element) => {
     const computedStyle = window.getComputedStyle(element);
     const transform = computedStyle.transform;
+
     let originalX = element.offsetLeft;
     let originalY = element.offsetTop;
 
@@ -90,6 +93,8 @@ function getNotesParameters() {
       originalX = element.offsetLeft - element.offsetWidth / 2;
       originalY = element.offsetTop - element.offsetHeight / 2;
     }
+
+    if (originalY <= 800) return;
 
     const quarterHeight = MONTH_HEIGHT * 3;
     const quarter = Math.floor(originalY / quarterHeight) + 1;
@@ -181,7 +186,8 @@ function commonlyDrawBirds(p, dataGroupedByQ, monthNum) {
       p.push();
       p.translate(bird.x, bird.y);
       p.noStroke();
-      BirdShapes.bird(p, 0, 0, p.random(10, 15), bird.color);
+      const birdSize = isMobile ? p.random(5, 7) : p.random(10, 15);
+      BirdShapes.bird(p, 0, 0, birdSize, bird.color);
       p.pop();
     });
   });
@@ -244,6 +250,7 @@ function distributeBirds(
 ) {
   let birds = [];
   let exclusionZones = getNotesParameters();
+  console.log(exclusionZones);
   let quarterExclusionZones = exclusionZones.filter(
     (zone) => zone.q === Math.floor(monthNum / 3 + 1)
   );
