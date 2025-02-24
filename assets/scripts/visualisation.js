@@ -57,7 +57,7 @@ function isInsideExclusionZoneOrBuffer(x, y, quarterExclusionZones) {
   if (quarterExclusionZones.find((zone) => isInsideRect(x, y, zone))) {
     zoneStatus = 'exclusion';
   } else if (
-    quarterExclusionZones.find((zone) => isInsideBufferZone(x, y, zone, 30))
+    quarterExclusionZones.find((zone) => isInsideBufferZone(x, y, zone, 20))
   ) {
     zoneStatus = 'buffer';
   }

@@ -18,7 +18,7 @@ function updateLabelsScript(currentLanguageData, lang) {
   const TOP_PADDING = 24;
   const monthPositions = {};
 
-  const isMobile = window.innerWidth <= 768; // Detect mobile devices
+  const isMobile = window.innerWidth <= 768;
 
   currentLanguageData.months.forEach((month, index) => {
     const monthKey = month.year ? `${month.label} ${month.year}` : month.label;
@@ -94,6 +94,10 @@ function updateLabelsScript(currentLanguageData, lang) {
             yPosition = monthPosition.middleBottom;
             break;
           case 'middle':
+            isMobile
+              ? (yPosition = monthPosition.middle)
+              : (yPosition = monthPosition.top + 120);
+            break;
           default:
             yPosition = monthPosition.middle;
             break;
@@ -132,13 +136,23 @@ function updateLabelsScript(currentLanguageData, lang) {
       const noteElement = document.createElement('div');
       noteElement.className = 'note';
       noteElement.innerHTML = text.note;
+      noteElement.style.marginLeft = '2rem';
       storyElement.appendChild(noteElement);
+
+      if (isMobile) {
+        noteElement.style.marginLeft = '0rem';
+      }
     }
 
     if (text.subnote) {
       const subnoteElement = document.createElement('div');
       subnoteElement.className = 'subnote';
+      subnoteElement.style.marginLeft = '2rem';
       subnoteElement.innerHTML = text.subnote;
+
+      if (isMobile) {
+        subnoteElement.style.marginLeft = '0rem';
+      }
 
       if (text.sourceText && text.sourceLink) {
         const spaceTextNode = document.createTextNode(' ');
