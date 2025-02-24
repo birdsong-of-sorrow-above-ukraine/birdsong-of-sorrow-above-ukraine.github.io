@@ -692,7 +692,6 @@ a {
   html,
   body {
     font-size: 14px;
-    /* overflow-x: hidden; */
     height: 100%;
   }
 
@@ -704,6 +703,17 @@ a {
 
   .titleSpan {
     margin-left: 0px;
+  }
+
+  .title-alt {
+    font-family: 'adobe-handwriting-ernie';
+    font-size: 3.5rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  #text-title {
+    margin-bottom: 1.5rem;
   }
 
   .story {
