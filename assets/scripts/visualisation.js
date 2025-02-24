@@ -250,6 +250,7 @@ function distributeBirds(
 ) {
   let birds = [];
   let exclusionZones = getNotesParameters();
+
   console.log(exclusionZones);
   let quarterExclusionZones = exclusionZones.filter(
     (zone) => zone.q === Math.floor(monthNum / 3 + 1)
@@ -331,7 +332,7 @@ function distributeBirds(
         );
         if (
           zoneStatus === 'none' ||
-          (zoneStatus === 'buffer' && Math.random() < 0.3)
+          (zoneStatus === 'buffer' && Math.random() < 0.4)
         ) {
           bird = {
             x,

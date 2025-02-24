@@ -363,7 +363,6 @@ h1 {
 }
 
 p {
-  text-align: center;
   animation: fadeIn 2s;
   font-family: 'calluna', 'brando', serif;
   font-weight: 300;
@@ -403,18 +402,18 @@ section {
 }
 
 #legend .note:nth-child(1) {
-  margin-left: 0;
-}
-#legend .note:nth-child(2) {
   margin-left: 10%;
 }
+#legend .note:nth-child(2) {
+  margin-left: 25%;
+}
 #legend .note:nth-child(3) {
-  margin-left: 27%;
+  margin-left: 20%;
   margin-bottom: 1rem;
 }
 #legend .note:nth-child(4) {
   margin-left: auto;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 #legend .note:nth-child(5) {
   margin-left: auto;
@@ -517,6 +516,10 @@ a {
   height: 120vh;
   width: 100vw;
   pointer-events: none;
+}
+
+#text-intro {
+  text-align: center;
 }
 
 .scroll {
@@ -724,6 +727,10 @@ a {
 
   #ending-canvas {
     margin-top: 0 !important;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   #legend {
@@ -733,5 +740,9 @@ a {
 
   .month {
     left: 2.5rem;
+  }
+
+  #text-outro {
+    text-align: center;
   }
 }

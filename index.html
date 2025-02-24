@@ -129,6 +129,7 @@
 
       function initializeOtherSketches() {
         let alertSketch, endingSketch, footerSketch, legendSketch;
+        const isMobile = window.innerWidth <= 768;
 
         const paramsIntro = {
           number: 24,
@@ -138,10 +139,10 @@
         };
 
         const paramsOutro = {
-          number: 3,
-          sizeRange: { min: 17, max: 26 },
+          number: 16,
+          sizeRange: { min: 10, max: 26 },
           color: '#424992',
-          exclusionZonesIds: [],
+          exclusionZonesIds: ['text-outro'],
         };
 
         const paramsOutro2 = {
@@ -163,12 +164,18 @@
             (p) => drawBirds(p, 'footer-canvas', paramsOutro2),
             'footer-canvas'
           );
-
-        endingSketch =
+          
+        if(isMobile){
           endingSketch ||
-          new p5((p) => outro(p, 'ending-canvas', 30), 'ending-canvas');
+          new p5(
+            (p) => drawBirds(p, 'ending-canvas', paramsOutro),
+            'ending-canvas'
+          );
+        } else {
+          endingSketch ||
+            new p5((p) => outro(p, 'ending-canvas', 30), 'ending-canvas');
+        }
       }
-
 
       function switchScript(script) {
         const allAtOnceElement = document.getElementById('allAtOnce');

@@ -136,23 +136,15 @@ function updateLabelsScript(currentLanguageData, lang) {
       const noteElement = document.createElement('div');
       noteElement.className = 'note';
       noteElement.innerHTML = text.note;
-      noteElement.style.marginLeft = '2rem';
-      storyElement.appendChild(noteElement);
 
-      if (isMobile) {
-        noteElement.style.marginLeft = '0rem';
-      }
+      storyElement.appendChild(noteElement);
     }
 
     if (text.subnote) {
       const subnoteElement = document.createElement('div');
       subnoteElement.className = 'subnote';
-      subnoteElement.style.marginLeft = '2rem';
-      subnoteElement.innerHTML = text.subnote;
 
-      if (isMobile) {
-        subnoteElement.style.marginLeft = '0rem';
-      }
+      subnoteElement.innerHTML = text.subnote;
 
       if (text.sourceText && text.sourceLink) {
         const spaceTextNode = document.createTextNode(' ');
