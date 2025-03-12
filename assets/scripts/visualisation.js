@@ -86,7 +86,7 @@ function getNotesParameters() {
     const computedStyle = window.getComputedStyle(element);
     const transform = computedStyle.transform;
 
-    let originalX = element.offsetLeft;
+    let originalX = element.offsetLeft - 32;
     let originalY = element.offsetTop;
 
     if (transform && transform.includes('matrix')) {
