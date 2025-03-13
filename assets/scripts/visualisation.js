@@ -381,7 +381,6 @@ async function initializeGrid() {
     const year = row.Year;
     const totalBirds = parseInt(row.Killed, 10) || 0;
     const childrenKilled = parseInt(row['Children Killed'], 10) || 0;
-
     const imageIndex = new Date(`${month} 1, 2000`).getMonth();
     const imagePath = images[imageIndex];
 
@@ -530,4 +529,3 @@ function drawGrid() {
     initializeGrid();
   }
 }
-drawGrid();
