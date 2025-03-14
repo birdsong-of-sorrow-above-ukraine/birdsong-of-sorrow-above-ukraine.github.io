@@ -10,6 +10,7 @@ const images = [];
 
 const isMobile = window.innerWidth <= 768;
 const xPadding = isMobile ? 12 : 20;
+const birdSize = isMobile ? 6 : 10;
 
 const highlightedData = [
   { month: 'April', year: '2022', highlighted: 52, position: 'left' },
@@ -186,7 +187,6 @@ function commonlyDrawBirds(p, dataGroupedByQ, monthNum) {
       p.push();
       p.translate(bird.x, bird.y);
       p.noStroke();
-      const birdSize = isMobile ? p.random(5, 7) : p.random(10, 15);
       BirdShapes.bird(p, 0, 0, birdSize, bird.color);
       p.pop();
     });
@@ -458,13 +458,13 @@ async function initializeGrid() {
           const x = p.random(xStart, xEnd);
           const y = p.random(25, p.height - 25);
           p.fill('#7B86FF');
-          BirdShapes.bird(p, x, y, p.random(10, 12), '#7B86FF');
+          BirdShapes.bird(p, x, y, birdSize, '#7B86FF');
         }
 
         for (let i = childrenKilled; i < totalBirds; i++) {
           const x = p.random(xStart, xEnd);
           const y = p.random(25, p.height - 25);
-          BirdShapes.bird(p, x, y, p.random(10, 12), '#fff');
+          BirdShapes.bird(p, x, y, birdSize, '#fff');
         }
       };
 
