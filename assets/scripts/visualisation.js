@@ -67,7 +67,6 @@ function isInsideExclusionZoneOrBuffer(x, y, quarterExclusionZones) {
 
 const getImageResolution = (cell) => {
   const canvasW = cell.clientWidth;
-  console.log(canvasW);
   if (canvasW < 720) {
     return 300;
   } else if (canvasW < 1024) {
@@ -153,7 +152,6 @@ function setupP5(p, cell, dataGroupedByQ, i, maxLength, qSize) {
     setupBackground(cell, i, maxLength, qSize);
     const c = p.createCanvas(canvasWidth, canvasHeight);
     c.parent(parent);
-
     p.noLoop();
     document.dispatchEvent(new Event('allAtOnceSketchLoaded'));
   });
@@ -251,7 +249,6 @@ function distributeBirds(
   let birds = [];
   let exclusionZones = getNotesParameters();
 
-  console.log(exclusionZones);
   let quarterExclusionZones = exclusionZones.filter(
     (zone) => zone.q === Math.floor(monthNum / 3 + 1)
   );
@@ -371,9 +368,11 @@ async function initializeAllAtOnce() {
     allAtOnce.appendChild(cell);
   }
 }
+let gridCells = [];
 
 async function initializeGrid() {
-  grid.innerHTML = '';
+  if (gridCells.length > 0) return;
+
   const data = await fetchCSV();
 
   data.forEach((row, index) => {
@@ -401,6 +400,18 @@ async function initializeGrid() {
     label.appendChild(livesLostSpan);
     cell.appendChild(label);
     grid.appendChild(cell);
+
+    gridCells.push({
+      cell,
+      label,
+      monthSpan,
+      livesLostSpan,
+      index,
+      month,
+      year,
+      totalBirds,
+      childrenKilled,
+    });
 
     if (month === 'January' || index === 0) {
       const yearSpan = document.createElement('span');
@@ -472,7 +483,6 @@ async function initializeGrid() {
       let lastHeight = 0;
 
       p.updateData = function () {
-        console.log('redrawn');
         p.redraw();
       };
 
@@ -492,9 +502,25 @@ async function initializeGrid() {
         }
       };
     };
-
     new p5(sketch);
   });
+
+  updateGridLabels();
+}
+
+function updateGridLabels() {
+  gridCells.forEach(
+    ({ monthSpan, livesLostSpan, index, totalBirds, childrenKilled }) => {
+      monthSpan.childNodes[0].nodeValue =
+        currentLanguageData.months[index].label;
+
+      livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost-min'>${currentLanguageData.livesLostMin}</span> (${childrenKilled}<span id='text-children'> ${currentLanguageData.children}</span>)`;
+
+      if (index === 0) {
+        livesLostSpan.innerHTML = `${totalBirds} <span id='text-lives-lost'>${currentLanguageData.livesLost}</span> ${childrenKilled} <span id='text-children'>${currentLanguageData.children}</span>)`;
+      }
+    }
+  );
 }
 
 function drawAllAtOnce() {
@@ -505,7 +531,6 @@ function drawAllAtOnce() {
       initialized = true;
     }
   }
-
   const observer = new MutationObserver(() => {
     initializeIfNeeded();
   });
@@ -515,17 +540,28 @@ function drawAllAtOnce() {
   initializeIfNeeded();
 }
 
+let gridInitialized = false;
+
 function drawGrid() {
   const observer = new MutationObserver(() => {
     if (window.getComputedStyle(grid).display !== 'none') {
-      console.log('Grid is now displayed. Initializing sketches...');
-      initializeGrid();
+      if (!gridInitialized) {
+        initializeGrid();
+        gridInitialized = true;
+      } else {
+        updateGridLabels();
+      }
     }
   });
 
   observer.observe(grid, { attributes: true, attributeFilter: ['style'] });
 
   if (window.getComputedStyle(grid).display !== 'none') {
-    initializeGrid();
+    if (!gridInitialized) {
+      initializeGrid();
+      gridInitialized = true;
+    } else {
+      updateGridLabels();
+    }
   }
 }

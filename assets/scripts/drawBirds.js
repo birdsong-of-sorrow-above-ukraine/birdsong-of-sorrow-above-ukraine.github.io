@@ -59,7 +59,6 @@ let drawBirds = function (p, containerId, params) {
       } while (isOverlapping);
 
       p.noStroke();
-      // p.rotate(p.random(-0.3, 0.3));
       BirdShapes.bird(p, x, y, size, color);
       birdPositions.push({ x, y, size });
       birdsDrawn++;

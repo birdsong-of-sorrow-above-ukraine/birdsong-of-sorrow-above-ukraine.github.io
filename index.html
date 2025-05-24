@@ -26,7 +26,7 @@
     <div id="loadingScreen">
       <p class="caption">Loading...</p>
     </div>
-    <div id="mainContent" class="content" style="display: hidden">
+    <div id="mainContent" class="content" style="visibility: hidden;">
       <div class="menu">
         <div class="languages">
           <span
@@ -118,6 +118,7 @@
       function allSketchesLoaded() {
         document.getElementById('loadingScreen').style.display = 'none';
         document.getElementById('mainContent').style.display = 'flex';
+        document.getElementById('mainContent').style.visibility = 'visible';
         initializeOtherSketches();
         document.removeEventListener(
           'allAtOnceSketchLoaded',
@@ -201,6 +202,7 @@
           classesToToggle.forEach((cls) => buttonAllAtOnce.classList.add(cls));
           if (currentLanguageData) {
     updateLabelsScript(currentLanguageData);
+    updateGridLabels(); 
   }
         }
 

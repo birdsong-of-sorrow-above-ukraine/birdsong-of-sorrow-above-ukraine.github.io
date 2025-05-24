@@ -26,7 +26,6 @@ BirdShapes.bird = function (
 
   p.fill(color);
 
-  // Body
   p.beginShape();
   p.vertex(0, 0);
   p.bezierVertex(
@@ -39,64 +38,6 @@ BirdShapes.bird = function (
   );
   p.vertex(-size / 2, size / 5);
   p.endShape(p.CLOSE);
-
-  // square
-  // p.push();
-  // p.noFill();
-  // p.stroke('#ff0000');
-  // p.rect(0, 0, size);
-  // p.pop();
-
-  // // 0,0
-  // p.push();
-  // p.fill('#00ff00');
-  // p.circle(0, 0, 4);
-  // p.pop();
-
-  // // 0,0
-  // p.push();
-  // p.fill('#0000ff');
-  // p.circle(size, size, 4);
-  // p.pop();
-  // // 0,0
-  // p.push();
-  // p.fill('#000000');
-  // p.circle(0, size, 4);
-  // p.pop();
-
-  // p.push();
-  // p.fill('#ff0000');
-  // p.rotate(p.radians(0));
-  // p.beginShape();
-  // p.vertex(0, 0);
-  // p.quadraticVertex(size / 2, size / 2, 0, size / 2);
-  // p.endShape(p.CLOSE);
-  // p.pop();
-
-  // p.push();
-  // p.rotate(p.radians(-90));
-  // p.beginShape();
-  // p.vertex(0, size / 2);
-  // p.quadraticVertex(size / 4, size, size / 4, size / 2);
-  // p.vertex(0, size / 2);
-  // p.endShape(p.CLOSE);
-  // p.pop();
-
-  // p.push();
-  // p.rotate(p.radians(20));
-  // p.beginShape();
-  // p.vertex(size, 0);
-  // p.quadraticVertex(size / 2, -size / 2, -size / 2, 0);
-  // p.endShape(p.CLOSE);
-  // p.pop();
-
-  // p.push();
-  // p.rotate(p.radians(0));
-  // p.beginShape();
-  // p.vertex(size, 0);
-  // p.quadraticVertex(size / 2, -size / 2, -size / 2, 0);
-  // p.endShape(p.CLOSE);
-  // p.pop();
 
   wingsOption = wingsOption !== null ? wingsOption : p.floor(p.random(1, 5));
 
