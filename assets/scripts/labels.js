@@ -85,10 +85,10 @@ function updateLabelsScript(currentLanguageData, lang) {
       if (monthPosition) {
         switch (text.yPlacement) {
           case 'top':
-            yPosition = monthPosition.top + 120;
+            yPosition = monthPosition.top + 40;
             break;
           case 'bottom':
-            yPosition = monthPosition.bottom;
+            yPosition = monthPosition.bottom - 100;
             break;
           case 'middleBottom':
             yPosition = monthPosition.middleBottom;

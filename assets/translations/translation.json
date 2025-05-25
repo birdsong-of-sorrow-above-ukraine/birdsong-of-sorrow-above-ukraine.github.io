@@ -5,11 +5,11 @@
     "text-title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
     "button-all-at-once": "All at once",
     "button-grid": "Month by month",
-    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 12 456 lives. Twelve thousand, four hundred and fifty-six. Even one life lost is too many. This must end.",
+    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 13 091 lives. Thirteen thousand, ninety-one. Even one life lost is too many. This must end.",
     "text-data-collection": "<div class='caption'>Data Collection</div><p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources. Primary references include the annual reports of Human Rights Watch and the monthly publications of the OHCHR, which detail attacks on civilians and civilian infrastructure. Additionally, situation reports from the United Nations Office for the Coordination of Humanitarian Affairs (OCHA), along with news releases from Amnesty International and the World Health Organization (WHO), were used for the same purpose.</p><p>Individual stories were identified through journalistic investigations and field reports from sources such as The New York Times, Reuters, Associated Press, and BBC News, which provide on-the-ground reporting and firsthand testimonies. </p><p>For a full list of sources, please refer to the references section.</p>",
     "text-technical-details": "<div class='caption'>Technical Details</div><p>This project employs the <a href='https://p5js.org/' target='_blank'>p5.js library</a> to automatically generate all visual elements. Algorithms handle the positioning of birds, the placement of stories, and the way birds avoid text. The quantity of birds is directly linked to the monthly death tolls, with the data drawn from the provided dataset. The number of birds corresponds to the monthly death tolls, with datapoints sourced from the OHCHR. Hand-drawn textures for the visualization background are generated using the <a href='https://p5-brush.cargo.site/' target='_blank'>p5.brush library</a> by Alejandro Campos.</p><p>Explore the code on <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
     "text-author-note": "<div class='caption'>Author's Note</div><p>My name is Anastasia Balagurova, and this project was created by me—from the initial idea to the technical implementation. I was born and lived in Russia, and I am deeply opposed to the war that my country started and continues in Ukraine. This war destroys human lives and carries pain that cannot be justified.</p><p>This project is my attempt to capture the devastating consequences of the war and to emphasize that there are human lives behind every statistic. It is a place of mourning and remembrance for those whose lives were taken by the war.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
-    "text-references": "<div class='caption'>References</div><p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 Oct. 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 Apr. 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 Dec. 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>https://www.bbc.com/news/world-europe-67843312</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 July 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>https://www.bbc.com/news/world-europe-66083275</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 Feb. 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 Feb. 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>https://www.hrw.org/feature/russia-ukraine-war-mariupol/report</a>.</p><p>Human Rights Watch. 'Russia’s July 8 Attack on Children’s Hospital in Ukraine.' <i>Human Rights Watch</i>, 11 July 2024, <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine</a>.</p><p>The New York Times. 'In Vinnytsia, Russia Kills a 4-Year-Old with Down Syndrome.' <i>The New York Times</i>, 15 July 2022, <a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html</a>.</p><p>The New York Times. 'Russian Strike Hits Ukrainian Nursing Home, Killing and Injuring Civilians.' <i>The New York Times</i>, 19 Sept. 2024, <a href='https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html' target='_blank'>https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'Two-Year Update: Protection of Civilians—Impact of Hostilities on Civilians Since 24 February 2022.' <i>United Nations</i>, 22 Feb. 2024, <a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'UN Human Rights Monitors Deplore Deadly Attacks on Medical Facilities in North-Eastern Ukraine.' <i>United Nations</i>, <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine' target='_blank'>https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine</a>.</p><p>United Nations News. 'UN Rights Chief Deplores Civilian Cost of Russia’s War in Ukraine.' <i>UN News</i>, 6 Jan. 2023, <a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>https://news.un.org/en/story/2023/01/1132492</a>.</p><p>United Nations Office for the Coordination of Humanitarian Affairs. 'Ukraine Situation Report: 19 September 2024.' <i>OCHA</i>, 19 Sept. 2024, <a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024</a>.</p><p>World Health Organization. 'Triple Risk of Harm for Ukraine’s Health Transport Workers Over Other Health Care Staff—WHO Data Indicates.' <i>World Health Organization</i>, 4 Apr. 2024, <a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates</a>.</p>",
+    "text-references": "<div class='caption'>References</div><p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 Oct. 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 Apr. 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 Dec. 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>https://www.bbc.com/news/world-europe-67843312</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 July 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>https://www.bbc.com/news/world-europe-66083275</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 Feb. 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 Feb. 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>https://www.hrw.org/feature/russia-ukraine-war-mariupol/report</a>.</p><p>Human Rights Watch. 'Russia’s July 8 Attack on Children’s Hospital in Ukraine.' <i>Human Rights Watch</i>, 11 July 2024, <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine</a>.</p><p>The New York Times. 'In Vinnytsia, Russia Kills a 4-Year-Old with Down Syndrome.' <i>The New York Times</i>, 15 July 2022, <a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html</a>.</p><p>The New York Times. 'Russian Strike Hits Ukrainian Nursing Home, Killing and Injuring Civilians.' <i>The New York Times</i>, 19 Sept. 2024, <a href='https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html' target='_blank'>https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html</a>.</p><p>Office of the United Nations High Commissioner for Human Rights (OHCHR). Monthly Reports on the Protection of Civilians in the Armed Conflict in Ukraine. 2024–2025, <a href='https://ukraine.ohchr.org/en' target='_blank'>https://ukraine.ohchr.org/en</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'Two-Year Update: Protection of Civilians—Impact of Hostilities on Civilians Since 24 February 2022.' <i>United Nations</i>, 22 Feb. 2024, <a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'UN Human Rights Monitors Deplore Deadly Attacks on Medical Facilities in North-Eastern Ukraine.' <i>United Nations</i>, <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine' target='_blank'>https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine</a>.</p><p>United Nations News. 'UN Rights Chief Deplores Civilian Cost of Russia’s War in Ukraine.' <i>UN News</i>, 6 Jan. 2023, <a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>https://news.un.org/en/story/2023/01/1132492</a>.</p><p>United Nations Office for the Coordination of Humanitarian Affairs. 'Ukraine Situation Report: 19 September 2024.' <i>OCHA</i>, 19 Sept. 2024, <a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024</a>.</p><p>World Health Organization. 'Triple Risk of Harm for Ukraine’s Health Transport Workers Over Other Health Care Staff—WHO Data Indicates.' <i>World Health Organization</i>, 4 Apr. 2024, <a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates</a>.</p>",
     "livesLost": "lives lost (including",
     "livesLostMin": "lives lost",
     "children": "children",
@@ -38,7 +38,7 @@
         "year": "2022",
         "centered": true,
         "sourceText": "Monthly data is provided by the UN Human Rights Office",
-        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+        "sourceLink": "https://ukraine.ohchr.org/en"
       },
       {
         "id": "note-03",
@@ -143,11 +143,20 @@
       },
       {
         "id": "note-14",
-        "subnote": "As of December 2024, the last available number shows that at least 12 456 lives have been lost as a result of the war.",
+        "subnote": "At least 2064 civilians, including 132 children, were killed in 2024 alone as a result of the war.",
         "month": "December",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-15",
+        "subnote": " In March 2025 alone, Russian attacks killed at least 164 civilians and injured 910 more across Ukraine.",
+        "month": "March",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2025",
         "centered": true
       }
     ],
@@ -233,7 +242,7 @@
       },
       {
         "id": "story-09",
-        "note": "On March 2, 2024, a Russian drone struck a residential building in Odesa. <span class='bird'></span> Anna Gaidarzhi and <span class='birdOneWing'></span> her four-month-old son, Tymofii, were found in the basement, buried under rubble. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
+        "note": "<span class='bird'></span> Anna Gaidarzhi and <span class='birdOneWing'></span> her four-month-old son, Tymofii, were found buried under rubble in the basement after a Russian drone struck a residential building in Odesa on March 2, 2024. Anna’s husband, Serhii, and their three-year-old daughter, Lizzi, survived.",
         "subnote": "According to the UN, the attack killed <span class='highlight'>five children</span>, most under the age of three.",
         "month": "March",
         "year": "2024",
@@ -244,7 +253,7 @@
       },
       {
         "id": "story-10",
-        "note": "On July 8, 2024, the Okhmatdyt Children's Hospital, the largest pediatric hospital in Kyiv, came under attack. More than 300 people were injured, including eight children, and <span class='bird'></span><span class='birdOneWing'></span> two adults, including a doctor, lost their lives. <a href='https://www.nytimes.com/2024/07/09/world/europe/ukraine-childrens-hospial-russia.html '>(New York Times,</a> <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine'>Human Rights Watch)</a> ",
+        "note": "On July 8, 2024, the Okhmatdyt Children's Hospital, the largest pediatric hospital in Kyiv, came under attack. More than 300 people were injured, including eight children, and <span class='bird'></span><span class='birdOneWing'></span> two adults, including a doctor, lost their lives.</br><a href='https://www.nytimes.com/2024/07/09/world/europe/ukraine-childrens-hospial-russia.html '>(New York Times,</a> <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine'>Human Rights Watch)</a>",
         "subnote": "",
         "month": "July",
         "year": "2024",
@@ -253,7 +262,7 @@
       },
       {
         "id": "story-11",
-        "note": "On September 19, 2024, a Russian-guided aerial bomb struck Sumy’s care facility for the elderly. <span class='bird'></span> One civilian was killed, and 13 were injured in the attack, affecting vulnerable older residents.",
+        "note": "Sumy’s care facility for the elderly was struck by a Russian aerial bomb on September 19, 2024. <span class='bird'></span> One civilian was killed, and 13 were injured in the attack, affecting vulnerable older residents.",
         "subnote": "This strike also damaged a cardiology clinic, and a children's hospital. Medical facilities are protected under international humanitarian law and must not be targeted in attacks. <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine'>(UNOCHA,</a> ",
         "month": "September",
         "year": "2024",
@@ -261,6 +270,27 @@
         "xPlacement": "right",
         "sourceText": "New York Times)",
         "sourceLink": "https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html"
+      },
+      {
+        "id": "story-12",
+        "note": "Just after midnight on January 30, 2025, a Russian explosive drone struck a residential building in the city of Sumy. The blast blew out a wall and shattered windows, killing <span class='bird'></span><span class='birdOneWing'></span> 11 civilians. Among the dead were three elderly married couples who lived in the building — all over the age of 60. <a href='https://ukraine.ohchr.org/sites/default/files/2025-02/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28January%20%202025%29_ENG_0.pdf'>(OHCHR)</a>",
+        "month": "January",
+        "year": "2025",
+        "yPlacement": "middle",
+        "xPlacement": "right",
+        "sourceText": "",
+        "sourceLink": ""
+      },
+      {
+        "id": "story-13",
+        "note": "<span class='bird'></span> 7-year-old Radislav Yatsko was riding in the car with his father when fragments from a Russian missile struck their vehicle in Kryvyi Rih on April 4, 2025. He died instantly. <a href='https://www.nytimes.com/2025/04/09/world/europe/ukraine-kryvyi-ri-attack.html'>(New York Times)</a>",
+        "subnote": "The missile exploded over a public area with a playground, killing 20 civilians, 9 of them children, and injuring 63. It was the deadliest verified strike on children since the full-scale invasion began.",
+        "month": "April",
+        "year": "2025",
+        "yPlacement": "top",
+        "xPlacement": "right",
+        "sourceText": "(OHCHR)",
+        "sourceLink": "https://ukraine.ohchr.org/sites/default/files/2025-05/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28April%20%202025%29_ENG.pdf"
       }
     ],
     "months": [
@@ -298,7 +328,11 @@
       { "label": "September", "year": "2024" },
       { "label": "October", "year": "2024" },
       { "label": "November", "year": "2024" },
-      { "label": "December", "year": "2024" }
+      { "label": "December", "year": "2024" },
+      { "label": "January", "year": "2025" },
+      { "label": "February", "year": "2025" },
+      { "label": "March", "year": "2025" },
+      { "label": "April", "year": "2025" }
     ]
   },
   "ukr": {
@@ -316,11 +350,11 @@
     "text-title": "<div class='title-alt'>Плач птахів</br>над Україною</div>",
     "button-all-at-once": "Усі дані одразу",
     "button-grid": "За місяцями",
-    "text-outro": "<p class='cyr'>День за днем війна забирає життя. Станом на зараз вона забрала щонайменше 12 456 життів. Дванадцять тисяч чотириста п’ятдесят шість. Навіть одне — це надто багато. Війна повинна закінчитися.</p>",
+    "text-outro": "<p class='cyr'>День за днем війна забирає життя. Станом на зараз вона забрала щонайменше 13 091 життя. Тринадцять тисяч дев’яносто одне. Навіть одне — це надто багато. Війна повинна закінчитися.</p>",
     "text-author-note": "<div class='caption'>Від авторки</div><p>Мене звати Анастасія Балагурова, і цей проєкт створений мною — від ідеї до технічної реалізації. Я народилася та жила в Росії й глибоко виступаю проти війни, яку розпочала й веде моя країна в Україні. Ця війна руйнує людські життя та приносить біль, який неможливо виправдати.</p> <p>Цей проєкт — моя спроба зафіксувати непоправні наслідки війни й нагадати, що за кожною цифрою у звітах стоять живі люди. Це місце скорботи й пам'яті про тих, чиї життя обірвала війна.<p>Варто пам'ятати, що будь-яка візуалізація даних за своєю суттю суб'єктивна. Втім, я доклала всіх зусиль, щоб представити інформацію максимально точно та достовірно. Відомості про збір даних і джерела наведені нижче.</p> <p>Якщо у вас є запитання чи думки, будь ласка, зв'яжіться зі мною електронною поштою <a href='mailto:anastasia.balagurova@gmail.com' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
     "text-data-collection": "<div class='caption'>Збір даних</div><p>Джерелом даних про втрати є Моніторингова місія ООН з прав людини в Україні, що діє при Управлінні Верховного комісара ООН з прав людини. Варто враховувати, що реальні цифри можуть бути значно вищими через труднощі з підтвердженням даних і обмежений доступ до постраждалих районів на початку конфлікту.</p><p>Основними джерелами інформації про атаки на цивільне населення та об’єкти інфраструктури є щорічні звіти Human Rights Watch і щомісячні публікації Управління Верховного комісара ООН з прав людини. Також використовувалися зведення Управління ООН з координації гуманітарних питань, пресрелізи Amnesty International і Всесвітньої організації охорони здоров’я.</p><p>Історії постраждалих були зібрані завдяки журналістським розслідуванням із таких джерел, як The New York Times, Reuters, Associated Press і BBC News, що надають репортажі з місць подій і свідчення очевидців.</p><p>Повний список джерел наведений нижче.</p>",
     "text-technical-details": "<div class='caption'>Технічні деталі</div><p>Усі візуальні елементи в цьому проєкті генеруються автоматично: від формування контурів птахів і їхніх кольорів до їхнього розташування один відносно одного та текстових блоків. Кількість птахів відповідає щомісячним втратам серед цивільного населення й відображає частку загиблих дітей у загальній кількості. Для реалізації використано бібліотеку <a href='https://p5.js' target='_blank'>p5.js</a>. Фонові текстури також створюються автоматично за допомогою бібліотеки <a href='https://p5-brush.cargo.site/' target='_blank'>p5.brush</a>. Повний код візуалізації доступний на <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
-    "text-references": "<div class='caption'>Джерела (англійською мовою)</div><p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 жовтня 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>посилання</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 квітня 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>посилання</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 грудня 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>посилання</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 липня 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>посилання</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 лютого 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>посилання</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 лютого 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>посилання</a>.</p>",
+    "text-references": "<div class='caption'>Джерела (англійською мовою)</div> <p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 Oct. 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 Apr. 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 Dec. 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>https://www.bbc.com/news/world-europe-67843312</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 July 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>https://www.bbc.com/news/world-europe-66083275</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 Feb. 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 Feb. 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>https://www.hrw.org/feature/russia-ukraine-war-mariupol/report</a>.</p><p>Human Rights Watch. 'Russia’s July 8 Attack on Children’s Hospital in Ukraine.' <i>Human Rights Watch</i>, 11 July 2024, <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine</a>.</p><p>The New York Times. 'In Vinnytsia, Russia Kills a 4-Year-Old with Down Syndrome.' <i>The New York Times</i>, 15 July 2022, <a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html</a>.</p><p>The New York Times. 'Russian Strike Hits Ukrainian Nursing Home, Killing and Injuring Civilians.' <i>The New York Times</i>, 19 Sept. 2024, <a href='https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html' target='_blank'>https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html</a>.</p><p>Office of the United Nations High Commissioner for Human Rights (OHCHR). Monthly Reports on the Protection of Civilians in the Armed Conflict in Ukraine. 2024–2025, <a href='https://ukraine.ohchr.org/en' target='_blank'>https://ukraine.ohchr.org/en</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'Two-Year Update: Protection of Civilians—Impact of Hostilities on Civilians Since 24 February 2022.' <i>United Nations</i>, 22 Feb. 2024, <a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'UN Human Rights Monitors Deplore Deadly Attacks on Medical Facilities in North-Eastern Ukraine.' <i>United Nations</i>, <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine' target='_blank'>https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine</a>.</p><p>United Nations News. 'UN Rights Chief Deplores Civilian Cost of Russia’s War in Ukraine.' <i>UN News</i>, 6 Jan. 2023, <a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>https://news.un.org/en/story/2023/01/1132492</a>.</p><p>United Nations Office for the Coordination of Humanitarian Affairs. 'Ukraine Situation Report: 19 September 2024.' <i>OCHA</i>, 19 Sept. 2024, <a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024</a>.</p><p>World Health Organization. 'Triple Risk of Harm for Ukraine’s Health Transport Workers Over Other Health Care Staff—WHO Data Indicates.' <i>World Health Organization</i>, 4 Apr. 2024, <a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates</a>.</p>",
     "stat": [
       {
         "id": "note-01",
@@ -340,7 +374,7 @@
         "year": "2022",
         "centered": true,
         "sourceText": "Дані за кожен місяць — від Управління ООН з прав людини</span>",
-        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+        "sourceLink": "https://ukraine.ohchr.org/en"
       },
       {
         "id": "note-03",
@@ -445,15 +479,23 @@
       },
       {
         "id": "note-14",
-        "subnote": "<span class='cyr-sans'>Станом на грудень 2024 року останнє підтверджене число загиблих становило щонайменше 12 456 осіб.</span>",
+        "subnote": "Щонайменше 2064 мирних жителі, зокрема 132 дитини, загинули лише у 2024 році внаслідок війни.",
         "month": "Грудень",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2024",
         "centered": true
+      },
+      {
+        "id": "note-15",
+        "subnote": " Лише у березні 2025 року внаслідок російських атак по всій Україні загинули щонайменше 164 мирних жителі, ще 910 отримали поранення.",
+        "month": "Березень",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2025",
+        "centered": true
       }
     ],
-
     "stories": [
       {
         "id": "story-01",
@@ -564,6 +606,27 @@
         "xPlacement": "right",
         "sourceText": "New York Times)",
         "sourceLink": "https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html"
+      },
+      {
+        "id": "story-12",
+        "note": "Одразу після опівночі 30 січня 2025 року російський ударний дрон влучив у житловий будинок у місті Суми. Вибух вибив стіну та розбив вікна, внаслідок чого загинули<span class='bird'></span><span class='birdOneWing'></span> 11 мирних жителів. Серед загиблих — троє літніх подружніх пар, які проживали в цьому будинку, усім їм було понад 60 років. <a href='https://ukraine.ohchr.org/sites/default/files/2025-02/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28January%20%202025%29_ENG_0.pdf'>(OHCHR)</a>",
+        "month": "Січень",
+        "year": "2025",
+        "yPlacement": "middle",
+        "xPlacement": "right",
+        "sourceText": "",
+        "sourceLink": ""
+      },
+      {
+        "id": "story-13",
+        "note": "<span class='bird'></span> 4 квітня 2025 року в Кривому Розі уламки російської ракети влучили в автомобіль, у якому їхали 7-річний Радислав Яцько з батьком. Хлопчик загинув на місці. <a href='https://www.nytimes.com/2025/04/09/world/europe/ukraine-kryvyi-ri-attack.html'>(New York Times)</a>",
+        "subnote": "Ракета вибухнула в повітрі над районом із дитячим майданчиком і парком, убивши 20 людей, серед них 9 дітей, і поранивши ще 63. Від початку вторгнення жоден удар не забирав стільки дитячих життів.",
+        "month": "Квітень",
+        "year": "2025",
+        "yPlacement": "top",
+        "xPlacement": "right",
+        "sourceText": "(OHCHR)",
+        "sourceLink": "https://ukraine.ohchr.org/sites/default/files/2025-05/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28April%20%202025%29_ENG.pdf"
       }
     ],
     "months": [
@@ -601,7 +664,11 @@
       { "label": "Вересень", "year": "2024" },
       { "label": "Жовтень", "year": "2024" },
       { "label": "Листопад", "year": "2024" },
-      { "label": "Грудень", "year": "2024" }
+      { "label": "Грудень", "year": "2024" },
+      { "label": "Січень", "year": "2025" },
+      { "label": "Лютий", "year": "2025" },
+      { "label": "Березень", "year": "2025" },
+      { "label": "Квітень", "year": "2025" }
     ]
   },
   "ru": {
@@ -619,11 +686,11 @@
     "text-title": "<div class='title-alt'>Плач птиц</br>над Украиной</div>",
     "button-all-at-once": "Все данные сразу",
     "button-grid": "По месяцам",
-    "text-outro": "<p class='cyr'>День за днем война уносит жизни. На данный момент она унесла по меньшей мере 12 456 жизней. Двенадцать тысяч четыреста пятьдесят шесть. Даже одна — это слишком много. Война должна закончиться.</p>",
+    "text-outro": "<p class='cyr'>День за днем война уносит жизни. На данный момент она унесла по меньшей мере 13 091 жизнь. Тринадцать тысяч девяносто одну. Даже одна — это слишком много. Война должна закончиться.</p>",
     "text-author-note": "<div class='caption'>От автора</div><p>Меня зовут Анастасия Балагурова, и этот проект создан мной — от идеи до технической реализации. Я родилась и жила в России, и я глубоко против войны, которую начала и ведет моя страна в Украине. Эта война разрушает человеческие жизни и несет в себе боль, которую нельзя оправдать.</p> <p>Этот проект — моя попытка зафиксировать непоправимые последствия войны и напомнить, что за каждой цифрой в отчетах скрываются живые люди. Это место скорби и памяти о тех, чьи жизни были оборваны войной.<p>Важно помнить, что любая визуализация данных по своей сути субъективна. Тем не менее, я сделала все возможное, чтобы представить информацию максимально точно и достоверно. Сведения о сборе данных и источниках приведены ниже.</p> <p>Если у вас есть вопросы или мысли, пожалуйста, свяжитесь со мной по электронной почте <a href='mailto:anastasia.balagurova@gmail.com' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
     "text-data-collection": "<div class='caption'>Сбор данных</div><p>Источником данных о потерях является Мониторинговая миссия ООН по правам человека в Украине, действующая при Управлении Верховного комиссара ООН по правам человека. Следует учитывать, что реальные цифры могут быть существенно выше из-за трудностей с подтверждением данных и ограниченного доступа к пострадавшим районам в начале конфликта.</p><p>Основным источником информации об атаках на мирных жителей и объекты инфраструктуры являются ежегодные отчёты Human Rights Watch и ежемесячные публикации Управления Верховного комиссара ООН по правам человека. Также использовались сводки от Управления ООН по координации гуманитарных вопросов, а также пресс-релизы Amnesty International и Всемирной организации здравоохранения.</p><p>Истории пострадавших были собраны благодаря журналистским расследованиям из таких источников, как The New York Times, Reuters, Associated Press и BBC News, предоставляющих репортажи с места событий и свидетельства очевидцев.</p><p>Полный список источников представлен ниже.</p>",
     "text-technical-details": "<div class='caption'>Технические детали</div><p>Все визуальные элементы в этом проекте генерируются автоматически: от формирования контуров птиц и их цвета до их расположения относительно друг друга и текстовых блоков. Количество птиц соответствует ежемесячным потерям среди мирного населения и отражает долю погибших детей в общем числе. Для реализации используется библиотека <a href=‘https://p5.js‘ target=‘_blank’>p5.js</a>. Фоновые текстуры также создаются автоматически с помощью библиотеки <a href=‘https://p5-brush.cargo.site/‘ target=‘_blank’>p5.brush</a>. Полный код визуализации доступен на <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
-    "text-references": "<div class='caption'>Источники (на английском языке)</div><p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 Oct. 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 Apr. 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 Dec. 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>https://www.bbc.com/news/world-europe-67843312</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 July 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>https://www.bbc.com/news/world-europe-66083275</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 Feb. 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 Feb. 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>https://www.hrw.org/feature/russia-ukraine-war-mariupol/report</a>.</p><p>Human Rights Watch. 'Russia’s July 8 Attack on Children’s Hospital in Ukraine.' <i>Human Rights Watch</i>, 11 July 2024, <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine</a>.</p><p>The New York Times. 'In Vinnytsia, Russia Kills a 4-Year-Old with Down Syndrome.' <i>The New York Times</i>, 15 July 2022, <a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html</a>.</p><p>The New York Times. 'Russian Strike Hits Ukrainian Nursing Home, Killing and Injuring Civilians.' <i>The New York Times</i>, 19 Sept. 2024, <a href='https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html' target='_blank'>https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'Two-Year Update: Protection of Civilians—Impact of Hostilities on Civilians Since 24 February 2022.' <i>United Nations</i>, 22 Feb. 2024, <a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'UN Human Rights Monitors Deplore Deadly Attacks on Medical Facilities in North-Eastern Ukraine.' <i>United Nations</i>, <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine' target='_blank'>https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine</a>.</p><p>United Nations News. 'UN Rights Chief Deplores Civilian Cost of Russia’s War in Ukraine.' <i>UN News</i>, 6 Jan. 2023, <a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>https://news.un.org/en/story/2023/01/1132492</a>.</p><p>United Nations Office for the Coordination of Humanitarian Affairs. 'Ukraine Situation Report: 19 September 2024.' <i>OCHA</i>, 19 Sept. 2024, <a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024</a>.</p><p>World Health Organization. 'Triple Risk of Harm for Ukraine’s Health Transport Workers Over Other Health Care Staff—WHO Data Indicates.' <i>World Health Organization</i>, 4 Apr. 2024, <a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates</a>.</p>",
+    "text-references": "<div class='caption'>Источники (на английском языке)</div><p>Amnesty International. 'Russian Attacks on Kyiv and Cities Across Ukraine Are an Escalation of Aggression and Apparent Violations of Laws of War.' <i>Amnesty International</i>, 10 Oct. 2022, <a href='https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/' target='_blank'>https://www.amnesty.org/en/latest/news/2022/10/russian-attacks-on-kyiv-and-cities-across-ukraine-are-an-escalation-of-aggression-and-apparent-violations-of-laws-of-war/</a>.</p><p>Associated Press. 'Missile Strike on Uman Kills 23 Civilians, Including Children.' <i>AP News</i>, 28 Apr. 2023, <a href='https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226' target='_blank'>https://apnews.com/article/ukraine-war-russia-funeral-missiles-fe7b517642efc39fab9a848dc93ac226</a>.</p><p>BBC News. 'Russian Missile Strikes Hit Ukrainian Cities, Causing Civilian Casualties.' <i>BBC News</i>, 29 Dec. 2023, <a href='https://www.bbc.com/news/world-europe-67843312' target='_blank'>https://www.bbc.com/news/world-europe-67843312</a>.</p><p>BBC News. 'Ukrainian Writer Victoria Amelina Dies After Kramatorsk Attack.' <i>BBC News</i>, 3 July 2023, <a href='https://www.bbc.com/news/world-europe-66083275' target='_blank'>https://www.bbc.com/news/world-europe-66083275</a>.</p><p>Human Rights Watch. 'Death at the Station: Russian Cluster Munition Attack in Kramatorsk.' <i>Human Rights Watch</i>, 21 Feb. 2023, <a href='https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk' target='_blank'>https://www.hrw.org/video-photos/interactive/2023/02/21/death-at-the-station/russian-cluster-munition-attack-in-kramatorsk</a>.</p><p>Human Rights Watch. 'Our City Was Gone: Russia’s Devastation of Mariupol, Ukraine.' <i>Human Rights Watch</i>, 8 Feb. 2024, <a href='https://www.hrw.org/feature/russia-ukraine-war-mariupol/report' target='_blank'>https://www.hrw.org/feature/russia-ukraine-war-mariupol/report</a>.</p><p>Human Rights Watch. 'Russia’s July 8 Attack on Children’s Hospital in Ukraine.' <i>Human Rights Watch</i>, 11 July 2024, <a href='https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine' target='_blank'>https://www.hrw.org/news/2024/07/11/russias-july-8-attack-childrens-hospital-ukraine</a>.</p><p>The New York Times. 'In Vinnytsia, Russia Kills a 4-Year-Old with Down Syndrome.' <i>The New York Times</i>, 15 July 2022, <a href='https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html' target='_blank'>https://www.nytimes.com/2022/07/15/world/europe/russia-vinnytsia-liza-dmytriyeva.html</a>.</p><p>The New York Times. 'Russian Strike Hits Ukrainian Nursing Home, Killing and Injuring Civilians.' <i>The New York Times</i>, 19 Sept. 2024, <a href='https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html' target='_blank'>https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html</a>.</p><p>Office of the United Nations High Commissioner for Human Rights (OHCHR). Monthly Reports on the Protection of Civilians in the Armed Conflict in Ukraine. 2024–2025, <a href='https://ukraine.ohchr.org/en' target='_blank'>https://ukraine.ohchr.org/en</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'Two-Year Update: Protection of Civilians—Impact of Hostilities on Civilians Since 24 February 2022.' <i>United Nations</i>, 22 Feb. 2024, <a href='https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24' target='_blank'>https://www.ohchr.org/en/documents/country-reports/two-year-update-protection-civilians-impact-hostilities-civilians-24</a>.</p><p>Office of the United Nations High Commissioner for Human Rights. 'UN Human Rights Monitors Deplore Deadly Attacks on Medical Facilities in North-Eastern Ukraine.' <i>United Nations</i>, <a href='https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine' target='_blank'>https://ukraine.ohchr.org/en/UN-Human-Rights-Monitors-Deplore-Deadly-Attacks-on-Medical-Facilities-in-North-Eastern-Ukraine</a>.</p><p>United Nations News. 'UN Rights Chief Deplores Civilian Cost of Russia’s War in Ukraine.' <i>UN News</i>, 6 Jan. 2023, <a href='https://news.un.org/en/story/2023/01/1132492' target='_blank'>https://news.un.org/en/story/2023/01/1132492</a>.</p><p>United Nations Office for the Coordination of Humanitarian Affairs. 'Ukraine Situation Report: 19 September 2024.' <i>OCHA</i>, 19 Sept. 2024, <a href='https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024' target='_blank'>https://www.unocha.org/publications/report/ukraine/ukraine-situation-report-19-september-2024</a>.</p><p>World Health Organization. 'Triple Risk of Harm for Ukraine’s Health Transport Workers Over Other Health Care Staff—WHO Data Indicates.' <i>World Health Organization</i>, 4 Apr. 2024, <a href='https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates' target='_blank'>https://www.who.int/ukraine/news/item/04-04-2024-triple-risk-of-harm-for-ukraine-s-health-transport-workers-over-other-health-care-staff--who-data-indicates</a>.</p>",
     "stat": [
       {
         "id": "note-01",
@@ -643,7 +710,7 @@
         "year": "2022",
         "centered": true,
         "sourceText": "Данные за каждый месяц — от Управления ООН по правам человека</span>",
-        "sourceLink": "https://ukraine.un.org/sites/default/files/2024-02/22%20Feb%202024%20Protection%20of%20Civilians_impact%20of%20hostilites%20on%20civilians%20since%2024%20Feb%202022_HRMMU%20report_ENG.pdf"
+        "sourceLink": "https://ukraine.ohchr.org/en"
       },
       {
         "id": "note-03",
@@ -748,11 +815,20 @@
       },
       {
         "id": "note-14",
-        "subnote": "<span class='cyr-sans'>К декабрю 2024 года последнее подтвержденное число погибших составило не менее 12 456 человек.</span>",
+        "subnote": "По меньшей мере 2064 мирных жителя, включая 132 ребёнка, были убиты только в 2024 году в результате войны.",
         "month": "Декабрь",
         "yPlacement": "middle",
         "xPlacement": "center",
         "year": "2024",
+        "centered": true
+      },
+      {
+        "id": "note-15",
+        "subnote": "Только в марте 2025 года в результате российских атак по всей Украине погибли как минимум 164 мирных жителя, ещё 910 получили ранения.",
+        "month": "Март",
+        "yPlacement": "middle",
+        "xPlacement": "center",
+        "year": "2025",
         "centered": true
       }
     ],
@@ -866,6 +942,27 @@
         "xPlacement": "right",
         "sourceText": "New York Times)",
         "sourceLink": "https://www.nytimes.com/2024/09/19/world/europe/ukraine-russia-nursing-home.html"
+      },
+      {
+        "id": "story-12",
+        "note": "Сразу после полуночи 30 января 2025 года российский ударный дрон поразил жилой дом в городе Сумы. Взрыв выбил стену и разбил окна, в результате чего погибли <span class='bird'></span><span class='birdOneWing'></span> 11 мирных жителей. Среди погибших — три пожилые супружеские пары, проживавшие в этом доме, всем им было за 60. <a href='https://ukraine.ohchr.org/sites/default/files/2025-02/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28January%20%202025%29_ENG_0.pdf'>(OHCHR)</a>",
+        "month": "Январь",
+        "year": "2025",
+        "yPlacement": "middle",
+        "xPlacement": "right",
+        "sourceText": "",
+        "sourceLink": ""
+      },
+      {
+        "id": "story-13",
+        "note": "<span class='bird'></span> 4 апреля 2025 года в Кривом Роге осколки российской ракеты попали в машину, в которой ехал 7-летний Радислав Яцко с отцом. Мальчик погиб на месте. <a href='https://www.nytimes.com/2025/04/09/world/europe/ukraine-kryvyi-ri-attack.html'>(New York Times)</a>",
+        "subnote": "Ракета взорвалась в воздухе над районом с детской площадкой и парком, убив 20 человек, включая 9 детей, и ранив 63. С начала вторжения ещё ни одна атака не унесла столько детских жизней.",
+        "month": "Апрель",
+        "year": "2025",
+        "yPlacement": "top",
+        "xPlacement": "right",
+        "sourceText": "(OHCHR)",
+        "sourceLink": "https://ukraine.ohchr.org/sites/default/files/2025-05/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28April%20%202025%29_ENG.pdf"
       }
     ],
     "months": [
@@ -903,7 +1000,11 @@
       { "label": "Сентябрь", "year": "2024" },
       { "label": "Октябрь", "year": "2024" },
       { "label": "Ноябрь", "year": "2024" },
-      { "label": "Декабрь", "year": "2024" }
+      { "label": "Декабрь", "year": "2024" },
+      { "label": "Январь", "year": "2025" },
+      { "label": "Февраль", "year": "2025" },
+      { "label": "Март", "year": "2025" },
+      { "label": "Апрель", "year": "2025" }
     ]
   }
 }
