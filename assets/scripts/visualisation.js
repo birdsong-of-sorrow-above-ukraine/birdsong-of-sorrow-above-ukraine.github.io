@@ -26,6 +26,9 @@ const highlightedData = [
   { month: 'September', year: '2024', highlighted: 12, position: 'right' },
   { month: 'January', year: '2025', highlighted: 14, position: 'right' },
   { month: 'April', year: '2025', highlighted: 20, position: 'right' },
+  { month: 'May', year: '2025', highlighted: 14, position: 'left' },
+  { month: 'July', year: '2025', highlighted: 2, position: 'left' },
+  { month: 'September', year: '2025', highlighted: 25, position: 'left' },
 ];
 
 for (let j = 1; j <= 28; j++) {

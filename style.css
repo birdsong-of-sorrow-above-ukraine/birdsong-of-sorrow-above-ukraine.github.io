@@ -45,6 +45,12 @@ body {
 .highlight {
   position: relative;
   color: #dcb85f;
+  font-weight: 500;
+}
+
+.highlightChildren {
+  color: #9fa5fc;
+  font-weight: 500;
 }
 
 .color {
