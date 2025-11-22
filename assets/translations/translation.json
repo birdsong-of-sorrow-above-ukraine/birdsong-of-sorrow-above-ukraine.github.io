@@ -5,7 +5,7 @@
     "text-title": "The birdsong of sorrow<br><span class='titleSpan'>above Ukraine</span>",
     "button-all-at-once": "All at once",
     "button-grid": "Month by month",
-    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 13 091 lives. Thirteen thousand, ninety-one. Even one life lost is too many. This must end.",
+    "text-outro": "Day by day, the war goes on, and so far, it has taken at least 14 534 lives. Fourteen thousand five hundred thirty-four. Even one life lost is too many. This must end.",
     "text-data-collection": "<div class='caption'>Data Collection</div><p>The data on lives lost each month is verified by the UN Human Rights Monitoring Mission in Ukraine (HRMMU), operating under the Office of the United Nations High Commissioner for Human Rights (OHCHR). OHCHR believes the actual numbers are significantly higher due to unverified reports and limited access to areas heavily affected early in the conflict.</p><p>The documentation of individual attacks on civilians relies on multiple sources. Primary references include the annual reports of Human Rights Watch and the monthly publications of the OHCHR, which detail attacks on civilians and civilian infrastructure. Additionally, situation reports from the United Nations Office for the Coordination of Humanitarian Affairs (OCHA), along with news releases from Amnesty International and the World Health Organization (WHO), were used for the same purpose.</p><p>Individual stories were identified through journalistic investigations and field reports from sources such as The New York Times, Reuters, Associated Press, and BBC News, which provide on-the-ground reporting and firsthand testimonies. </p><p>For a full list of sources, please refer to the references section.</p>",
     "text-technical-details": "<div class='caption'>Technical Details</div><p>This project employs the <a href='https://p5js.org/' target='_blank'>p5.js library</a> to automatically generate all visual elements. Algorithms handle the positioning of birds, the placement of stories, and the way birds avoid text. The quantity of birds is directly linked to the monthly death tolls, with the data drawn from the provided dataset. The number of birds corresponds to the monthly death tolls, with datapoints sourced from the OHCHR. Hand-drawn textures for the visualization background are generated using the <a href='https://p5-brush.cargo.site/' target='_blank'>p5.brush library</a> by Alejandro Campos.</p><p>Explore the code on <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
     "text-author-note": "<div class='caption'>Author's Note</div><p>My name is Anastasia Balagurova, and this project was created by me—from the initial idea to the technical implementation. I was born and lived in Russia, and I am deeply opposed to the war that my country started and continues in Ukraine. This war destroys human lives and carries pain that cannot be justified.</p><p>This project is my attempt to capture the devastating consequences of the war and to emphasize that there are human lives behind every statistic. It is a place of mourning and remembrance for those whose lives were taken by the war.</p><p>As you view this work, please keep in mind that data visualisation, by its nature, is subjective. It is shaped by choices and limitations at every step, from collecting the data to conveying it through the visual form. Every effort has been made to verify the stories and associated numbers using multiple sources. However, due to the nature of war reporting, numbers may vary or change as new information emerges or reporting methodologies differ.</p><p>If you have any questions or thoughts, please feel free to reach out via email at <a href='mailto:anastasia.balagurova@gmail.com>' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
@@ -42,7 +42,7 @@
       },
       {
         "id": "note-03",
-        "subnote": "By June 2022, over 1000 children had died.",
+        "subnote": "By June 2022, over 400 children had died due to the war.",
         "month": "June",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -69,7 +69,7 @@
       },
       {
         "id": "note-06",
-        "subnote": "By March 2023, the verified number of children who died as a result of the war had reached 1500.",
+        "subnote": "By March 2023, the verified number of children who died as a result of the war had reached 500.",
         "month": "March",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -87,7 +87,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "In August 2023 alone, 30 children lost their lives in the war.",
+        "subnote": "In August 2023 alone, 5 children lost their lives in the war.",
         "month": "August",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -125,7 +125,7 @@
       },
       {
         "id": "note-12",
-        "subnote": "By May 2024, more than 1900 children had died as a result of the war, bringing the total number of lives lost above 11 000.",
+        "subnote": "By May 2024, more than 600 children had died as a result of the war, bringing the total number of lives lost above 11 000.",
         "month": "May",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -134,7 +134,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "By October 2024, more than 12 000 people, including at least 1952 children, had lost their lives.",
+        "subnote": "By October 2024, more than 12 000 people had lost their lives.",
         "month": "October",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -143,7 +143,7 @@
       },
       {
         "id": "note-14",
-        "subnote": "At least 2064 civilians, including 132 children, were killed in 2024 alone as a result of the war.",
+        "subnote": "Over 2000 civilians were killed in 2024 alone as a result of the war.",
         "month": "December",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -152,7 +152,7 @@
       },
       {
         "id": "note-15",
-        "subnote": " In March 2025 alone, Russian attacks killed at least 164 civilians and injured 910 more across Ukraine.",
+        "subnote": "In March 2025 alone, Russian attacks killed over 170 civilians and injured over 900 across Ukraine.",
         "month": "March",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -332,7 +332,13 @@
       { "label": "January", "year": "2025" },
       { "label": "February", "year": "2025" },
       { "label": "March", "year": "2025" },
-      { "label": "April", "year": "2025" }
+      { "label": "April", "year": "2025" },
+      { "label": "May", "year": "2025" },
+      { "label": "June", "year": "2025" },
+      { "label": "July", "year": "2025" },
+      { "label": "August", "year": "2025" },
+      { "label": "September", "year": "2025" },
+      { "label": "October", "year": "2025" }
     ]
   },
   "ukr": {
@@ -350,7 +356,7 @@
     "text-title": "<div class='title-alt'>Плач птахів</br>над Україною</div>",
     "button-all-at-once": "Усі дані одразу",
     "button-grid": "За місяцями",
-    "text-outro": "<p class='cyr'>День за днем війна забирає життя. Станом на зараз вона забрала щонайменше 13 091 життя. Тринадцять тисяч дев’яносто одне. Навіть одне — це надто багато. Війна повинна закінчитися.</p>",
+    "text-outro": "<p class='cyr'>День за днем війна забирає життя. Станом на зараз вона забрала щонайменше 14 534 життя. Чотирнадцять тисяч п’ятсот тридцять чотири. Навіть одне — це надто багато. Війна повинна закінчитися.</p>",
     "text-author-note": "<div class='caption'>Від авторки</div><p>Мене звати Анастасія Балагурова, і цей проєкт створений мною — від ідеї до технічної реалізації. Я народилася та жила в Росії й глибоко виступаю проти війни, яку розпочала й веде моя країна в Україні. Ця війна руйнує людські життя та приносить біль, який неможливо виправдати.</p> <p>Цей проєкт — моя спроба зафіксувати непоправні наслідки війни й нагадати, що за кожною цифрою у звітах стоять живі люди. Це місце скорботи й пам'яті про тих, чиї життя обірвала війна.<p>Варто пам'ятати, що будь-яка візуалізація даних за своєю суттю суб'єктивна. Втім, я доклала всіх зусиль, щоб представити інформацію максимально точно та достовірно. Відомості про збір даних і джерела наведені нижче.</p> <p>Якщо у вас є запитання чи думки, будь ласка, зв'яжіться зі мною електронною поштою <a href='mailto:anastasia.balagurova@gmail.com' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
     "text-data-collection": "<div class='caption'>Збір даних</div><p>Джерелом даних про втрати є Моніторингова місія ООН з прав людини в Україні, що діє при Управлінні Верховного комісара ООН з прав людини. Варто враховувати, що реальні цифри можуть бути значно вищими через труднощі з підтвердженням даних і обмежений доступ до постраждалих районів на початку конфлікту.</p><p>Основними джерелами інформації про атаки на цивільне населення та об’єкти інфраструктури є щорічні звіти Human Rights Watch і щомісячні публікації Управління Верховного комісара ООН з прав людини. Також використовувалися зведення Управління ООН з координації гуманітарних питань, пресрелізи Amnesty International і Всесвітньої організації охорони здоров’я.</p><p>Історії постраждалих були зібрані завдяки журналістським розслідуванням із таких джерел, як The New York Times, Reuters, Associated Press і BBC News, що надають репортажі з місць подій і свідчення очевидців.</p><p>Повний список джерел наведений нижче.</p>",
     "text-technical-details": "<div class='caption'>Технічні деталі</div><p>Усі візуальні елементи в цьому проєкті генеруються автоматично: від формування контурів птахів і їхніх кольорів до їхнього розташування один відносно одного та текстових блоків. Кількість птахів відповідає щомісячним втратам серед цивільного населення й відображає частку загиблих дітей у загальній кількості. Для реалізації використано бібліотеку <a href='https://p5.js' target='_blank'>p5.js</a>. Фонові текстури також створюються автоматично за допомогою бібліотеки <a href='https://p5-brush.cargo.site/' target='_blank'>p5.brush</a>. Повний код візуалізації доступний на <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
@@ -378,7 +384,7 @@
       },
       {
         "id": "note-03",
-        "subnote": "<span class='cyr-sans'>Станом на червень 2022 року понад 1000 дітей загинули внаслідок війни.</span>",
+        "subnote": "<span class='cyr-sans'>Станом на червень 2022 року понад 400 дітей загинули внаслідок війни.</span>",
         "month": "Червень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -405,7 +411,7 @@
       },
       {
         "id": "note-06",
-        "subnote": "<span class='cyr-sans'>Станом на березень 2023 року підтверджена кількість загиблих дітей досягла 1500.</span>",
+        "subnote": "<span class='cyr-sans'>Станом на березень 2023 року підтверджена кількість загиблих дітей досягла 500.</span>",
         "month": "Березень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -423,7 +429,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "<span class='cyr-sans'>У серпні 2023 року лише за один місяць загинули 30 дітей.</span>",
+        "subnote": "<span class='cyr-sans'>У серпні 2023 року лише за один місяць загинули 5 дітей.</span>",
         "month": "Серпень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -461,7 +467,7 @@
       },
       {
         "id": "note-12",
-        "subnote": "<span class='cyr-sans'>Станом на травень 2024 року понад 1900 дітей загинули внаслідок війни, загальна кількість загиблих перевищила 11 000.</span>",
+        "subnote": "<span class='cyr-sans'>Станом на травень 2024 року понад 600 дітей загинули внаслідок війни, загальна кількість загиблих перевищила 11 000.</span>",
         "month": "Травень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -470,7 +476,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "<span class='cyr-sans'>Станом на жовтень 2024 року понад 12 000 осіб, зокрема щонайменше 1952 дітей, загинули.</span>",
+        "subnote": "<span class='cyr-sans'>Станом на жовтень 2024 року загинули понад 12 000 осіб.</span>",
         "month": "Жовтень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -479,7 +485,7 @@
       },
       {
         "id": "note-14",
-        "subnote": "Щонайменше 2064 мирних жителі, зокрема 132 дитини, загинули лише у 2024 році внаслідок війни.",
+        "subnote": "Щонайменше 2000 мирних жителі загинули лише у 2024 році внаслідок війни.",
         "month": "Грудень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -488,7 +494,7 @@
       },
       {
         "id": "note-15",
-        "subnote": " Лише у березні 2025 року внаслідок російських атак по всій Україні загинули щонайменше 164 мирних жителі, ще 910 отримали поранення.",
+        "subnote": " Лише у березні 2025 року внаслідок російських атак по всій Україні загинули щонайменше 170 мирних жителі, ще 900 отримали поранення.",
         "month": "Березень",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -668,7 +674,13 @@
       { "label": "Січень", "year": "2025" },
       { "label": "Лютий", "year": "2025" },
       { "label": "Березень", "year": "2025" },
-      { "label": "Квітень", "year": "2025" }
+      { "label": "Квітень", "year": "2025" },
+      { "label": "Травень", "year": "2025" },
+      { "label": "Червень", "year": "2025" },
+      { "label": "Липень", "year": "2025" },
+      { "label": "Серпень", "year": "2025" },
+      { "label": "Вересень", "year": "2025" },
+      { "label": "Жовтень", "year": "2025" }
     ]
   },
   "ru": {
@@ -686,7 +698,7 @@
     "text-title": "<div class='title-alt'>Плач птиц</br>над Украиной</div>",
     "button-all-at-once": "Все данные сразу",
     "button-grid": "По месяцам",
-    "text-outro": "<p class='cyr'>День за днем война уносит жизни. На данный момент она унесла по меньшей мере 13 091 жизнь. Тринадцать тысяч девяносто одну. Даже одна — это слишком много. Война должна закончиться.</p>",
+    "text-outro": "<p class='cyr'>День за днем война уносит жизни. На данный момент она унесла по меньшей мере 14 534 жизнь. Четырнадцать тысяч пятьсот тридцать четыре. Даже одна — это слишком много. Война должна закончиться.</p>",
     "text-author-note": "<div class='caption'>От автора</div><p>Меня зовут Анастасия Балагурова, и этот проект создан мной — от идеи до технической реализации. Я родилась и жила в России, и я глубоко против войны, которую начала и ведет моя страна в Украине. Эта война разрушает человеческие жизни и несет в себе боль, которую нельзя оправдать.</p> <p>Этот проект — моя попытка зафиксировать непоправимые последствия войны и напомнить, что за каждой цифрой в отчетах скрываются живые люди. Это место скорби и памяти о тех, чьи жизни были оборваны войной.<p>Важно помнить, что любая визуализация данных по своей сути субъективна. Тем не менее, я сделала все возможное, чтобы представить информацию максимально точно и достоверно. Сведения о сборе данных и источниках приведены ниже.</p> <p>Если у вас есть вопросы или мысли, пожалуйста, свяжитесь со мной по электронной почте <a href='mailto:anastasia.balagurova@gmail.com' target='_blank'>anastasia.balagurova@gmail.com</a></p>",
     "text-data-collection": "<div class='caption'>Сбор данных</div><p>Источником данных о потерях является Мониторинговая миссия ООН по правам человека в Украине, действующая при Управлении Верховного комиссара ООН по правам человека. Следует учитывать, что реальные цифры могут быть существенно выше из-за трудностей с подтверждением данных и ограниченного доступа к пострадавшим районам в начале конфликта.</p><p>Основным источником информации об атаках на мирных жителей и объекты инфраструктуры являются ежегодные отчёты Human Rights Watch и ежемесячные публикации Управления Верховного комиссара ООН по правам человека. Также использовались сводки от Управления ООН по координации гуманитарных вопросов, а также пресс-релизы Amnesty International и Всемирной организации здравоохранения.</p><p>Истории пострадавших были собраны благодаря журналистским расследованиям из таких источников, как The New York Times, Reuters, Associated Press и BBC News, предоставляющих репортажи с места событий и свидетельства очевидцев.</p><p>Полный список источников представлен ниже.</p>",
     "text-technical-details": "<div class='caption'>Технические детали</div><p>Все визуальные элементы в этом проекте генерируются автоматически: от формирования контуров птиц и их цвета до их расположения относительно друг друга и текстовых блоков. Количество птиц соответствует ежемесячным потерям среди мирного населения и отражает долю погибших детей в общем числе. Для реализации используется библиотека <a href=‘https://p5.js‘ target=‘_blank’>p5.js</a>. Фоновые текстуры также создаются автоматически с помощью библиотеки <a href=‘https://p5-brush.cargo.site/‘ target=‘_blank’>p5.brush</a>. Полный код визуализации доступен на <a href='https://github.com/birdsong-of-sorrow-above-ukraine/birdsong-of-sorrow-above-ukraine.github.io' target='_blank'>GitHub</a>.</p>",
@@ -714,7 +726,7 @@
       },
       {
         "id": "note-03",
-        "subnote": "<span class='cyr-sans'>К июню 2022 года более 1000 детей погибли в результате войны.</span>",
+        "subnote": "<span class='cyr-sans'>К июню 2022 года более 400 детей погибли в результате войны.</span>",
         "month": "Июнь",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -741,7 +753,7 @@
       },
       {
         "id": "note-06",
-        "subnote": "<span class='cyr-sans'>К марту 2023 года подтвержденное число детей, погибших в результате войны, достигло 1500.</span>",
+        "subnote": "<span class='cyr-sans'>К марту 2023 года подтвержденное число детей, погибших в результате войны, превысило 500.</span>",
         "month": "Март",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -759,7 +771,7 @@
       },
       {
         "id": "note-08",
-        "subnote": "<span class='cyr-sans'>В августе 2023 года всего за один месяц погибли 30 детей.</span>",
+        "subnote": "<span class='cyr-sans'>В августе 2023 года всего за один месяц погибло 5 детей.</span>",
         "month": "Август",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -797,7 +809,7 @@
       },
       {
         "id": "note-12",
-        "subnote": "<span class='cyr-sans'>К маю 2024 года более 1900 детей погибли в результате войны, общее количество погибших превысило 11 000.</span>",
+        "subnote": "<span class='cyr-sans'>К маю 2024 года более 600 детей погибли в результате войны, общее количество погибших превысило 11 000.</span>",
         "month": "Май",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -806,7 +818,7 @@
       },
       {
         "id": "note-13",
-        "subnote": "<span class='cyr-sans'>К октябрю 2024 года более 12 000 человек, в том числе не менее 1952 детей, погибли.</span>",
+        "subnote": "<span class='cyr-sans'>К октябрю 2024 года погибло свыше 12 000 человек.</span>",
         "month": "Октябрь",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -815,7 +827,7 @@
       },
       {
         "id": "note-14",
-        "subnote": "По меньшей мере 2064 мирных жителя, включая 132 ребёнка, были убиты только в 2024 году в результате войны.",
+        "subnote": "По меньшей мере 2000 мирных жителя были убиты в 2024 году в результате войны.",
         "month": "Декабрь",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -824,7 +836,7 @@
       },
       {
         "id": "note-15",
-        "subnote": "Только в марте 2025 года в результате российских атак по всей Украине погибли как минимум 164 мирных жителя, ещё 910 получили ранения.",
+        "subnote": "Только в марте 2025 года в результате российских атак по всей Украине погибли как минимум 170 мирных жителя, ещё 900 получили ранения.",
         "month": "Март",
         "yPlacement": "middle",
         "xPlacement": "center",
@@ -1004,7 +1016,13 @@
       { "label": "Январь", "year": "2025" },
       { "label": "Февраль", "year": "2025" },
       { "label": "Март", "year": "2025" },
-      { "label": "Апрель", "year": "2025" }
+      { "label": "Апрель", "year": "2025" },
+      { "label": "Май", "year": "2025" },
+      { "label": "Июнь", "year": "2025" },
+      { "label": "Июль", "year": "2025" },
+      { "label": "Август", "year": "2025" },
+      { "label": "Сентябрь", "year": "2025" },
+      { "label": "Октябрь", "year": "2025" }
     ]
   }
 }
